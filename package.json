@@ -1,0 +1,73 @@
+{
+  "name": "locran",
+  "version": "0.1.0",
+  "description": "",
+  "author": "kitnato",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "license": "cc-by-sa-4.0",
+  "homepage": "https://kitnato.github.io/locran",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kitnato/locran.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kitnato/locran/issues"
+  },
+  "keywords": [
+    "absurd",
+    "game",
+    "fantasy",
+    "name",
+    "generator",
+    "satire"
+  ],
+  "dependencies": {
+    "pluralize": "8.0.0",
+    "typescript": "5.3.2"
+  },
+  "devDependencies": {
+    "@kitnato/eslint-config-succinct": "2.1.0",
+    "@types/node": "20.10.3",
+    "@types/pluralize": "0.0.33",
+    "eslint": "8.55.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.2.0",
+    "prettier": "3.1.0"
+  },
+  "lint-staged": {
+    "*.{json,md}": [
+      "npm run lint-format"
+    ],
+    "*.{ts,tsx}": [
+      "npm run lint-code",
+      "npm run lint-format"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublish": "tsc",
+    "lint-code": "eslint --fix --ext .ts,.tsx .",
+    "lint-format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  }
+}

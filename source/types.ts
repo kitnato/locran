@@ -1,4 +1,4 @@
-type Affix = "articledSuffix" | "prefix" | "suffix";
+export type Affix = "articledSuffix" | "prefix" | "suffix";
 
 export type AffixTag = "elemental" | "highQuality" | "lowQuality";
 
@@ -12,9 +12,9 @@ export type AffixData = BaseData & {
 export const ARMOR_CLASS_TYPES = ["light", "reinforced", "heavy"] as const;
 export type ArmorClass = (typeof ARMOR_CLASS_TYPES)[number];
 
-type ArmorSlot = "chest" | "feet" | "hands" | "head" | "legs" | "shoulders" | "waist";
+export type ArmorSlot = "chest" | "feet" | "hands" | "head" | "legs" | "shoulders" | "waist";
 
-type Artifact = "armor" | "shield" | "trinket" | "weapon";
+export type Artifact = "armor" | "shield" | "trinket" | "weapon";
 
 export type ArtifactType<T extends Artifact> = { type: T };
 

@@ -1,38 +1,75 @@
 # LOCRAN
 
-The LOCRAN (LOcation, CReature, Artifact, Name) system generates a pseudo-random variety of names for different irreverent fantasy-themed wildernesses, items and monsters.
+The LOCRAN (LOcation, CReature, Artifact, monster Name) system pseudo-randomly generates a variety of names for different irreverent fantasy-themed wildernesses, items and monsters.
 
-At its core is JSON library of (loosely) fantasy-world-themed words is the basis for the generation and composition of (somewhat) coherent names for locations, creatures, artifacts or unique monster names. Parameters for tags and affix composition can be passed to make the generation more specific. If profanity is toggled on, the names may also be pornographic.
+At its core is a multi-part JSON library of (loosely) heroic-fantasy-world-themed words. This forms the basis for the generation and composition of (somewhat) coherent names for locations, creatures, artifacts and monster names. Creatures can contain a prefix (e.g. Pustulant Ogre), suffix (e.g. Faerie of Woe) or both (e.g. Lackadaisical Jester of Brine). Locations and artifacts can additionally contain an articled suffix (e.g. Quivering Fortress of the Lord; or Arbalest of the Night). Monster names work by combining two defined names and adding an optional title which may be a creature or affix (e.g. Rotaxe; or Snaggledrool, the Dragon).
+
+Parameters for themed [tags](#tags) and affix composition can be passed to customize the generative process.
+
+> NB: If profanity is toggled on, the names may also be pornographic. To allow profanity, pass `{ allowProfanity: true }` to a [generator](#generators).
 
 ## Installation
 
-Install as an NPM package in your JS project.
+Install as an NPM package in your Typescript (or JS) project.
 
 `npm install @kitnato/locran`
 
 ## Usage
 
-Used as a module.
+Used as an ES6 module.
 
 ### Configuration
 
+Defines the percentage chance of certain word arrangements. This is static, but can be viewed under [`source/configuration.ts`](./source/configuration.ts).
+
 ### Generators
+
+The main functionality are the following methods:
+
+```js
+import {
+  generateArtifact,
+  generateCreature,
+  generateLocation,
+  generateName,
+} from "@kitnato/locran";
+```
+
+They each take `GeneratorParameters` and a certain `Query` type (see [types](#types)) to return the desired output.
+
+### Tags
+
+Tags are attached to certain affixes to filter for specific themes or moods. They are the following:
+
+- "elemental"
+- "highQuality"
+- "lowQuality"
 
 ### Types
 
+Typescript types can be freely imported and used in your project:
+
+```js
+import * from "@kitnato/locran/build/types";
+```
+
+This is useful when implementing for example the same classification of armor, shield and weapon types, or for making a custom query builder. Their definitions are found in [`source/types.ts`](./source/types.ts).
+
 ## Local development
 
-To run the app locally from source, you will need to use a command-line interface (CLI), as well as the following installed globally:
+You will need to use a command-line interface (CLI), as well as the following installed globally:
 
 - [Git](https://git-scm.com/downloads)
 - [NodeJS](https://nodejs.org/en) 18 or later
 - NPM 8 or later
 
+Steps before commencing development:
+
 1. Open the CLI and change into a suitable directory (e.g. `cd locran`).
-1. Run `git clone git@github.com:kitnato/locran.git`
-1. Run `cd locran`
-1. Run `npm install`
-1. Run `npm run prepare`
+2. Run `git clone git@github.com:kitnato/locran.git`
+3. Run `cd locran`
+4. Run `npm install`
+5. Run `npm run prepare`
 
 ## License
 

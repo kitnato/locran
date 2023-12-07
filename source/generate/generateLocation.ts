@@ -1,6 +1,6 @@
 import { plural } from "pluralize";
 
-import { PLURALIZE_CHANCE } from "@locran/constants";
+import { PLURALIZE_CHANCE } from "@locran/configuration";
 import { LOCATIONS } from "@locran/data/locations";
 import { generate } from "@locran/generate";
 import type { GeneratorParameters } from "@locran/types";

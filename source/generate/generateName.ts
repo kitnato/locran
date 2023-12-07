@@ -1,3 +1,4 @@
+import { AFFIX_NAME_TITLE_CHANCE } from "@locran/configuration";
 import { AFFIXES } from "@locran/data/affixes";
 import { CREATURES } from "@locran/data/creatures";
 import { NAMES } from "@locran/data/names";
@@ -29,16 +30,23 @@ export function generateName({
   let title;
 
   if (hasTitle) {
-    const filteredAffixes = AFFIXES.filter(({ creature, isProfanity, name }) =>
-      name === prefix.name || name === suffix.name || name.endsWith("ing")
-        ? false
-        : (creature?.includes("prefix") ?? creature?.includes("suffix")) &&
-          (allowProfanity ? Boolean(isProfanity) || !isProfanity : !isProfanity),
-    );
     const filteredCreatures = CREATURES.filter(({ isProfanity }) =>
       allowProfanity ? Boolean(isProfanity) || !isProfanity : !isProfanity,
     );
-    const filteredTitles = [...filteredAffixes, ...filteredCreatures];
+
+    const filteredTitles = [...filteredCreatures];
+
+    if (Math.random() <= AFFIX_NAME_TITLE_CHANCE) {
+      const filteredAffixes = AFFIXES.filter(({ creature, isProfanity, name }) =>
+        name === prefix.name || name === suffix.name || name.endsWith("ing")
+          ? false
+          : (creature?.includes("prefix") ?? creature?.includes("suffix")) &&
+            (allowProfanity ? Boolean(isProfanity) || !isProfanity : !isProfanity),
+      );
+
+      filteredTitles.push(...filteredAffixes);
+    }
+
     title = filteredTitles[Math.floor(Math.random() * filteredTitles.length)];
 
     if (title === undefined) {

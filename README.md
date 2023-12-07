@@ -12,9 +12,13 @@ Install as an NPM package in your JS project.
 
 ## Usage
 
+Used as a module.
+
 ### Configuration
 
 ### Generators
+
+### Types
 
 ## Local development
 

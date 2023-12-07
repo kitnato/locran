@@ -3,9 +3,9 @@ import pluralize from "pluralize";
 import {
   APOSTROPHE_CHANCE,
   ARTICLE_CHANCE,
-  CREATURE_NAME_AFFIX_CHANCE,
+  CREATURE_AS_AFFIX_CHANCE,
   PLURALIZE_CHANCE,
-} from "@locran/constants";
+} from "@locran/configuration";
 import { AFFIXES } from "@locran/data/affixes";
 import { CREATURES } from "@locran/data/creatures";
 import type { Category, GeneratorParameters } from "@locran/types";
@@ -26,7 +26,7 @@ export function generate({
     prefixTags.length === 0 &&
     suffixTags.length === 0 &&
     ["artifact", "location"].includes(category) &&
-    Math.random() <= CREATURE_NAME_AFFIX_CHANCE;
+    Math.random() <= CREATURE_AS_AFFIX_CHANCE;
   const filteredCreatureNamePrefixes: string[] = [];
 
   let prefix = "";
@@ -55,7 +55,7 @@ export function generate({
       },
     ).map(({ name }) => name);
 
-    // Artifacts and locations can also have a creature name prefix.
+    // Artifacts and locations can also have a creature as a prefix.
     if (canHaveCreatureAffix) {
       filteredCreatureNamePrefixes.push(
         ...CREATURES.filter(({ isProfanity }) =>
@@ -96,7 +96,7 @@ export function generate({
 
     const filteredCreatureNameSuffixes = [];
 
-    // Artifacts and locations can also have a creature name suffix, but only if the prefix isn't already one.
+    // Artifacts and locations can also have a creature as a suffix, but only if the prefix isn't already a creature.
     if (canHaveCreatureAffix && !filteredCreatureNamePrefixes.includes(prefix)) {
       filteredCreatureNameSuffixes.push(
         ...CREATURES.filter(({ isProfanity }) =>
@@ -111,7 +111,7 @@ export function generate({
     let formattedSuffix = "";
 
     if (suffixChoice !== undefined) {
-      // If the chosen suffix is a creature name is can be plural alongside a potential article.
+      // If the chosen suffix is a creature is can be plural alongside a potential article.
       if (typeof suffixChoice === "string") {
         formattedSuffix =
           Math.random() <= PLURALIZE_CHANCE

@@ -85,6 +85,9 @@ export const CREATURES: BaseData[] = [
     name: "arthropod",
   },
   {
+    name: "artichoke",
+  },
+  {
     name: "artificer",
   },
   {
@@ -737,6 +740,9 @@ export const CREATURES: BaseData[] = [
     name: "lobster",
   },
   {
+    name: "lord",
+  },
+  {
     name: "lurker",
   },
   {
@@ -939,6 +945,9 @@ export const CREATURES: BaseData[] = [
     name: "plant",
   },
   {
+    name: "pleasurer",
+  },
+  {
     name: "poltergeist",
   },
   {
@@ -1004,6 +1013,9 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "rebel",
+  },
+  {
+    name: "redneck",
   },
   {
     name: "reflection",

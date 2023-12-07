@@ -103,6 +103,9 @@ export const LOCATIONS: LocationData[] = [
     name: "campsite",
   },
   {
+    name: "canyon",
+  },
+  {
     name: "caravan",
   },
   {
@@ -201,6 +204,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "coven",
+  },
+  {
+    name: "creek",
   },
   {
     name: "crematorium",
@@ -468,6 +474,9 @@ export const LOCATIONS: LocationData[] = [
     name: "midden",
   },
   {
+    name: "minefield",
+  },
+  {
     name: "mire",
   },
   {
@@ -479,6 +488,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "morass",
+  },
+  {
+    name: "morgue",
   },
   {
     name: "mosque",
@@ -603,6 +615,9 @@ export const LOCATIONS: LocationData[] = [
     name: "reliquary",
   },
   {
+    name: "repository",
+  },
+  {
     name: "reservoir",
   },
   {
@@ -642,6 +657,9 @@ export const LOCATIONS: LocationData[] = [
   {
     canPluralize: true,
     name: "sewer",
+  },
+  {
+    name: "shack",
   },
   {
     name: "ship",

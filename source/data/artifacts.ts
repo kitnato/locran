@@ -2409,6 +2409,10 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
+    name: "whistle",
+    type: "trinket",
+  },
+  {
     name: "wig",
     subtype: "head",
     type: "armor",

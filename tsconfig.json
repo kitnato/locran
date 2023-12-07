@@ -6,6 +6,7 @@
     "allowUnusedLabels": false,
     "baseUrl": ".",
     "declaration": true,
+    "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
@@ -18,16 +19,27 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
+    "outDir": "build",
     "paths": {
-      "@locran/*": ["./src/*"]
+      "@locran/*": ["./source/*"]
     },
+    "plugins": [
+      {
+        "transform": "typescript-transform-paths"
+      },
+      {
+        "transform": "typescript-transform-paths",
+        "afterDeclarations": true
+      }
+    ],
     "resolveJsonModule": true,
+    "rootDir": "source",
     "skipLibCheck": true,
+    "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
     "target": "esnext"
   },
-  "exclude": ["dist", "node_modules"],
-  "include": ["./src", "./*.ts"]
+  "exclude": ["build", "node_modules"],
+  "include": ["./source", "./*.ts"]
 }

@@ -15,5 +15,5 @@ npm-debug.log*
 .DS_Store
 
 # Production
-dist
+build
 *.tgz

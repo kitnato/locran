@@ -1,17 +1,17 @@
 {
-  "name": "locran",
-  "version": "0.1.0",
-  "description": "",
+  "name": "@kitnato/locran",
+  "version": "0.2.0",
+  "description": "Location, Creature, Artifact, Name string generation for irreverent fantasy.",
   "author": "kitnato",
-  "main": "dist/main.js",
-  "types": "dist/main.d.ts",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "type": "module",
   "license": "cc-by-sa-4.0",
   "homepage": "https://kitnato.github.io/locran",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kitnato/locran.git"
   },
-  "type": "module",
   "bugs": {
     "url": "https://github.com/kitnato/locran/issues"
   },
@@ -25,16 +25,18 @@
   ],
   "dependencies": {
     "pluralize": "8.0.0",
-    "typescript": "5.3.2"
+    "typescript": "5.3.3"
   },
   "devDependencies": {
     "@kitnato/eslint-config-succinct": "2.1.0",
-    "@types/node": "20.10.3",
+    "@types/node": "20.10.4",
     "@types/pluralize": "0.0.33",
     "eslint": "8.55.0",
     "husky": "8.0.3",
     "lint-staged": "15.2.0",
-    "prettier": "3.1.0"
+    "prettier": "3.1.0",
+    "ts-patch": "3.1.1",
+    "typescript-transform-paths": "3.4.6"
   },
   "lint-staged": {
     "*.{json,md}": [
@@ -47,10 +49,10 @@
   },
   "files": [
     "assets",
-    "dist"
+    "build"
   ],
   "scripts": {
-    "prepublish": "tsc",
+    "prepublish": "tspc",
     "lint-code": "eslint --fix --ext .ts,.tsx .",
     "lint-format": "prettier --write .",
     "prepare": "husky install"

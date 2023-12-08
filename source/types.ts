@@ -9,6 +9,9 @@ export type AffixData = BaseData & {
   tags?: AffixTag[];
 };
 
+export const AFFIX_STRUCTURE_TYPES = ["none", "prefix", "prefixAndSuffix", "suffix"] as const;
+export type AffixStructure = (typeof AFFIX_STRUCTURE_TYPES)[number];
+
 export const ARMOR_CLASS_TYPES = ["light", "reinforced", "heavy"] as const;
 export type ArmorClass = (typeof ARMOR_CLASS_TYPES)[number];
 
@@ -53,8 +56,8 @@ export type BaseData = { isProfanity?: boolean; name: string };
 export type Category = "artifact" | "creature" | "location";
 
 export type GeneratorParameters = Partial<{
+  affixStructure: AffixStructure;
   allowProfanity: boolean;
-  nameStructure: NameStructure;
   prefixTags: AffixTag[];
   suffixTags: AffixTag[];
 }>;
@@ -66,9 +69,6 @@ export type LocationData = BaseData & {
 export type NameData = BaseData & {
   affix: Affix[];
 };
-
-export const NAME_STRUCTURE_TYPES = ["none", "prefix", "prefixAndSuffix", "suffix"] as const;
-export type NameStructure = (typeof NAME_STRUCTURE_TYPES)[number];
 
 export const SHIELD_CLASS_TYPES = ["small", "medium", "tower"] as const;
 export type ShieldClass = (typeof SHIELD_CLASS_TYPES)[number];

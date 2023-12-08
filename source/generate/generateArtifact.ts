@@ -6,8 +6,8 @@ import { generate } from "@locran/generate";
 import type { ArtifactQuery, GeneratorParameters } from "@locran/types";
 
 export function generateArtifact({
+  affixStructure,
   allowProfanity,
-  nameStructure,
   prefixTags,
   query,
   suffixTags,
@@ -41,10 +41,10 @@ export function generateArtifact({
   const { canPluralize, name } = filteredArtifact;
 
   const artifact = generate({
+    affixStructure,
     allowProfanity,
     category: "artifact",
     name,
-    nameStructure,
     prefixTags,
     suffixTags,
   });

@@ -3,8 +3,8 @@ import { generate } from "@locran/generate";
 import type { GeneratorParameters } from "@locran/types";
 
 export function generateCreature({
+  affixStructure,
   allowProfanity,
-  nameStructure,
   prefixTags,
   suffixTags,
 }: GeneratorParameters) {
@@ -19,10 +19,10 @@ export function generateCreature({
   }
 
   return generate({
+    affixStructure,
     allowProfanity,
     category: "creature",
     name: filteredCreature.name,
-    nameStructure,
     prefixTags,
     suffixTags,
   });

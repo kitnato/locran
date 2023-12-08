@@ -6,8 +6,8 @@ import { generate } from "@locran/generate";
 import type { GeneratorParameters } from "@locran/types";
 
 export function generateLocation({
+  affixStructure,
   allowProfanity,
-  nameStructure,
   prefixTags,
   suffixTags,
 }: GeneratorParameters) {
@@ -25,10 +25,10 @@ export function generateLocation({
   const { canPluralize, name } = filteredLocation;
   const isPluralized = Math.random() <= PLURALIZE_CHANCE;
   const location = generate({
+    affixStructure,
     allowProfanity,
     category: "location",
     name,
-    nameStructure,
     prefixTags,
     suffixTags,
   });

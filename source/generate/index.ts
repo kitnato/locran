@@ -12,10 +12,10 @@ import type { Category, GeneratorParameters } from "@locran/types";
 import { capitalizeAll } from "@locran/utilities";
 
 export function generate({
+  affixStructure = "none",
   allowProfanity = false,
   category,
   name,
-  nameStructure = "none",
   prefixTags = [],
   suffixTags = [],
 }: GeneratorParameters & {
@@ -32,7 +32,7 @@ export function generate({
   let prefix = "";
   let suffix = "";
 
-  if (nameStructure === "prefix" || nameStructure === "prefixAndSuffix") {
+  if (["prefix", "prefixAndSuffix"].includes(affixStructure)) {
     const filteredPrefixes = AFFIXES.filter(
       ({ isProfanity, name: affixName, tags, ...categories }) => {
         // Discard prefix if it's the same as the main name (e.g. "Fungus Fungus").
@@ -69,7 +69,7 @@ export function generate({
     prefix = capitalizeAll(prefixes[Math.floor(Math.random() * prefixes.length)] ?? "");
   }
 
-  if (nameStructure === "suffix" || nameStructure === "prefixAndSuffix") {
+  if (["prefixAndSuffix", "suffix"].includes(affixStructure)) {
     const filteredSuffixes = AFFIXES.filter(
       ({ isProfanity, name: affixName, tags, ...categories }) => {
         if (affixName === name) {

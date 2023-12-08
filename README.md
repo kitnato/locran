@@ -37,6 +37,23 @@ import {
 
 They each take `GeneratorParameters` and a certain `Query` type (see [types](#types)) to return the desired output.
 
+Example signature for generating a high-quality prefixed item name with a 40% chance for any suffix:
+
+```js
+const weapon = generateArtifact({
+  affixStructure: Math.random() <= 0.4 ? "prefixAndSuffix" : "prefix",
+  allowProfanity: false,
+  prefixTags: ["highQuality"],
+  query: {
+    artifactClass: "piercing",
+    subtype: "melee",
+    type: "weapon",
+  },
+});
+
+console.log(weapon); // e.g. "Gilded Butter Knife of Destitution"
+```
+
 ### Tags
 
 Tags are attached to certain affixes to filter for specific themes or moods. They are the following:

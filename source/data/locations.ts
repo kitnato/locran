@@ -41,6 +41,9 @@ export const LOCATIONS: LocationData[] = [
     name: "barrow",
   },
   {
+    name: "base",
+  },
+  {
     name: "basement",
   },
   {
@@ -480,6 +483,9 @@ export const LOCATIONS: LocationData[] = [
     name: "mire",
   },
   {
+    name: "moon",
+  },
+  {
     canPluralize: true,
     name: "moor",
   },
@@ -513,6 +519,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "nightclub",
+  },
+  {
+    name: "nightmare",
   },
   {
     name: "ocean",
@@ -675,6 +684,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "spaceship",
+  },
+  {
+    name: "spire",
   },
   {
     name: "star",

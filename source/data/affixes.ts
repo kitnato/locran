@@ -219,6 +219,12 @@ export const AFFIXES: AffixData[] = [
     name: "arid",
   },
   {
+    artifact: ["articledSuffix"],
+    creature: ["prefix"],
+    location: ["articledSuffix"],
+    name: "arisen",
+  },
+  {
     artifact: ["prefix"],
     creature: ["suffix"],
     location: ["prefix"],
@@ -1533,6 +1539,19 @@ export const AFFIXES: AffixData[] = [
     artifact: ["suffix"],
     location: ["suffix"],
     name: "desperation",
+  },
+  {
+    artifact: ["articledSuffix", "prefix"],
+    creature: ["prefix"],
+    location: ["articledSuffix", "prefix"],
+    name: "destitute",
+    tags: ["lowQuality"],
+  },
+  {
+    artifact: ["suffix"],
+    location: ["suffix"],
+    name: "destitution",
+    tags: ["lowQuality"],
   },
   {
     artifact: ["prefix"],
@@ -3182,6 +3201,13 @@ export const AFFIXES: AffixData[] = [
     name: "impotent",
   },
   {
+    artifact: ["prefix"],
+    creature: ["prefix"],
+    location: ["prefix"],
+    name: "impoverished",
+    tags: ["lowQuality"],
+  },
+  {
     creature: ["prefix"],
     location: ["prefix"],
     name: "inchoate",
@@ -4747,6 +4773,11 @@ export const AFFIXES: AffixData[] = [
   },
   {
     artifact: ["prefix"],
+    name: "quality",
+    tags: ["highQuality"],
+  },
+  {
+    artifact: ["prefix"],
     creature: ["prefix"],
     name: "quilled",
   },
@@ -6007,6 +6038,10 @@ export const AFFIXES: AffixData[] = [
   {
     location: ["prefix"],
     name: "tempestuous",
+  },
+  {
+    creature: ["prefix"],
+    name: "tenacious",
   },
   {
     artifact: ["prefix"],

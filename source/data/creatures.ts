@@ -1076,6 +1076,9 @@ export const CREATURES: BaseData[] = [
     name: "scum",
   },
   {
+    name: "sell-sword",
+  },
+  {
     name: "sentinel",
   },
   {

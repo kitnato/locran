@@ -509,6 +509,10 @@ export const NAMES: NameData[] = [
     name: "rip",
   },
   {
+    affix: ["suffix"],
+    name: "ripper",
+  },
+  {
     affix: ["prefix", "suffix"],
     name: "rock",
   },

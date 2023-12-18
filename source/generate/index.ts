@@ -1,4 +1,4 @@
-import pluralize from "pluralize";
+import { plural } from "pluralize";
 
 import {
   APOSTROPHE_CHANCE,
@@ -40,7 +40,7 @@ export function generate({
           return false;
         }
 
-        // Filter out only prefixes with Profanity filter.
+        // Filter out only prefixes with profanity filter.
         const isValidPrefix =
           (allowProfanity ? Boolean(isProfanity) || !isProfanity : !isProfanity) &&
           categories[category]?.includes("prefix");
@@ -76,7 +76,7 @@ export function generate({
           return false;
         }
 
-        // Filter out only suffixes with Profanity filter.
+        // Filter out only suffixes with profanity filter.
         const isValidSuffix =
           (allowProfanity ? Boolean(isProfanity) || !isProfanity : !isProfanity) &&
           Boolean(
@@ -84,7 +84,7 @@ export function generate({
               categories[category]?.includes("suffix"),
           );
 
-        // If suffix is tagged, check if the current affix has all of them (with Profanity filter).
+        // If suffix is tagged, check if the current affix has all of them (with profanity filter).
         if (suffixTags.length > 0) {
           return isValidSuffix && suffixTags.every((suffixTag) => tags?.includes(suffixTag));
         }
@@ -116,10 +116,11 @@ export function generate({
         formattedSuffix =
           Math.random() <= PLURALIZE_CHANCE
             ? `${Math.random() <= ARTICLE_CHANCE ? "the " : ""}${capitalizeAll(
-                pluralize(suffixChoice),
+                plural(suffixChoice),
               )}`
             : `the ${capitalizeAll(suffixChoice)}`;
       } else {
+        // Otherwise it's an affix with an article depending on its type.
         formattedSuffix = `${
           suffixChoice[category]?.includes("articledSuffix") ? "the " : ""
         }${capitalizeAll(suffixChoice.name)}`;

@@ -23,19 +23,14 @@ export function generateLocation({
   }
 
   const { canPluralize, name } = filteredLocation;
-  const isPluralized = Math.random() <= PLURALIZE_CHANCE;
   const location = generate({
     affixStructure,
     allowProfanity,
     category: "location",
-    name,
+    name: canPluralize && Math.random() <= PLURALIZE_CHANCE ? plural(name) : name,
     prefixTags,
     suffixTags,
   });
-
-  if (canPluralize && isPluralized) {
-    return plural(location);
-  }
 
   return location;
 }

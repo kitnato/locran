@@ -44,14 +44,10 @@ export function generateArtifact({
     affixStructure,
     allowProfanity,
     category: "artifact",
-    name,
+    name: canPluralize && Math.random() <= PLURALIZE_CHANCE ? plural(name) : name,
     prefixTags,
     suffixTags,
   });
-
-  if (canPluralize && Math.random() <= PLURALIZE_CHANCE) {
-    return plural(artifact);
-  }
 
   return artifact;
 }

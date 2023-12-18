@@ -945,6 +945,7 @@ export const CREATURES: BaseData[] = [
     name: "plant",
   },
   {
+    isProfanity: true,
     name: "pleasurer",
   },
   {

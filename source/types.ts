@@ -17,14 +17,13 @@ export type ArmorClass = (typeof ARMOR_CLASS_TYPES)[number];
 
 export type ArmorSlot = "chest" | "feet" | "hands" | "head" | "legs" | "shoulders" | "waist";
 
-export type Artifact = "armor" | "shield" | "trinket" | "weapon";
+export type Artifact = "armor" | "shield" | "weapon";
 
 export type ArtifactType<T extends Artifact> = { type: T };
 
 export type ArtifactData = BaseData & {
   canPluralize?: boolean;
 } & (
-    | ArtifactType<"trinket">
     | (ArtifactType<"armor"> & {
         subtype: ArmorSlot;
       })
@@ -38,7 +37,6 @@ export type ArtifactData = BaseData & {
   );
 
 export type ArtifactQuery =
-  | ArtifactType<"trinket">
   | (ArtifactType<"armor"> & {
       artifactClass?: ArmorClass;
       subtype?: ArmorSlot;

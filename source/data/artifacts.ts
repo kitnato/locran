@@ -23,18 +23,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "amphora",
-    type: "trinket",
-  },
-  {
-    name: "amulet",
-    type: "trinket",
-  },
-  {
-    name: "anklet",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "arbalest",
     subtype: "ranged",
@@ -50,14 +38,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "armor",
     subtype: "chest",
     type: "armor",
-  },
-  {
-    name: "artichoke",
-    type: "trinket",
-  },
-  {
-    name: "artifact",
-    type: "trinket",
   },
   {
     artifactClass: "blunt",
@@ -145,10 +125,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "bauble",
-    type: "trinket",
-  },
-  {
     artifactClass: "piercing",
     name: "bayonet",
     subtype: "melee",
@@ -163,10 +139,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "beret",
     subtype: "head",
     type: "armor",
-  },
-  {
-    name: "biscuit",
-    type: "trinket",
   },
   {
     artifactClass: "slashing",
@@ -224,23 +196,10 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    isProfanity: true,
-    name: "bong",
-    type: "trinket",
-  },
-  {
     artifactClass: "slashing",
     name: "book",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "book",
-    type: "trinket",
-  },
-  {
-    name: "boombox",
-    type: "trinket",
   },
   {
     artifactClass: "blunt",
@@ -261,32 +220,16 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "bottle",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "boulder",
     subtype: "ranged",
     type: "weapon",
   },
   {
-    name: "bow",
-    type: "trinket",
-  },
-  {
-    name: "box",
-    type: "trinket",
-  },
-  {
     canPluralize: true,
     name: "brace",
     subtype: "hands",
     type: "armor",
-  },
-  {
-    name: "bracelet",
-    type: "trinket",
   },
   {
     canPluralize: true,
@@ -361,11 +304,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    isProfanity: true,
-    name: "buttplug",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "cake",
     subtype: "melee",
@@ -376,10 +314,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "cannon",
     subtype: "ranged",
     type: "weapon",
-  },
-  {
-    name: "canteen",
-    type: "trinket",
   },
   {
     name: "cap",
@@ -434,14 +368,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "chakram",
     subtype: "ranged",
     type: "weapon",
-  },
-  {
-    name: "chalice",
-    type: "trinket",
-  },
-  {
-    name: "charm",
-    type: "trinket",
   },
   {
     name: "chausses",
@@ -544,10 +470,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "conundrum",
-    type: "trinket",
-  },
-  {
     name: "cord",
     subtype: "waist",
     type: "armor",
@@ -598,10 +520,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "cube",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "cucumber",
     subtype: "melee",
@@ -612,10 +530,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "cudgel",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "cufflinks",
-    type: "trinket",
   },
   {
     name: "cuffs",
@@ -637,10 +551,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "culverin",
     subtype: "ranged",
     type: "weapon",
-  },
-  {
-    name: "cup",
-    type: "trinket",
   },
   {
     artifactClass: "slashing",
@@ -702,12 +612,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    canPluralize: true,
-    isProfanity: true,
-    name: "diaper",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     isProfanity: true,
     name: "dildo",
@@ -725,14 +629,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "disemboweler",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "doll",
-    type: "trinket",
-  },
-  {
-    name: "doorknob",
-    type: "trinket",
   },
   {
     artifactClass: "slashing",
@@ -802,14 +698,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "eye",
-    type: "trinket",
-  },
-  {
-    name: "eyeglasses",
-    type: "trinket",
-  },
-  {
     artifactClass: "slashing",
     name: "falchion",
     subtype: "melee",
@@ -857,10 +745,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "flagon",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "flail",
     subtype: "melee",
@@ -871,10 +755,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "flamberge",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "flask",
-    type: "trinket",
   },
   {
     artifactClass: "piercing",
@@ -892,14 +772,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "flowerpot",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "flute",
-    type: "trinket",
-  },
-  {
-    name: "folio",
-    type: "trinket",
   },
   {
     artifactClass: "piercing",
@@ -945,14 +817,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "glaive",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "goggles",
-    type: "trinket",
-  },
-  {
-    name: "grail",
-    type: "trinket",
   },
   {
     artifactClass: "slashing",
@@ -1036,10 +900,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "harp",
-    type: "trinket",
-  },
-  {
     artifactClass: "piercing",
     name: "harpoon",
     subtype: "melee",
@@ -1092,10 +952,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "holster",
-    type: "trinket",
-  },
-  {
     name: "hood",
     subtype: "head",
     type: "armor",
@@ -1138,11 +994,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "jawbreaker",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    canPluralize: true,
-    name: "jewel",
-    type: "trinket",
   },
   {
     name: "jumper",
@@ -1257,10 +1108,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "libram",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "limb",
     subtype: "melee",
@@ -1289,10 +1136,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "mace",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "macguffin",
-    type: "trinket",
   },
   {
     artifactClass: "slashing",
@@ -1368,10 +1211,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "mojo",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "morningstar",
     subtype: "melee",
@@ -1399,10 +1238,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "musketoon",
     subtype: "ranged",
     type: "weapon",
-  },
-  {
-    name: "muzzle",
-    type: "trinket",
   },
   {
     artifactClass: "piercing",
@@ -1436,32 +1271,15 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "nutcracker",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "oar",
     subtype: "melee",
     type: "weapon",
   },
   {
-    name: "oculus",
-    type: "trinket",
-  },
-  {
-    name: "oddity",
-    type: "trinket",
-  },
-  {
     name: "onesie",
     subtype: "chest",
     type: "armor",
-  },
-  {
-    isProfanity: true,
-    name: "ovaries",
-    type: "trinket",
   },
   {
     artifactClass: "piercing",
@@ -1703,10 +1521,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "relic",
-    type: "trinket",
-  },
-  {
     artifactClass: "piercing",
     name: "revolver",
     subtype: "ranged",
@@ -1722,10 +1536,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "rifle",
     subtype: "ranged",
     type: "weapon",
-  },
-  {
-    name: "ring",
-    type: "trinket",
   },
   {
     artifactClass: "slashing",
@@ -1835,10 +1645,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "scimitar",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "scone",
-    type: "trinket",
   },
   {
     artifactClass: "slashing",
@@ -2066,19 +1872,10 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    isProfanity: true,
-    name: "speculum",
-    type: "trinket",
-  },
-  {
     artifactClass: "piercing",
     name: "spetum",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "sphere",
-    type: "trinket",
   },
   {
     name: "splint",
@@ -2175,10 +1972,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "talisman",
-    type: "trinket",
-  },
-  {
     artifactClass: "slashing",
     canPluralize: true,
     name: "talon",
@@ -2215,23 +2008,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "tesseract",
-    type: "trinket",
-  },
-  {
-    isProfanity: true,
-    name: "testicles",
-    type: "trinket",
-  },
-  {
-    name: "thimble",
-    type: "trinket",
-  },
-  {
-    name: "thing",
-    type: "trinket",
-  },
-  {
     artifactClass: "blunt",
     name: "thresher",
     subtype: "melee",
@@ -2245,10 +2021,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "token",
-    type: "trinket",
-  },
-  {
     artifactClass: "piercing",
     name: "tomahawk",
     subtype: "ranged",
@@ -2259,14 +2031,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "tome",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "tome",
-    type: "trinket",
-  },
-  {
-    name: "tooth",
-    type: "trinket",
   },
   {
     name: "top hat",
@@ -2351,14 +2115,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    name: "vial",
-    type: "trinket",
-  },
-  {
-    name: "violin",
-    type: "trinket",
-  },
-  {
     name: "visor",
     subtype: "head",
     type: "armor",
@@ -2407,10 +2163,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "whip",
     subtype: "melee",
     type: "weapon",
-  },
-  {
-    name: "whistle",
-    type: "trinket",
   },
   {
     name: "wig",

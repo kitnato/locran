@@ -2,7 +2,11 @@
 
 The LOCRAN (LOcation, CReature, Artifact, monster Name) system pseudo-randomly generates a variety of names for different irreverent fantasy-themed wildernesses, items and monsters.
 
-At its core is a multi-part JSON library of (loosely) heroic-fantasy-world-themed words. This forms the basis for the generation and composition of (somewhat) coherent names for locations, creatures, artifacts and monster names. Creatures can contain a prefix (e.g. Pustulant Ogre), suffix (e.g. Faerie of Woe) or both (e.g. Lackadaisical Jester of Brine). Locations and artifacts can additionally contain an articled suffix (e.g. Quivering Fortress of the Lord; or Arbalest of the Night). Monster names work by combining two defined names and adding an optional title which may be a creature or affix (e.g. Rotaxe; or Snaggledrool, the Dragon).
+At its core is a multi-part JSON library of (loosely) heroic-fantasy-world-themed words. This forms the basis for the generation and composition of (somewhat) coherent names for locations, creatures, artifacts and monster names.
+
+## Affixes & filtering
+
+Creatures can contain a prefix (e.g. Pustulant Ogre), suffix (e.g. Faerie of Woe) or both (e.g. Lackadaisical Jester of Brine). Locations and artifacts can additionally contain an articled suffix (e.g. Quivering Fortress of the Lord; or Arbalest of the Night). Monster names work by combining two defined names and adding an optional title which may be a creature or affix (e.g. Rotaxe; or Snaggledrool, the Dragon).
 
 Parameters for themed [tags](#tags) and affix composition can be passed to customize the generative process.
 
@@ -35,7 +39,7 @@ import {
 } from "@kitnato/locran";
 ```
 
-They each take `GeneratorParameters` and a certain `Query` type (see [types](#types)) to return the desired output.
+They each take `GeneratorParameters` and a certain `Query` type (see [typing](#typing)) to return the desired output.
 
 Example signature for generating a high-quality prefixed item name with a 40% chance for any suffix:
 
@@ -58,11 +62,11 @@ console.log(weapon); // e.g. "Gilded Butter Knife of Destitution"
 
 Tags are attached to certain affixes to filter for specific themes or moods. They are the following:
 
-- "elemental"
-- "highQuality"
-- "lowQuality"
+- `elemental`
+- `highQuality`
+- `lowQuality`
 
-### Types
+### Typing
 
 Typescript types can be freely imported and used in your project:
 
@@ -80,13 +84,17 @@ You will need to use a command-line interface (CLI), as well as the following in
 - [NodeJS](https://nodejs.org/en) 18 or later
 - NPM 8 or later
 
-Steps before commencing development:
+Steps to follow before commencing development:
 
 1. Open the CLI and change into a suitable directory (e.g. `cd locran`).
 2. Run `git clone git@github.com:kitnato/locran.git`
 3. Run `cd locran`
 4. Run `npm install`
 5. Run `npm run prepare`
+
+Committing changes will now run `lint-staged` to prepare the code for production.
+
+Any changes should be in the form of a pull request on a separate feature branch.
 
 ## License
 

@@ -1343,9 +1343,6 @@ export const CREATURES: BaseData[] = [
     name: "warg",
   },
   {
-    name: "warg",
-  },
-  {
     name: "warlock",
   },
   {

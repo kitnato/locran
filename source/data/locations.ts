@@ -56,10 +56,15 @@ export const LOCATIONS: LocationData[] = [
     name: "bathroom",
   },
   {
+    canPluralize: true,
     name: "battlefield",
   },
   {
     name: "beach",
+  },
+  {
+    canPluralize: true,
+    name: "bedroom",
   },
   {
     name: "black hole",
@@ -122,6 +127,7 @@ export const LOCATIONS: LocationData[] = [
     name: "cathedral",
   },
   {
+    canPluralize: true,
     name: "cave",
   },
   {
@@ -326,6 +332,10 @@ export const LOCATIONS: LocationData[] = [
     name: "fort",
   },
   {
+    canPluralize: true,
+    name: "fortification",
+  },
+  {
     name: "fortress",
   },
   {
@@ -342,6 +352,9 @@ export const LOCATIONS: LocationData[] = [
     name: "glen",
   },
   {
+    name: "grasslands",
+  },
+  {
     name: "graveyard",
   },
   {
@@ -354,6 +367,14 @@ export const LOCATIONS: LocationData[] = [
   {
     canPluralize: true,
     name: "gulch",
+  },
+  {
+    canPluralize: true,
+    name: "hall",
+  },
+  {
+    canPluralize: true,
+    name: "hallway",
   },
   {
     name: "hamlet",
@@ -480,6 +501,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "maze",
+  },
+  {
+    name: "megacity",
   },
   {
     name: "meteor",
@@ -659,6 +683,10 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     canPluralize: true,
+    name: "room",
+  },
+  {
+    canPluralize: true,
     name: "ruin",
   },
   {
@@ -688,6 +716,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "shack",
+  },
+  {
+    name: "shelter",
   },
   {
     name: "ship",
@@ -720,6 +751,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "stripmine",
+  },
+  {
+    name: "stronghold",
   },
   {
     name: "sub-basement",

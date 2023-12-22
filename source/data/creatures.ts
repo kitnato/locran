@@ -313,6 +313,9 @@ export const CREATURES: BaseData[] = [
     name: "crackhead",
   },
   {
+    name: "crackpot",
+  },
+  {
     isProfanity: true,
     name: "cripple",
   },
@@ -360,11 +363,18 @@ export const CREATURES: BaseData[] = [
     name: "destroyer",
   },
   {
+    name: "deviant",
+  },
+  {
     name: "devil",
   },
   {
     isProfanity: true,
     name: "diarrhea",
+  },
+  {
+    isProfanity: true,
+    name: "dildo",
   },
   {
     name: "dinosaur",
@@ -397,9 +407,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "dreadnought",
-  },
-  {
-    name: "drinker",
   },
   {
     name: "drone",
@@ -924,7 +931,15 @@ export const CREATURES: BaseData[] = [
     name: "peasant",
   },
   {
+    isProfanity: true,
+    name: "pervert",
+  },
+  {
     name: "pest",
+  },
+  {
+    isProfanity: true,
+    name: "phallus",
   },
   {
     name: "phantasm",
@@ -1222,6 +1237,9 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "tyrannosaurus",
+  },
+  {
+    name: "tyrant",
   },
   {
     isProfanity: true,

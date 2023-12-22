@@ -135,6 +135,14 @@ export const LOCATIONS: LocationData[] = [
     name: "cemetery",
   },
   {
+    name: "cenote",
+  },
+  {
+    canPluralize: true,
+    name: "cesspit",
+  },
+  {
+    canPluralize: true,
     name: "cesspool",
   },
   {
@@ -408,6 +416,9 @@ export const LOCATIONS: LocationData[] = [
     name: "jungle",
   },
   {
+    name: "keep",
+  },
+  {
     name: "kingdom",
   },
   {
@@ -527,10 +538,14 @@ export const LOCATIONS: LocationData[] = [
     name: "ocean",
   },
   {
+    canPluralize: true,
     name: "orchard",
   },
   {
     name: "oubliette",
+  },
+  {
+    name: "outcrop",
   },
   {
     isProfanity: true,
@@ -637,6 +652,10 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "river",
+  },
+  {
+    canPluralize: true,
+    name: "rockpool",
   },
   {
     canPluralize: true,

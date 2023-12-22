@@ -104,6 +104,12 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: "blunt",
+    name: "baston",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
+    artifactClass: "blunt",
     name: "baton",
     subtype: "melee",
     type: "weapon",
@@ -142,6 +148,12 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: "slashing",
+    name: "billhook",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
+    artifactClass: "slashing",
     name: "blade",
     subtype: "melee",
     type: "weapon",
@@ -167,6 +179,12 @@ export const ARTIFACTS: ArtifactData[] = [
   {
     artifactClass: "blunt",
     name: "blunderbuss",
+    subtype: "ranged",
+    type: "weapon",
+  },
+  {
+    artifactClass: "blunt",
+    name: "bolas",
     subtype: "ranged",
     type: "weapon",
   },
@@ -245,9 +263,20 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
+    name: "breastplate",
+    subtype: "chest",
+    type: "armor",
+  },
+  {
     name: "breeches",
     subtype: "legs",
     type: "armor",
+  },
+  {
+    artifactClass: "slashing",
+    name: "broadaxe",
+    subtype: "melee",
+    type: "weapon",
   },
   {
     artifactClass: "slashing",
@@ -310,6 +339,13 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
+    artifactClass: "piercing",
+    canPluralize: true,
+    name: "caltrop",
+    subtype: "ranged",
+    type: "weapon",
+  },
+  {
     artifactClass: "blunt",
     name: "cannon",
     subtype: "ranged",
@@ -365,6 +401,7 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: "piercing",
+    canPluralize: true,
     name: "chakram",
     subtype: "ranged",
     type: "weapon",
@@ -489,6 +526,12 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "crest",
     subtype: "head",
     type: "armor",
+  },
+  {
+    artifactClass: "blunt",
+    name: "crook",
+    subtype: "melee",
+    type: "weapon",
   },
   {
     artifactClass: "piercing",
@@ -957,6 +1000,12 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
+    artifactClass: "piercing",
+    name: "hook",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
     name: "hoplon",
     subtype: "small",
     type: "shield",
@@ -992,6 +1041,12 @@ export const ARTIFACTS: ArtifactData[] = [
   {
     artifactClass: "blunt",
     name: "jawbreaker",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
+    artifactClass: "piercing",
+    name: "jitte",
     subtype: "melee",
     type: "weapon",
   },
@@ -1188,6 +1243,12 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
+    artifactClass: "slashing",
+    name: "mattock",
+    subtype: "ranged",
+    type: "weapon",
+  },
+  {
     artifactClass: "blunt",
     name: "maul",
     subtype: "melee",
@@ -1253,6 +1314,18 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: "piercing",
+    name: "nailfist",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
+    artifactClass: "piercing",
+    name: "nailgun",
+    subtype: "ranged",
+    type: "weapon",
+  },
+  {
+    artifactClass: "piercing",
     canPluralize: true,
     name: "needle",
     subtype: "melee",
@@ -1266,7 +1339,7 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: "blunt",
-    name: "nunchucks",
+    name: "nunchaku",
     subtype: "melee",
     type: "weapon",
   },
@@ -1481,9 +1554,21 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
+    artifactClass: "blunt",
+    name: "quarterstaff",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
     name: "rags",
     subtype: "chest",
     type: "armor",
+  },
+  {
+    artifactClass: "blunt",
+    name: "railgun",
+    subtype: "ranged",
+    type: "weapon",
   },
   {
     name: "raiment",
@@ -1710,6 +1795,12 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
+    artifactClass: "slashing",
+    name: "shortsword",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
     artifactClass: "piercing",
     name: "shotgun",
     subtype: "ranged",
@@ -1793,12 +1884,6 @@ export const ARTIFACTS: ArtifactData[] = [
   {
     artifactClass: "blunt",
     name: "skullsplitter",
-    subtype: "melee",
-    type: "weapon",
-  },
-  {
-    artifactClass: "piercing",
-    name: "slayer",
     subtype: "melee",
     type: "weapon",
   },
@@ -2099,7 +2184,8 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "vambraces",
+    canPluralize: true,
+    name: "vambrace",
     subtype: "hands",
     type: "armor",
   },

@@ -98,6 +98,9 @@ export const CREATURES: BaseData[] = [
     name: "assassin",
   },
   {
+    name: "aubergine",
+  },
+  {
     name: "automaton",
   },
   {
@@ -141,6 +144,9 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "behemoth",
+  },
+  {
+    name: "beholder",
   },
   {
     name: "belcher",
@@ -774,6 +780,9 @@ export const CREATURES: BaseData[] = [
     name: "maniac",
   },
   {
+    name: "manifestation",
+  },
+  {
     name: "mannequin",
   },
   {
@@ -870,6 +879,9 @@ export const CREATURES: BaseData[] = [
     name: "mutilator",
   },
   {
+    name: "myrmidon",
+  },
+  {
     name: "narwhal",
   },
   {
@@ -913,6 +925,9 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "orc",
+  },
+  {
+    name: "outrider",
   },
   {
     name: "outsider",
@@ -1114,6 +1129,10 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "shambler",
+  },
+  {
+    isProfanity: true,
+    name: "simp",
   },
   {
     name: "sire",

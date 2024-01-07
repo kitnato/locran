@@ -29,6 +29,9 @@ export const LOCATIONS: LocationData[] = [
     name: "arena",
   },
   {
+    name: "atoll",
+  },
+  {
     name: "attic",
   },
   {
@@ -58,6 +61,9 @@ export const LOCATIONS: LocationData[] = [
   {
     canPluralize: true,
     name: "battlefield",
+  },
+  {
+    name: "bay",
   },
   {
     name: "beach",
@@ -177,6 +183,7 @@ export const LOCATIONS: LocationData[] = [
     name: "clearing",
   },
   {
+    canPluralize: true,
     name: "cliff",
   },
   {
@@ -323,6 +330,10 @@ export const LOCATIONS: LocationData[] = [
     name: "fissure",
   },
   {
+    canPluralize: true,
+    name: "fjord",
+  },
+  {
     name: "flats",
   },
   {
@@ -347,6 +358,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "gas giant",
+  },
+  {
+    name: "glacier",
   },
   {
     name: "glen",
@@ -418,6 +432,9 @@ export const LOCATIONS: LocationData[] = [
     name: "hovel",
   },
   {
+    name: "iceberg",
+  },
+  {
     name: "immolation",
   },
   {
@@ -441,6 +458,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "kingdom",
+  },
+  {
+    name: "knoll",
   },
   {
     name: "laboratory",
@@ -512,7 +532,14 @@ export const LOCATIONS: LocationData[] = [
     name: "midden",
   },
   {
+    canPluralize: true,
+    name: "mine",
+  },
+  {
     name: "minefield",
+  },
+  {
+    name: "mineshaft",
   },
   {
     name: "mire",
@@ -557,6 +584,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "nightmare",
+  },
+  {
+    name: "oasis",
   },
   {
     name: "ocean",
@@ -619,6 +649,12 @@ export const LOCATIONS: LocationData[] = [
     name: "peak",
   },
   {
+    name: "peat bog",
+  },
+  {
+    name: "peninsula",
+  },
+  {
     canPluralize: true,
     name: "pit",
   },
@@ -630,6 +666,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "planet",
+  },
+  {
+    name: "plateau",
   },
   {
     name: "platform",
@@ -800,6 +839,10 @@ export const LOCATIONS: LocationData[] = [
     name: "town",
   },
   {
+    canPluralize: true,
+    name: "trench",
+  },
+  {
     name: "tundra",
   },
   {
@@ -808,6 +851,10 @@ export const LOCATIONS: LocationData[] = [
   {
     isProfanity: true,
     name: "urinal",
+  },
+  {
+    canPluralize: true,
+    name: "valley",
   },
   {
     name: "village",
@@ -831,6 +878,10 @@ export const LOCATIONS: LocationData[] = [
   {
     canPluralize: true,
     name: "waste",
+  },
+  {
+    canPluralize: true,
+    name: "waterfall",
   },
   {
     name: "wilderness",

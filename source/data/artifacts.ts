@@ -244,6 +244,12 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
+    artifactClass: "blunt",
+    name: "bowling ball",
+    subtype: "ranged",
+    type: "weapon",
+  },
+  {
     canPluralize: true,
     name: "brace",
     subtype: "hands",
@@ -1033,6 +1039,11 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
+    name: "jambeaux",
+    subtype: "feet",
+    type: "armor",
+  },
+  {
     artifactClass: "piercing",
     name: "javelin",
     subtype: "ranged",
@@ -1365,6 +1376,11 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "painbringer",
     subtype: "melee",
     type: "weapon",
+  },
+  {
+    name: "palisade",
+    subtype: "tower",
+    type: "shield",
   },
   {
     name: "pallium",
@@ -1771,6 +1787,11 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "sheath",
     subtype: "waist",
     type: "armor",
+  },
+  {
+    name: "shell",
+    subtype: "small",
+    type: "shield",
   },
   {
     name: "shield",

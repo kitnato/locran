@@ -76,13 +76,16 @@ export function generate({
           return false;
         }
 
-        // Filter out only suffixes with profanity filter.
+        const affixes = categories[category];
+
+        if (affixes === undefined) {
+          return false;
+        }
+
         const isValidSuffix =
-          (allowProfanity ? Boolean(isProfanity) || !isProfanity : !isProfanity) &&
-          Boolean(
-            categories[category]?.includes("articledSuffix") ??
-              categories[category]?.includes("suffix"),
-          );
+          // Filter out only suffixes with profanity filter.
+          ((allowProfanity && Boolean(isProfanity)) || !isProfanity) &&
+          (affixes.includes("articledSuffix") || affixes.includes("suffix"));
 
         // If suffix is tagged, check if the current affix has all of them (with profanity filter).
         if (suffixTags.length > 0) {

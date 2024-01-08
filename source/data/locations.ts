@@ -308,6 +308,9 @@ export const LOCATIONS: LocationData[] = [
     name: "farm",
   },
   {
+    name: "farmstead",
+  },
+  {
     name: "festival",
   },
   {
@@ -419,6 +422,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "house",
+  },
+  {
+    name: "hospital",
   },
   {
     name: "hovel",
@@ -684,6 +690,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "rainforest",
+  },
+  {
+    name: "ranch",
   },
   {
     name: "realm",

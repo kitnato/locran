@@ -279,6 +279,9 @@ export const CREATURES: { name: string }[] = [
     name: "corpse",
   },
   {
+    name: "corsair",
+  },
+  {
     name: "cow",
   },
   {
@@ -304,6 +307,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "cultist",
+  },
+  {
+    name: "cutthroat",
   },
   {
     name: "cyborg",
@@ -361,6 +367,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "dreadnought",
+  },
+  {
+    name: "dreamer",
   },
   {
     name: "drone",
@@ -868,6 +877,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "plant",
+  },
+  {
+    name: "plunderer",
   },
   {
     name: "poltergeist",

@@ -2,27 +2,12 @@ import type { NameData } from "@locran/types";
 
 export const NAMES: NameData[] = [
   {
-    affix: ["prefix"],
-    isProfanity: true,
-    name: "anal",
-  },
-  {
     affix: ["prefix", "suffix"],
     name: "anger",
   },
   {
     affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "anus",
-  },
-  {
-    affix: ["prefix", "suffix"],
     name: "axe",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "balls",
   },
   {
     affix: ["prefix", "suffix"],
@@ -63,11 +48,6 @@ export const NAMES: NameData[] = [
   {
     affix: ["suffix"],
     name: "bone",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "bong",
   },
   {
     affix: ["suffix"],
@@ -119,11 +99,6 @@ export const NAMES: NameData[] = [
   },
   {
     affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "cock",
-  },
-  {
-    affix: ["prefix", "suffix"],
     name: "coffin",
   },
   {
@@ -151,11 +126,6 @@ export const NAMES: NameData[] = [
     name: "cruncher",
   },
   {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "cum",
-  },
-  {
     affix: ["suffix"],
     name: "cut",
   },
@@ -166,11 +136,6 @@ export const NAMES: NameData[] = [
   {
     affix: ["suffix"],
     name: "destroyer",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "dick",
   },
   {
     affix: ["prefix", "suffix"],
@@ -210,7 +175,6 @@ export const NAMES: NameData[] = [
   },
   {
     affix: ["prefix", "suffix"],
-    isProfanity: true,
     name: "fart",
   },
   {
@@ -346,11 +310,6 @@ export const NAMES: NameData[] = [
     name: "jaw",
   },
   {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "jizz",
-  },
-  {
     affix: ["suffix"],
     name: "juice",
   },
@@ -372,8 +331,7 @@ export const NAMES: NameData[] = [
   },
   {
     affix: ["suffix"],
-    isProfanity: true,
-    name: "licker",
+    name: "lick",
   },
   {
     affix: ["prefix", "suffix"],
@@ -428,11 +386,6 @@ export const NAMES: NameData[] = [
     name: "mind",
   },
   {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "minge",
-  },
-  {
     affix: ["suffix"],
     name: "monger",
   },
@@ -462,11 +415,6 @@ export const NAMES: NameData[] = [
   },
   {
     affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "nipple",
-  },
-  {
-    affix: ["prefix", "suffix"],
     name: "noodle",
   },
   {
@@ -476,16 +424,6 @@ export const NAMES: NameData[] = [
   {
     affix: ["prefix", "suffix"],
     name: "phlegm",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "piss",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "poop",
   },
   {
     affix: ["prefix", "suffix"],
@@ -506,11 +444,6 @@ export const NAMES: NameData[] = [
   {
     affix: ["prefix", "suffix"],
     name: "pus",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "queef",
   },
   {
     affix: ["prefix", "suffix"],
@@ -557,23 +490,8 @@ export const NAMES: NameData[] = [
     name: "scum",
   },
   {
-    affix: ["prefix"],
-    isProfanity: true,
-    name: "semen",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "shart",
-  },
-  {
     affix: ["prefix", "suffix"],
     name: "shatter",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "shit",
   },
   {
     affix: ["prefix", "suffix"],
@@ -653,11 +571,6 @@ export const NAMES: NameData[] = [
   },
   {
     affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "spunk",
-  },
-  {
-    affix: ["prefix", "suffix"],
     name: "squeak",
   },
   {
@@ -694,17 +607,10 @@ export const NAMES: NameData[] = [
   },
   {
     affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "succ",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
     name: "suck",
   },
   {
     affix: ["suffix"],
-    isProfanity: true,
     name: "sucker",
   },
   {
@@ -716,22 +622,12 @@ export const NAMES: NameData[] = [
     name: "tear",
   },
   {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "thicc",
-  },
-  {
     affix: ["prefix"],
     name: "tiny",
   },
   {
     affix: ["suffix"],
     name: "tooth",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "turd",
   },
   {
     affix: ["prefix"],
@@ -764,11 +660,6 @@ export const NAMES: NameData[] = [
   {
     affix: ["prefix", "suffix"],
     name: "whisper",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    isProfanity: true,
-    name: "whore",
   },
   {
     affix: ["prefix", "suffix"],

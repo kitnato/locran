@@ -1,6 +1,4 @@
-import type { BaseData } from "@locran/types";
-
-export const CREATURES: BaseData[] = [
+export const CREATURES: { name: string }[] = [
   {
     name: "aberration",
   },
@@ -18,10 +16,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "alchemist",
-  },
-  {
-    isProfanity: true,
-    name: "alcoholic",
   },
   {
     name: "alien",
@@ -43,10 +37,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "antelope",
-  },
-  {
-    isProfanity: true,
-    name: "anus",
   },
   {
     name: "ape",
@@ -89,10 +79,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "artificer",
-  },
-  {
-    isProfanity: true,
-    name: "asshole",
   },
   {
     name: "assassin",
@@ -161,10 +147,6 @@ export const CREATURES: BaseData[] = [
     name: "bigfoot",
   },
   {
-    isProfanity: true,
-    name: "bitch",
-  },
-  {
     name: "blasphemer",
   },
   {
@@ -205,10 +187,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "butcher",
-  },
-  {
-    isProfanity: true,
-    name: "butthole",
   },
   {
     name: "cabalist",
@@ -283,7 +261,6 @@ export const CREATURES: BaseData[] = [
     name: "construct",
   },
   {
-    isProfanity: true,
     name: "coprolite",
   },
   {
@@ -296,7 +273,6 @@ export const CREATURES: BaseData[] = [
     name: "convict",
   },
   {
-    isProfanity: true,
     name: "coprophage",
   },
   {
@@ -315,15 +291,7 @@ export const CREATURES: BaseData[] = [
     name: "crab",
   },
   {
-    isProfanity: true,
-    name: "crackhead",
-  },
-  {
     name: "crackpot",
-  },
-  {
-    isProfanity: true,
-    name: "cripple",
   },
   {
     name: "crone",
@@ -333,10 +301,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "crusader",
-  },
-  {
-    isProfanity: true,
-    name: "cuckold",
   },
   {
     name: "cultist",
@@ -375,14 +339,6 @@ export const CREATURES: BaseData[] = [
     name: "devil",
   },
   {
-    isProfanity: true,
-    name: "diarrhea",
-  },
-  {
-    isProfanity: true,
-    name: "dildo",
-  },
-  {
     name: "dinosaur",
   },
   {
@@ -395,15 +351,7 @@ export const CREATURES: BaseData[] = [
     name: "doll",
   },
   {
-    isProfanity: true,
-    name: "dominatrix",
-  },
-  {
     name: "doorknob",
-  },
-  {
-    isProfanity: true,
-    name: "douchebag",
   },
   {
     name: "dragon",
@@ -469,16 +417,7 @@ export const CREATURES: BaseData[] = [
     name: "farmer",
   },
   {
-    isProfanity: true,
-    name: "fart",
-  },
-  {
-    isProfanity: true,
     name: "farter",
-  },
-  {
-    isProfanity: true,
-    name: "feces",
   },
   {
     name: "fiend",
@@ -544,10 +483,6 @@ export const CREATURES: BaseData[] = [
     name: "giant",
   },
   {
-    isProfanity: true,
-    name: "gimp",
-  },
-  {
     name: "gladiator",
   },
   {
@@ -570,10 +505,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "goo",
-  },
-  {
-    isProfanity: true,
-    name: "gooch",
   },
   {
     name: "goose",
@@ -642,10 +573,6 @@ export const CREATURES: BaseData[] = [
     name: "hothead",
   },
   {
-    isProfanity: true,
-    name: "humper",
-  },
-  {
     name: "hunk",
   },
   {
@@ -700,10 +627,6 @@ export const CREATURES: BaseData[] = [
     name: "juggler",
   },
   {
-    isProfanity: true,
-    name: "junkie",
-  },
-  {
     name: "killer",
   },
   {
@@ -738,10 +661,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "lich",
-  },
-  {
-    isProfanity: true,
-    name: "licker",
   },
   {
     name: "limpet",
@@ -786,10 +705,6 @@ export const CREATURES: BaseData[] = [
     name: "mannequin",
   },
   {
-    isProfanity: true,
-    name: "manspreader",
-  },
-  {
     name: "manticore",
   },
   {
@@ -832,10 +747,6 @@ export const CREATURES: BaseData[] = [
     name: "minotaur",
   },
   {
-    isProfanity: true,
-    name: "minx",
-  },
-  {
     name: "mite",
   },
   {
@@ -852,10 +763,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "monstrosity",
-  },
-  {
-    isProfanity: true,
-    name: "muff",
   },
   {
     name: "muffin",
@@ -933,10 +840,6 @@ export const CREATURES: BaseData[] = [
     name: "outsider",
   },
   {
-    isProfanity: true,
-    name: "ovaries",
-  },
-  {
     name: "paladin",
   },
   {
@@ -946,15 +849,7 @@ export const CREATURES: BaseData[] = [
     name: "peasant",
   },
   {
-    isProfanity: true,
-    name: "pervert",
-  },
-  {
     name: "pest",
-  },
-  {
-    isProfanity: true,
-    name: "phallus",
   },
   {
     name: "phantasm",
@@ -973,10 +868,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "plant",
-  },
-  {
-    isProfanity: true,
-    name: "pleasurer",
   },
   {
     name: "poltergeist",
@@ -1025,10 +916,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "ranger",
-  },
-  {
-    isProfanity: true,
-    name: "rapist",
   },
   {
     name: "raptor",
@@ -1100,10 +987,6 @@ export const CREATURES: BaseData[] = [
     name: "scribe",
   },
   {
-    isProfanity: true,
-    name: "scrotum",
-  },
-  {
     name: "scum",
   },
   {
@@ -1131,10 +1014,6 @@ export const CREATURES: BaseData[] = [
     name: "shambler",
   },
   {
-    isProfanity: true,
-    name: "simp",
-  },
-  {
     name: "sire",
   },
   {
@@ -1145,10 +1024,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "skull",
-  },
-  {
-    isProfanity: true,
-    name: "slag",
   },
   {
     name: "slave",
@@ -1164,14 +1039,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "slob",
-  },
-  {
-    isProfanity: true,
-    name: "slut",
-  },
-  {
-    isProfanity: true,
-    name: "smegma",
   },
   {
     name: "smoker",
@@ -1261,10 +1128,6 @@ export const CREATURES: BaseData[] = [
     name: "tyrant",
   },
   {
-    isProfanity: true,
-    name: "tampon",
-  },
-  {
     name: "tardigrade",
   },
   {
@@ -1280,10 +1143,6 @@ export const CREATURES: BaseData[] = [
     name: "terrorist",
   },
   {
-    isProfanity: true,
-    name: "testicles",
-  },
-  {
     name: "thief",
   },
   {
@@ -1294,10 +1153,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "toadstool",
-  },
-  {
-    isProfanity: true,
-    name: "toilet",
   },
   {
     name: "torturer",
@@ -1316,14 +1171,6 @@ export const CREATURES: BaseData[] = [
   },
   {
     name: "tumor",
-  },
-  {
-    isProfanity: true,
-    name: "turd",
-  },
-  {
-    isProfanity: true,
-    name: "twink",
   },
   {
     name: "unicorn",

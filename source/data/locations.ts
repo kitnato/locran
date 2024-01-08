@@ -79,15 +79,7 @@ export const LOCATIONS: LocationData[] = [
     name: "bog",
   },
   {
-    isProfanity: true,
-    name: "bordello",
-  },
-  {
     name: "breach",
-  },
-  {
-    isProfanity: true,
-    name: "brothel",
   },
   {
     canPluralize: true,
@@ -489,7 +481,6 @@ export const LOCATIONS: LocationData[] = [
     name: "landscape",
   },
   {
-    isProfanity: true,
     name: "lavatory",
   },
   {
@@ -602,7 +593,6 @@ export const LOCATIONS: LocationData[] = [
     name: "outcrop",
   },
   {
-    isProfanity: true,
     name: "outhouse",
   },
   {
@@ -822,10 +812,6 @@ export const LOCATIONS: LocationData[] = [
     name: "themepark",
   },
   {
-    isProfanity: true,
-    name: "toilet",
-  },
-  {
     canPluralize: true,
     name: "tomb",
   },
@@ -847,10 +833,6 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "tunnel",
-  },
-  {
-    isProfanity: true,
-    name: "urinal",
   },
   {
     canPluralize: true,
@@ -900,3 +882,4 @@ export const LOCATIONS: LocationData[] = [
     name: "ziggurat",
   },
 ];
+//# sourceMappingURL=locations.js.map

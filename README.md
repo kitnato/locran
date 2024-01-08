@@ -8,9 +8,7 @@ At its core is a multi-part JSON library of (loosely) heroic-fantasy-world-theme
 
 Creatures can contain a prefix (e.g. Pustulant Ogre), suffix (e.g. Faerie of Woe) or both (e.g. Lackadaisical Jester of Brine). Locations and artifacts can additionally contain an articled suffix (e.g. Quivering Fortress of the Lord; or Arbalest of the Night). Monster names work by combining two defined names and adding an optional title which may be a creature or affix (e.g. Rotaxe; or Snaggledrool, the Dragon).
 
-Parameters for themed [tags](#tags) and affix composition can be passed to customize the generative process.
-
-> NB: If profanity is toggled on, the names may also be pornographic. To allow profanity, pass `{ allowProfanity: true }` to a [generator](#generators).
+Parameters for themed [tags](#tags) and affix composition can be passed to customize the outcome.
 
 ## Installation
 
@@ -46,7 +44,6 @@ Example signature for generating a high-quality prefixed item name with a 40% ch
 ```js
 const weapon = generateArtifact({
   affixStructure: Math.random() <= 0.4 ? "prefixAndSuffix" : "prefix",
-  allowProfanity: false,
   prefixTags: ["highQuality"],
   query: {
     artifactClass: "piercing",

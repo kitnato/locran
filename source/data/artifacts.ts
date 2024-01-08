@@ -207,13 +207,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    artifactClass: "blunt",
-    isProfanity: true,
-    name: "bong",
-    subtype: "melee",
-    type: "weapon",
-  },
-  {
     artifactClass: "slashing",
     name: "book",
     subtype: "melee",
@@ -659,13 +652,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "diadem",
     subtype: "head",
     type: "armor",
-  },
-  {
-    artifactClass: "blunt",
-    isProfanity: true,
-    name: "dildo",
-    subtype: "melee",
-    type: "weapon",
   },
   {
     artifactClass: "piercing",
@@ -1393,13 +1379,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "armor",
   },
   {
-    canPluralize: true,
-    isProfanity: true,
-    name: "panty",
-    subtype: "legs",
-    type: "armor",
-  },
-  {
     artifactClass: "piercing",
     name: "partizan",
     subtype: "melee",
@@ -1429,13 +1408,6 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: "piercing",
-    isProfanity: true,
-    name: "penetrator",
-    subtype: "melee",
-    type: "weapon",
-  },
-  {
-    artifactClass: "piercing",
     name: "penknife",
     subtype: "melee",
     type: "weapon",
@@ -1444,13 +1416,6 @@ export const ARTIFACTS: ArtifactData[] = [
     artifactClass: "blunt",
     name: "petrary",
     subtype: "ranged",
-    type: "weapon",
-  },
-  {
-    artifactClass: "blunt",
-    isProfanity: true,
-    name: "phallus",
-    subtype: "melee",
     type: "weapon",
   },
   {
@@ -2180,13 +2145,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "tunic",
     subtype: "chest",
     type: "armor",
-  },
-  {
-    artifactClass: "blunt",
-    isProfanity: true,
-    name: "turd",
-    subtype: "ranged",
-    type: "weapon",
   },
   {
     name: "underpants",

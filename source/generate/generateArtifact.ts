@@ -7,17 +7,14 @@ import type { ArtifactQuery, GeneratorParameters } from "@locran/types";
 
 export function generateArtifact({
   affixStructure,
-  allowProfanity,
   prefixTags,
   query,
   suffixTags,
 }: GeneratorParameters & {
   query: ArtifactQuery;
 }) {
-  const filteredArtifacts = ARTIFACTS.filter((artifact) => {
-    const isProfanity = Boolean(artifact.isProfanity);
-
-    return (
+  const filteredArtifacts = ARTIFACTS.filter(
+    (artifact) =>
       artifact.type === query.type &&
       ("subtype" in query
         ? "subtype" in artifact
@@ -28,10 +25,8 @@ export function generateArtifact({
         ? "artifactClass" in artifact
           ? artifact.artifactClass === query.artifactClass
           : false
-        : true) &&
-      (allowProfanity ? isProfanity || !isProfanity : !isProfanity)
-    );
-  });
+        : true),
+  );
   const filteredArtifact = filteredArtifacts[Math.floor(Math.random() * filteredArtifacts.length)];
 
   if (filteredArtifact === undefined) {
@@ -42,7 +37,6 @@ export function generateArtifact({
 
   const artifact = generate({
     affixStructure,
-    allowProfanity,
     category: "artifact",
     name: canPluralize && Math.random() <= PLURALIZE_CHANCE ? plural(name) : name,
     prefixTags,

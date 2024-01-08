@@ -142,12 +142,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
-    name: "anal",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
     location: ["prefix"],
     name: "ancient",
   },
@@ -317,13 +311,6 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "atrocity",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "autoerotic",
   },
   {
     artifact: ["prefix"],
@@ -667,13 +654,6 @@ export const AFFIXES: AffixData[] = [
     name: "bold",
   },
   {
-    artifact: ["suffix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["suffix"],
-    name: "bondage",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     location: ["suffix"],
@@ -772,13 +752,6 @@ export const AFFIXES: AffixData[] = [
     name: "buff",
   },
   {
-    artifact: ["suffix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "bukkake",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     name: "bulbous",
@@ -809,7 +782,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     creature: ["prefix"],
-    isProfanity: true,
     name: "busty",
   },
   {
@@ -1127,12 +1099,10 @@ export const AFFIXES: AffixData[] = [
   },
   {
     creature: ["prefix"],
-    isProfanity: true,
     name: "constipated",
   },
   {
     artifact: ["suffix"],
-    isProfanity: true,
     location: ["suffix"],
     name: "constipation",
   },
@@ -1142,7 +1112,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     creature: ["prefix"],
-    isProfanity: true,
     name: "coprophagic",
   },
   {
@@ -1238,11 +1207,6 @@ export const AFFIXES: AffixData[] = [
     name: "crippling",
   },
   {
-    creature: ["prefix"],
-    isProfanity: true,
-    name: "crotch",
-  },
-  {
     artifact: ["articledSuffix", "prefix"],
     creature: ["prefix"],
     location: ["articledSuffix", "prefix"],
@@ -1294,11 +1258,6 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "cubic",
-  },
-  {
-    creature: ["prefix"],
-    isProfanity: true,
-    name: "cucked",
   },
   {
     artifact: ["suffix"],
@@ -1641,13 +1600,6 @@ export const AFFIXES: AffixData[] = [
     tags: ["highQuality"],
   },
   {
-    artifact: ["suffix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "diarrhea",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     location: ["articledSuffix", "prefix"],
@@ -1789,7 +1741,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     creature: ["prefix"],
-    isProfanity: true,
     location: ["prefix"],
     name: "diuretic",
   },
@@ -1879,7 +1830,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     creature: ["prefix"],
-    isProfanity: true,
     name: "drunk",
   },
   {
@@ -2067,12 +2017,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
-    name: "erotic",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
     location: ["articledSuffix"],
     name: "erudite",
   },
@@ -2252,11 +2196,9 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
     name: "farting",
   },
   {
-    isProfanity: true,
     location: ["suffix"],
     name: "farts",
   },
@@ -2273,13 +2215,6 @@ export const AFFIXES: AffixData[] = [
   {
     creature: ["prefix"],
     name: "feathered",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "fecal",
   },
   {
     creature: ["prefix"],
@@ -2342,12 +2277,6 @@ export const AFFIXES: AffixData[] = [
     tags: ["lowQuality"],
   },
   {
-    artifact: ["suffix"],
-    creature: ["suffix"],
-    isProfanity: true,
-    name: "fisting",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     name: "fizzy",
@@ -2355,7 +2284,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
     name: "flaccid",
     tags: ["lowQuality"],
   },
@@ -2413,14 +2341,12 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["suffix"],
     creature: ["suffix"],
-    isProfanity: true,
     location: ["suffix"],
     name: "flatulence",
   },
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
     name: "flatulent",
   },
   {
@@ -3100,12 +3026,6 @@ export const AFFIXES: AffixData[] = [
     name: "horned",
   },
   {
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["articledSuffix", "prefix"],
-    name: "horny",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     location: ["prefix"],
@@ -3165,13 +3085,6 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "humongous",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "humping",
   },
   {
     artifact: ["prefix"],
@@ -3291,13 +3204,11 @@ export const AFFIXES: AffixData[] = [
   },
   {
     artifact: ["suffix"],
-    isProfanity: true,
     location: ["suffix"],
     name: "incontinence",
   },
   {
     creature: ["prefix"],
-    isProfanity: true,
     location: ["prefix"],
     name: "incontinent",
   },
@@ -3572,12 +3483,6 @@ export const AFFIXES: AffixData[] = [
     tags: ["lowQuality"],
   },
   {
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "leching",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     location: ["prefix"],
@@ -3714,19 +3619,6 @@ export const AFFIXES: AffixData[] = [
     name: "lurking",
   },
   {
-    artifact: ["suffix"],
-    isProfanity: true,
-    location: ["suffix"],
-    name: "lust",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "lusty",
-  },
-  {
     artifact: ["articledSuffix", "prefix"],
     creature: ["prefix"],
     location: ["articledSuffix", "prefix"],
@@ -3840,12 +3732,6 @@ export const AFFIXES: AffixData[] = [
     name: "mana",
   },
   {
-    artifact: ["suffix"],
-    isProfanity: true,
-    location: ["suffix"],
-    name: "manhood",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     name: "maniacal",
@@ -3942,13 +3828,6 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "microscopic",
-  },
-  {
-    artifact: ["suffix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["suffix"],
-    name: "minge",
   },
   {
     artifact: ["prefix"],
@@ -4428,18 +4307,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "orgasmic",
-  },
-  {
-    artifact: ["suffix"],
-    isProfanity: true,
-    name: "orgasms",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
     location: ["prefix"],
     name: "otherworldly",
   },
@@ -4448,11 +4315,6 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "outlandish",
-  },
-  {
-    artifact: ["prefix"],
-    isProfanity: true,
-    name: "ovarian",
   },
   {
     artifact: ["prefix"],
@@ -4547,19 +4409,6 @@ export const AFFIXES: AffixData[] = [
     name: "pedantic",
   },
   {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    name: "penetrating",
-  },
-  {
-    artifact: ["suffix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["suffix"],
-    name: "penetration",
-  },
-  {
     artifact: ["suffix"],
     location: ["suffix"],
     name: "peril",
@@ -4645,13 +4494,6 @@ export const AFFIXES: AffixData[] = [
   {
     creature: ["prefix"],
     name: "petty",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "phallic",
   },
   {
     artifact: ["prefix"],
@@ -5312,13 +5154,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
-    location: ["articledSuffix"],
-    name: "sassy",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
     location: ["prefix"],
     name: "saucy",
   },
@@ -5385,13 +5220,6 @@ export const AFFIXES: AffixData[] = [
   {
     creature: ["prefix"],
     name: "screeching",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "scrotal",
   },
   {
     artifact: ["prefix"],
@@ -5498,20 +5326,6 @@ export const AFFIXES: AffixData[] = [
     name: "sewer",
   },
   {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "sexual",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "sexy",
-  },
-  {
     artifact: ["suffix"],
     location: ["suffix"],
     name: "shadow",
@@ -5526,12 +5340,6 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "shady",
-  },
-  {
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "shagging",
   },
   {
     artifact: ["prefix"],
@@ -5751,13 +5559,6 @@ export const AFFIXES: AffixData[] = [
     name: "smart",
   },
   {
-    artifact: ["suffix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["suffix"],
-    name: "smegma",
-  },
-  {
     artifact: ["prefix"],
     creature: ["prefix"],
     location: ["articledSuffix", "prefix"],
@@ -5975,13 +5776,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "squirting",
-  },
-  {
-    artifact: ["prefix"],
     name: "stained",
     tags: ["lowQuality"],
   },
@@ -6001,12 +5795,6 @@ export const AFFIXES: AffixData[] = [
     name: "starry",
   },
   {
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "steamy",
-  },
-  {
     artifact: ["prefix"],
     creature: ["suffix"],
     location: ["prefix"],
@@ -6023,13 +5811,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
-    name: "stiff",
-    tags: ["lowQuality"],
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
     location: ["prefix"],
     name: "stinky",
   },
@@ -6038,11 +5819,6 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "stone",
-  },
-  {
-    creature: ["prefix"],
-    isProfanity: true,
-    name: "stoned",
   },
   {
     location: ["prefix"],
@@ -6145,13 +5921,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "sultry",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
     location: ["prefix"],
     name: "sundered",
     tags: ["lowQuality"],
@@ -6225,13 +5994,6 @@ export const AFFIXES: AffixData[] = [
   {
     artifact: ["prefix"],
     creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "syphilitic",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
     name: "tall",
   },
   {
@@ -6286,19 +6048,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     artifact: ["suffix"],
-    isProfanity: true,
-    location: ["suffix"],
-    name: "testicles",
-  },
-  {
-    artifact: ["prefix"],
-    creature: ["prefix"],
-    isProfanity: true,
-    location: ["prefix"],
-    name: "testicular",
-  },
-  {
-    artifact: ["suffix"],
     location: ["suffix"],
     name: "thievery",
   },
@@ -6319,7 +6068,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     creature: ["prefix"],
-    isProfanity: true,
     name: "tipsy",
   },
   {

@@ -156,6 +156,9 @@ export const CREATURES: { name: string }[] = [
     name: "blob",
   },
   {
+    name: "bloodsucker",
+  },
+  {
     name: "boar",
   },
   {
@@ -852,6 +855,9 @@ export const CREATURES: { name: string }[] = [
     name: "paladin",
   },
   {
+    name: "parasite",
+  },
+  {
     name: "pauper",
   },
   {
@@ -949,6 +955,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "reflection",
+  },
+  {
+    name: "renegade",
   },
   {
     name: "revenant",

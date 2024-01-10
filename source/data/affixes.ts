@@ -624,6 +624,12 @@ export const AFFIXES: AffixData[] = [
     name: "blistering",
   },
   {
+    artifact: ["prefix", "suffix"],
+    creature: ["prefix", "suffix"],
+    location: ["prefix", "suffix"],
+    name: "blood",
+  },
+  {
     artifact: ["prefix"],
     creature: ["prefix"],
     location: ["prefix"],
@@ -861,6 +867,10 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "caustic",
+  },
+  {
+    location: ["prefix"],
+    name: "cavernous",
   },
   {
     artifact: ["suffix"],
@@ -1831,9 +1841,24 @@ export const AFFIXES: AffixData[] = [
     name: "dribbling",
   },
   {
+    artifact: ["prefix"],
+    creature: ["prefix"],
+    location: ["prefix"],
+    name: "dripping",
+  },
+  {
     creature: ["prefix"],
     location: ["prefix"],
     name: "drooling",
+  },
+  {
+    artifact: ["prefix"],
+    name: "drooping",
+    tags: ["lowQuality"],
+  },
+  {
+    creature: ["prefix"],
+    name: "droopy",
   },
   {
     creature: ["prefix"],
@@ -2120,6 +2145,11 @@ export const AFFIXES: AffixData[] = [
     creature: ["prefix"],
     location: ["prefix"],
     name: "experimental",
+  },
+  {
+    artifact: ["prefix"],
+    name: "expired",
+    tags: ["lowQuality"],
   },
   {
     artifact: ["prefix"],
@@ -3581,7 +3611,6 @@ export const AFFIXES: AffixData[] = [
   },
   {
     artifact: ["prefix"],
-    creature: ["prefix"],
     location: ["prefix"],
     name: "living",
   },
@@ -5013,6 +5042,11 @@ export const AFFIXES: AffixData[] = [
     tags: ["lowQuality"],
   },
   {
+    artifact: ["suffix"],
+    creature: ["prefix"],
+    name: "rotund",
+  },
+  {
     creature: ["prefix"],
     location: ["prefix"],
     name: "rowdy",
@@ -5793,6 +5827,13 @@ export const AFFIXES: AffixData[] = [
     artifact: ["prefix"],
     location: ["prefix"],
     name: "squeaky",
+    tags: ["lowQuality"],
+  },
+  {
+    artifact: ["prefix"],
+    creature: ["prefix"],
+    location: ["prefix"],
+    name: "squelching",
     tags: ["lowQuality"],
   },
   {

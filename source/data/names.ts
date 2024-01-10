@@ -234,7 +234,7 @@ export const NAMES: NameData[] = [
     name: "gash",
   },
   {
-    affix: ["prefix", "suffix"],
+    affix: ["prefix"],
     name: "glibber",
   },
   {
@@ -542,6 +542,10 @@ export const NAMES: NameData[] = [
     name: "sling",
   },
   {
+    affix: ["prefix", "suffix"],
+    name: "slither",
+  },
+  {
     affix: ["prefix"],
     name: "small",
   },
@@ -596,6 +600,10 @@ export const NAMES: NameData[] = [
   {
     affix: ["prefix", "suffix"],
     name: "squeak",
+  },
+  {
+    affix: ["prefix", "suffix"],
+    name: "squelch",
   },
   {
     affix: ["prefix", "suffix"],
@@ -668,10 +676,6 @@ export const NAMES: NameData[] = [
   {
     affix: ["suffix"],
     name: "walker",
-  },
-  {
-    affix: ["prefix", "suffix"],
-    name: "wank",
   },
   {
     affix: ["prefix", "suffix"],

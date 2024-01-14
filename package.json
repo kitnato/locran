@@ -1,6 +1,6 @@
 {
   "name": "@kitnato/locran",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Location, creature, artifact & monster name string generation for an irreverent fantasy setting.",
   "author": "kitnato",
   "main": "build/index.js",

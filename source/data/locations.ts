@@ -558,9 +558,6 @@ export const LOCATIONS: LocationData[] = [
     name: "morgue",
   },
   {
-    name: "mosque",
-  },
-  {
     canPluralize: true,
     name: "mountain",
   },

@@ -10,7 +10,7 @@ export type AffixData = {
   tags?: AffixTag[];
 };
 
-export const AFFIX_STRUCTURE_TYPES = ["none", "prefix", "prefixAndSuffix", "suffix"] as const;
+export const AFFIX_STRUCTURE_TYPES = ["noAffix", "prefix", "prefixAndSuffix", "suffix"] as const;
 export type AffixStructure = (typeof AFFIX_STRUCTURE_TYPES)[number];
 
 export const ARMOR_CLASS_TYPES = ["light", "reinforced", "heavy"] as const;

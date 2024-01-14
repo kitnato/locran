@@ -12,7 +12,7 @@ import type { Category, GeneratorParameters } from "@locran/types";
 import { capitalizeAll } from "@locran/utilities";
 
 export function generate({
-  affixStructure = "none",
+  affixStructure = "noAffix",
   category,
   name,
   prefixTags = [],

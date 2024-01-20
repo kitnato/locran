@@ -27,6 +27,9 @@ export const CREATURES: { name: string }[] = [
     name: "amoeba",
   },
   {
+    name: "android",
+  },
+  {
     name: "angel",
   },
   {
@@ -261,6 +264,9 @@ export const CREATURES: { name: string }[] = [
     name: "colossus",
   },
   {
+    name: "conscript",
+  },
+  {
     name: "construct",
   },
   {
@@ -283,6 +289,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "corsair",
+  },
+  {
+    name: "corvid",
   },
   {
     name: "cow",
@@ -405,6 +414,9 @@ export const CREATURES: { name: string }[] = [
     name: "ent",
   },
   {
+    name: "entity",
+  },
+  {
     name: "executioner",
   },
   {
@@ -519,6 +531,9 @@ export const CREATURES: { name: string }[] = [
     name: "goo",
   },
   {
+    name: "goon",
+  },
+  {
     name: "goose",
   },
   {
@@ -585,6 +600,9 @@ export const CREATURES: { name: string }[] = [
     name: "hothead",
   },
   {
+    name: "homunculus",
+  },
+  {
     name: "hunk",
   },
   {
@@ -621,7 +639,7 @@ export const CREATURES: { name: string }[] = [
     name: "interceptor",
   },
   {
-    name: "jailor",
+    name: "jailer",
   },
   {
     name: "janitor",
@@ -723,6 +741,9 @@ export const CREATURES: { name: string }[] = [
     name: "marauder",
   },
   {
+    name: "marionette",
+  },
+  {
     name: "martyr",
   },
   {
@@ -757,6 +778,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "minotaur",
+  },
+  {
+    name: "mirage",
   },
   {
     name: "mite",
@@ -808,6 +832,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "necrophage",
+  },
+  {
+    name: "nematode",
   },
   {
     name: "neophyte",
@@ -862,6 +889,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "peasant",
+  },
+  {
+    name: "pervert",
   },
   {
     name: "pest",

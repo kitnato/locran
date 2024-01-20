@@ -798,11 +798,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "flip-flop",
-    subtype: "feet",
-    type: "armor",
-  },
-  {
     artifactClass: "blunt",
     name: "flowerpot",
     subtype: "melee",
@@ -1431,11 +1426,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "pie",
-    subtype: "small",
-    type: "shield",
-  },
-  {
     artifactClass: "piercing",
     name: "pike",
     subtype: "melee",
@@ -1467,7 +1457,7 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: "blunt",
-    name: "pizza",
+    name: "plank",
     subtype: "melee",
     type: "weapon",
   },
@@ -1715,6 +1705,12 @@ export const ARTIFACTS: ArtifactData[] = [
   {
     artifactClass: "slashing",
     name: "scourge",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
+    artifactClass: "piercing",
+    name: "screwdriver",
     subtype: "melee",
     type: "weapon",
   },

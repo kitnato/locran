@@ -12,6 +12,9 @@ export const CREATURES: { name: string }[] = [
     name: "addict",
   },
   {
+    name: "adventurer",
+  },
+  {
     name: "advisor",
   },
   {
@@ -73,6 +76,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "armorer",
+  },
+  {
+    name: "arsonist",
   },
   {
     name: "arthropod",
@@ -169,6 +175,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "brawler",
+  },
+  {
+    name: "buffoon",
   },
   {
     name: "bug",
@@ -570,6 +579,9 @@ export const CREATURES: { name: string }[] = [
     name: "harpy",
   },
   {
+    name: "haruspex",
+  },
+  {
     name: "heathen",
   },
   {
@@ -717,9 +729,6 @@ export const CREATURES: { name: string }[] = [
     name: "magician",
   },
   {
-    name: "maid",
-  },
-  {
     name: "maiden",
   },
   {
@@ -748,9 +757,6 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "masochist",
-  },
-  {
-    name: "master",
   },
   {
     name: "mauler",
@@ -822,6 +828,9 @@ export const CREATURES: { name: string }[] = [
     name: "mutilator",
   },
   {
+    name: "mycelium",
+  },
+  {
     name: "myrmidon",
   },
   {
@@ -885,6 +894,9 @@ export const CREATURES: { name: string }[] = [
     name: "parasite",
   },
   {
+    name: "pariah",
+  },
+  {
     name: "pauper",
   },
   {
@@ -919,9 +931,6 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "poltergeist",
-  },
-  {
-    name: "porpoise",
   },
   {
     name: "potato",
@@ -1062,6 +1071,9 @@ export const CREATURES: { name: string }[] = [
     name: "shark",
   },
   {
+    name: "shaman",
+  },
+  {
     name: "shambler",
   },
   {
@@ -1075,9 +1087,6 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "skull",
-  },
-  {
-    name: "slave",
   },
   {
     name: "slaver",
@@ -1111,6 +1120,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "sorcerer",
+  },
+  {
+    name: "sorceress",
   },
   {
     name: "soul",
@@ -1209,7 +1221,13 @@ export const CREATURES: { name: string }[] = [
     name: "torturer",
   },
   {
+    name: "traveler",
+  },
+  {
     name: "tree",
+  },
+  {
+    name: "trickster",
   },
   {
     name: "trilobite",
@@ -1231,9 +1249,6 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "vanguard",
-  },
-  {
-    name: "vegan",
   },
   {
     name: "vegetable",

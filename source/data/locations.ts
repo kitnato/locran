@@ -29,6 +29,10 @@ export const LOCATIONS: LocationData[] = [
     name: "arena",
   },
   {
+    canPluralize: true,
+    name: "asylum",
+  },
+  {
     name: "atoll",
   },
   {
@@ -38,7 +42,14 @@ export const LOCATIONS: LocationData[] = [
     name: "badlands",
   },
   {
+    canPluralize: true,
+    name: "backyard",
+  },
+  {
     name: "barn",
+  },
+  {
+    name: "barnyard",
   },
   {
     name: "barrow",
@@ -263,6 +274,10 @@ export const LOCATIONS: LocationData[] = [
     name: "dominion",
   },
   {
+    canPluralize: true,
+    name: "dormitory",
+  },
+  {
     name: "dreadlands",
   },
   {
@@ -365,6 +380,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "graveyard",
+  },
+  {
+    name: "grotto",
   },
   {
     name: "grounds",
@@ -587,6 +605,10 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     canPluralize: true,
+    name: "office",
+  },
+  {
+    canPluralize: true,
     name: "orchard",
   },
   {
@@ -597,6 +619,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: "outhouse",
+  },
+  {
+    name: "outlook",
   },
   {
     name: "outpost",
@@ -832,6 +857,10 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     canPluralize: true,
+    name: "treehouse",
+  },
+  {
+    canPluralize: true,
     name: "trench",
   },
   {
@@ -870,6 +899,9 @@ export const LOCATIONS: LocationData[] = [
   {
     canPluralize: true,
     name: "waterfall",
+  },
+  {
+    name: "well",
   },
   {
     name: "wilderness",

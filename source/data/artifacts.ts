@@ -115,6 +115,12 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
+    artifactClass: "blunt",
+    name: "battering ram",
+    subtype: "melee",
+    type: "weapon",
+  },
+  {
     name: "battle armor",
     subtype: "chest",
     type: "armor",
@@ -1141,12 +1147,6 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "legplates",
     subtype: "legs",
     type: "armor",
-  },
-  {
-    artifactClass: "blunt",
-    name: "lemon",
-    subtype: "melee",
-    type: "weapon",
   },
   {
     artifactClass: "piercing",
@@ -2200,6 +2200,11 @@ export const ARTIFACTS: ArtifactData[] = [
     name: "wand",
     subtype: "melee",
     type: "weapon",
+  },
+  {
+    name: "ward",
+    subtype: "tower",
+    type: "shield",
   },
   {
     artifactClass: "blunt",

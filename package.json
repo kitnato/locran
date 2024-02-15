@@ -28,13 +28,13 @@
     "typescript": "5.3.3"
   },
   "devDependencies": {
-    "@kitnato/eslint-config-succinct": "2.1.0",
-    "@types/node": "20.11.13",
+    "@kitnato/eslint-config-succinct": "2.2.0",
+    "@types/node": "20.11.18",
     "@types/pluralize": "0.0.33",
     "eslint": "8.56.0",
-    "husky": "9.0.7",
-    "lint-staged": "15.2.1",
-    "prettier": "3.2.4",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5",
     "ts-patch": "3.1.2",
     "typescript-transform-paths": "3.4.6"
   },

@@ -21,16 +21,16 @@
     "noUnusedParameters": true,
     "outDir": "build",
     "paths": {
-      "@locran/*": ["./source/*"],
+      "@locran/*": ["./source/*"]
     },
     "plugins": [
       {
-        "transform": "typescript-transform-paths",
+        "transform": "typescript-transform-paths"
       },
       {
         "transform": "typescript-transform-paths",
-        "afterDeclarations": true,
-      },
+        "afterDeclarations": true
+      }
     ],
     "resolveJsonModule": true,
     "rootDir": "source",
@@ -38,8 +38,8 @@
     "sourceMap": true,
     "strict": true,
     "strictNullChecks": true,
-    "target": "esnext",
+    "target": "esnext"
   },
   "exclude": ["build", "node_modules"],
-  "include": ["./source", "./*.ts"],
+  "include": ["./source", "./*.ts"]
 }

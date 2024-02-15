@@ -396,6 +396,9 @@ export const CREATURES: { name: string }[] = [
     name: "drone",
   },
   {
+    name: "druid",
+  },
+  {
     name: "dryad",
   },
   {
@@ -403,6 +406,12 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "dwarf",
+  },
+  {
+    name: "ectomorph",
+  },
+  {
+    name: "endomorph",
   },
   {
     name: "effigy",
@@ -589,6 +598,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "hellion",
+  },
+  {
+    name: "herald",
   },
   {
     name: "heretic",
@@ -897,6 +909,9 @@ export const CREATURES: { name: string }[] = [
     name: "pariah",
   },
   {
+    name: "pastor",
+  },
+  {
     name: "pauper",
   },
   {
@@ -916,6 +931,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "phoenix",
+  },
+  {
+    name: "pilgrim",
   },
   {
     name: "pirate",
@@ -957,6 +975,9 @@ export const CREATURES: { name: string }[] = [
     name: "psychopath",
   },
   {
+    name: "pugilist",
+  },
+  {
     name: "pundit",
   },
   {
@@ -994,6 +1015,12 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "reflection",
+  },
+  {
+    name: "reptile",
+  },
+  {
+    name: "reptoid",
   },
   {
     name: "renegade",
@@ -1342,6 +1369,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: "wyvern",
+  },
+  {
+    name: "xenomorph",
   },
   {
     name: "xenophobe",

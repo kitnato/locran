@@ -213,12 +213,6 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    artifactClass: "slashing",
-    name: "book",
-    subtype: "melee",
-    type: "weapon",
-  },
-  {
     artifactClass: "blunt",
     name: "boomerang",
     subtype: "ranged",
@@ -321,13 +315,12 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "shield",
   },
   {
-    artifactClass: "blunt",
-    name: "burger",
-    subtype: "melee",
-    type: "weapon",
+    name: "burka",
+    subtype: "head",
+    type: "armor",
   },
   {
-    name: "burka",
+    name: "burnoose",
     subtype: "head",
     type: "armor",
   },
@@ -828,12 +821,6 @@ export const ARTIFACTS: ArtifactData[] = [
   {
     artifactClass: "blunt",
     name: "gavel",
-    subtype: "melee",
-    type: "weapon",
-  },
-  {
-    artifactClass: "blunt",
-    name: "gherkin",
     subtype: "melee",
     type: "weapon",
   },
@@ -1653,7 +1640,8 @@ export const ARTIFACTS: ArtifactData[] = [
     type: "weapon",
   },
   {
-    name: "sandals",
+    canPluralize: true,
+    name: "sandal",
     subtype: "feet",
     type: "armor",
   },

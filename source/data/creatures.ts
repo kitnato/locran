@@ -1,1388 +1,1388 @@
 export const CREATURES: { name: string }[] = [
   {
-    name: "aberration",
+    name: `aberration`,
   },
   {
-    name: "abomination",
+    name: `abomination`,
   },
   {
-    name: "acolyte",
+    name: `acolyte`,
   },
   {
-    name: "addict",
+    name: `addict`,
   },
   {
-    name: "adventurer",
+    name: `adventurer`,
   },
   {
-    name: "advisor",
+    name: `advisor`,
   },
   {
-    name: "alchemist",
+    name: `alchemist`,
   },
   {
-    name: "alien",
+    name: `alien`,
   },
   {
-    name: "alligator",
+    name: `alligator`,
   },
   {
-    name: "amoeba",
+    name: `amoeba`,
   },
   {
-    name: "android",
+    name: `android`,
   },
   {
-    name: "angel",
+    name: `angel`,
   },
   {
-    name: "animal",
+    name: `animal`,
   },
   {
-    name: "annihilator",
+    name: `annihilator`,
   },
   {
-    name: "antelope",
+    name: `antelope`,
   },
   {
-    name: "ape",
+    name: `ape`,
   },
   {
-    name: "apostate",
+    name: `apostate`,
   },
   {
-    name: "apparition",
+    name: `apparition`,
   },
   {
-    name: "apprentice",
+    name: `apprentice`,
   },
   {
-    name: "arachnid",
+    name: `arachnid`,
   },
   {
-    name: "archdemon",
+    name: `archdemon`,
   },
   {
-    name: "archer",
+    name: `archer`,
   },
   {
-    name: "archon",
+    name: `archon`,
   },
   {
-    name: "archmage",
+    name: `archmage`,
   },
   {
-    name: "archpriest",
+    name: `archpriest`,
   },
   {
-    name: "armorer",
+    name: `armorer`,
   },
   {
-    name: "arsonist",
+    name: `arsonist`,
   },
   {
-    name: "arthropod",
+    name: `arthropod`,
   },
   {
-    name: "artichoke",
+    name: `artichoke`,
   },
   {
-    name: "artificer",
+    name: `artificer`,
   },
   {
-    name: "assassin",
+    name: `assassin`,
   },
   {
-    name: "aubergine",
+    name: `aubergine`,
   },
   {
-    name: "automaton",
+    name: `automaton`,
   },
   {
-    name: "autophage",
+    name: `autophage`,
   },
   {
-    name: "avatar",
+    name: `avatar`,
   },
   {
-    name: "ballista",
+    name: `ballista`,
   },
   {
-    name: "bandit",
+    name: `bandit`,
   },
   {
-    name: "banker",
+    name: `banker`,
   },
   {
-    name: "banshee",
+    name: `banshee`,
   },
   {
-    name: "barbarian",
+    name: `barbarian`,
   },
   {
-    name: "bard",
+    name: `bard`,
   },
   {
-    name: "barnacle",
+    name: `barnacle`,
   },
   {
-    name: "basilisk",
+    name: `basilisk`,
   },
   {
-    name: "bastard",
+    name: `bastard`,
   },
   {
-    name: "beast",
+    name: `beast`,
   },
   {
-    name: "beefcake",
+    name: `beefcake`,
   },
   {
-    name: "behemoth",
+    name: `behemoth`,
   },
   {
-    name: "beholder",
+    name: `beholder`,
   },
   {
-    name: "belcher",
+    name: `belcher`,
   },
   {
-    name: "berserker",
+    name: `berserker`,
   },
   {
-    name: "betrayer",
+    name: `betrayer`,
   },
   {
-    name: "bigfoot",
+    name: `bigfoot`,
   },
   {
-    name: "blasphemer",
+    name: `blasphemer`,
   },
   {
-    name: "blister",
+    name: `blister`,
   },
   {
-    name: "blob",
+    name: `blob`,
   },
   {
-    name: "bloodsucker",
+    name: `bloodsucker`,
   },
   {
-    name: "boar",
+    name: `boar`,
   },
   {
-    name: "boggit",
+    name: `boggit`,
   },
   {
-    name: "brawler",
+    name: `brawler`,
   },
   {
-    name: "buffoon",
+    name: `buffoon`,
   },
   {
-    name: "bug",
+    name: `bug`,
   },
   {
-    name: "bugbear",
+    name: `bugbear`,
   },
   {
-    name: "bureaucrat",
+    name: `bureaucrat`,
   },
   {
-    name: "bully",
+    name: `bully`,
   },
   {
-    name: "bum",
+    name: `bum`,
   },
   {
-    name: "burglar",
+    name: `burglar`,
   },
   {
-    name: "burrower",
+    name: `burrower`,
   },
   {
-    name: "butcher",
+    name: `butcher`,
   },
   {
-    name: "cabalist",
+    name: `cabalist`,
   },
   {
-    name: "cacodemon",
+    name: `cacodemon`,
   },
   {
-    name: "cactus",
+    name: `cactus`,
   },
   {
-    name: "cadaver",
+    name: `cadaver`,
   },
   {
-    name: "carcass",
+    name: `carcass`,
   },
   {
-    name: "carnivore",
+    name: `carnivore`,
   },
   {
-    name: "carrion",
+    name: `carrion`,
   },
   {
-    name: "caterpillar",
+    name: `caterpillar`,
   },
   {
-    name: "centaur",
+    name: `centaur`,
   },
   {
-    name: "centipede",
+    name: `centipede`,
   },
   {
-    name: "cephalid",
+    name: `cephalid`,
   },
   {
-    name: "cephalopod",
+    name: `cephalopod`,
   },
   {
-    name: "chad",
+    name: `chad`,
   },
   {
-    name: "chameleon",
+    name: `chameleon`,
   },
   {
-    name: "champion",
+    name: `champion`,
   },
   {
-    name: "chicken",
+    name: `chicken`,
   },
   {
-    name: "chimera",
+    name: `chimera`,
   },
   {
-    name: "chomper",
+    name: `chomper`,
   },
   {
-    name: "cleric",
+    name: `cleric`,
   },
   {
-    name: "clown",
+    name: `clown`,
   },
   {
-    name: "clown parade",
+    name: `clown parade`,
   },
   {
-    name: "cockroach",
+    name: `cockroach`,
   },
   {
-    name: "colossus",
+    name: `colossus`,
   },
   {
-    name: "conscript",
+    name: `conscript`,
   },
   {
-    name: "construct",
+    name: `construct`,
   },
   {
-    name: "coprolite",
+    name: `coprolite`,
   },
   {
-    name: "conjurer",
+    name: `conjurer`,
   },
   {
-    name: "conqueror",
+    name: `conqueror`,
   },
   {
-    name: "convict",
+    name: `convict`,
   },
   {
-    name: "coprophage",
+    name: `coprophage`,
   },
   {
-    name: "corpse",
+    name: `corpse`,
   },
   {
-    name: "corsair",
+    name: `corsair`,
   },
   {
-    name: "corvid",
+    name: `corvid`,
   },
   {
-    name: "cow",
+    name: `cow`,
   },
   {
-    name: "coward",
+    name: `coward`,
   },
   {
-    name: "cowboy",
+    name: `cowboy`,
   },
   {
-    name: "crab",
+    name: `crab`,
   },
   {
-    name: "crackpot",
+    name: `crackpot`,
   },
   {
-    name: "crone",
+    name: `crone`,
   },
   {
-    name: "crumpet",
+    name: `crumpet`,
   },
   {
-    name: "crusader",
+    name: `crusader`,
   },
   {
-    name: "cultist",
+    name: `cultist`,
   },
   {
-    name: "cutthroat",
+    name: `cutthroat`,
   },
   {
-    name: "cyborg",
+    name: `cyborg`,
   },
   {
-    name: "cyclops",
+    name: `cyclops`,
   },
   {
-    name: "defiler",
+    name: `defiler`,
   },
   {
-    name: "demigod",
+    name: `demigod`,
   },
   {
-    name: "demigorgon",
+    name: `demigorgon`,
   },
   {
-    name: "demon",
+    name: `demon`,
   },
   {
-    name: "desecrator",
+    name: `desecrator`,
   },
   {
-    name: "despoiler",
+    name: `despoiler`,
   },
   {
-    name: "destroyer",
+    name: `destroyer`,
   },
   {
-    name: "deviant",
+    name: `deviant`,
   },
   {
-    name: "devil",
+    name: `devil`,
   },
   {
-    name: "dinosaur",
+    name: `dinosaur`,
   },
   {
-    name: "disciple",
+    name: `disciple`,
   },
   {
-    name: "djinn",
+    name: `djinn`,
   },
   {
-    name: "doll",
+    name: `doll`,
   },
   {
-    name: "doorknob",
+    name: `doorknob`,
   },
   {
-    name: "dragon",
+    name: `dragon`,
   },
   {
-    name: "drake",
+    name: `drake`,
   },
   {
-    name: "dreadnought",
+    name: `dreadnought`,
   },
   {
-    name: "dreamer",
+    name: `dreamer`,
   },
   {
-    name: "drone",
+    name: `drone`,
   },
   {
-    name: "druid",
+    name: `druid`,
   },
   {
-    name: "dryad",
+    name: `dryad`,
   },
   {
-    name: "dungpile",
+    name: `dungpile`,
   },
   {
-    name: "dwarf",
+    name: `dwarf`,
   },
   {
-    name: "ectomorph",
+    name: `ectomorph`,
   },
   {
-    name: "endomorph",
+    name: `endomorph`,
   },
   {
-    name: "effigy",
+    name: `effigy`,
   },
   {
-    name: "elemental",
+    name: `elemental`,
   },
   {
-    name: "elf",
+    name: `elf`,
   },
   {
-    name: "elitist",
+    name: `elitist`,
   },
   {
-    name: "embryo",
+    name: `embryo`,
   },
   {
-    name: "ent",
+    name: `ent`,
   },
   {
-    name: "entity",
+    name: `entity`,
   },
   {
-    name: "executioner",
+    name: `executioner`,
   },
   {
-    name: "experiment",
+    name: `experiment`,
   },
   {
-    name: "eye",
+    name: `eye`,
   },
   {
-    name: "fae",
+    name: `fae`,
   },
   {
-    name: "faerie",
+    name: `faerie`,
   },
   {
-    name: "fairy",
+    name: `fairy`,
   },
   {
-    name: "fanatic",
+    name: `fanatic`,
   },
   {
-    name: "farmer",
+    name: `farmer`,
   },
   {
-    name: "farter",
+    name: `farter`,
   },
   {
-    name: "fiend",
+    name: `fiend`,
   },
   {
-    name: "fighter",
+    name: `fighter`,
   },
   {
-    name: "figment",
+    name: `figment`,
   },
   {
-    name: "fish",
+    name: `fish`,
   },
   {
-    name: "fleshbag",
+    name: `fleshbag`,
   },
   {
-    name: "flower",
+    name: `flower`,
   },
   {
-    name: "fool",
+    name: `fool`,
   },
   {
-    name: "frog",
+    name: `frog`,
   },
   {
-    name: "fungus",
+    name: `fungus`,
   },
   {
-    name: "furniture",
+    name: `furniture`,
   },
   {
-    name: "gangster",
+    name: `gangster`,
   },
   {
-    name: "gamer",
+    name: `gamer`,
   },
   {
-    name: "gargoyle",
+    name: `gargoyle`,
   },
   {
-    name: "gazer",
+    name: `gazer`,
   },
   {
-    name: "geezer",
+    name: `geezer`,
   },
   {
-    name: "geist",
+    name: `geist`,
   },
   {
-    name: "ghast",
+    name: `ghast`,
   },
   {
-    name: "gherkin",
+    name: `gherkin`,
   },
   {
-    name: "ghost",
+    name: `ghost`,
   },
   {
-    name: "ghoul",
+    name: `ghoul`,
   },
   {
-    name: "giant",
+    name: `giant`,
   },
   {
-    name: "gladiator",
+    name: `gladiator`,
   },
   {
-    name: "glutton",
+    name: `glutton`,
   },
   {
-    name: "gnoll",
+    name: `gnoll`,
   },
   {
-    name: "gnome",
+    name: `gnome`,
   },
   {
-    name: "gobbler",
+    name: `gobbler`,
   },
   {
-    name: "goblin",
+    name: `goblin`,
   },
   {
-    name: "golem",
+    name: `golem`,
   },
   {
-    name: "goo",
+    name: `goo`,
   },
   {
-    name: "goon",
+    name: `goon`,
   },
   {
-    name: "goose",
+    name: `goose`,
   },
   {
-    name: "gorger",
+    name: `gorger`,
   },
   {
-    name: "gorgon",
+    name: `gorgon`,
   },
   {
-    name: "gremlin",
+    name: `gremlin`,
   },
   {
-    name: "griffin",
+    name: `griffin`,
   },
   {
-    name: "grue",
+    name: `grue`,
   },
   {
-    name: "guard",
+    name: `guard`,
   },
   {
-    name: "guardian",
+    name: `guardian`,
   },
   {
-    name: "hag",
+    name: `hag`,
   },
   {
-    name: "halfling",
+    name: `halfling`,
   },
   {
-    name: "harlequin",
+    name: `harlequin`,
   },
   {
-    name: "harpy",
+    name: `harpy`,
   },
   {
-    name: "haruspex",
+    name: `haruspex`,
   },
   {
-    name: "heathen",
+    name: `heathen`,
   },
   {
-    name: "hedonist",
+    name: `hedonist`,
   },
   {
-    name: "hellion",
+    name: `hellion`,
   },
   {
-    name: "herald",
+    name: `herald`,
   },
   {
-    name: "heretic",
+    name: `heretic`,
   },
   {
-    name: "hierophant",
+    name: `hierophant`,
   },
   {
-    name: "hippogriff",
+    name: `hippogriff`,
   },
   {
-    name: "hoarder",
+    name: `hoarder`,
   },
   {
-    name: "homunculus",
+    name: `homunculus`,
   },
   {
-    name: "horror",
+    name: `horror`,
   },
   {
-    name: "hothead",
+    name: `hothead`,
   },
   {
-    name: "homunculus",
+    name: `homunculus`,
   },
   {
-    name: "hunk",
+    name: `hunk`,
   },
   {
-    name: "hunter",
+    name: `hunter`,
   },
   {
-    name: "hydra",
+    name: `hydra`,
   },
   {
-    name: "illusion",
+    name: `illusion`,
   },
   {
-    name: "illusionist",
+    name: `illusionist`,
   },
   {
-    name: "imp",
+    name: `imp`,
   },
   {
-    name: "impaler",
+    name: `impaler`,
   },
   {
-    name: "incubus",
+    name: `incubus`,
   },
   {
-    name: "initiate",
+    name: `initiate`,
   },
   {
-    name: "inquisitor",
+    name: `inquisitor`,
   },
   {
-    name: "insect",
+    name: `insect`,
   },
   {
-    name: "interceptor",
+    name: `interceptor`,
   },
   {
-    name: "jailer",
+    name: `jailer`,
   },
   {
-    name: "janitor",
+    name: `janitor`,
   },
   {
-    name: "jellyfish",
+    name: `jellyfish`,
   },
   {
-    name: "jester",
+    name: `jester`,
   },
   {
-    name: "juggernaut",
+    name: `juggernaut`,
   },
   {
-    name: "juggler",
+    name: `juggler`,
   },
   {
-    name: "killer",
+    name: `killer`,
   },
   {
-    name: "king",
+    name: `king`,
   },
   {
-    name: "knight",
+    name: `knight`,
   },
   {
-    name: "kobold",
+    name: `kobold`,
   },
   {
-    name: "kraken",
+    name: `kraken`,
   },
   {
-    name: "lawyer",
+    name: `lawyer`,
   },
   {
-    name: "leech",
+    name: `leech`,
   },
   {
-    name: "lemon",
+    name: `lemon`,
   },
   {
-    name: "leper",
+    name: `leper`,
   },
   {
-    name: "leviathan",
+    name: `leviathan`,
   },
   {
-    name: "liberator",
+    name: `liberator`,
   },
   {
-    name: "lich",
+    name: `lich`,
   },
   {
-    name: "limpet",
+    name: `limpet`,
   },
   {
-    name: "llama",
+    name: `llama`,
   },
   {
-    name: "lobster",
+    name: `lobster`,
   },
   {
-    name: "lord",
+    name: `lord`,
   },
   {
-    name: "lurker",
+    name: `lurker`,
   },
   {
-    name: "machine",
+    name: `machine`,
   },
   {
-    name: "mage",
+    name: `mage`,
   },
   {
-    name: "magician",
+    name: `magician`,
   },
   {
-    name: "maiden",
+    name: `maiden`,
   },
   {
-    name: "mancubus",
+    name: `mancubus`,
   },
   {
-    name: "maniac",
+    name: `maniac`,
   },
   {
-    name: "manifestation",
+    name: `manifestation`,
   },
   {
-    name: "mannequin",
+    name: `mannequin`,
   },
   {
-    name: "manticore",
+    name: `manticore`,
   },
   {
-    name: "marauder",
+    name: `marauder`,
   },
   {
-    name: "marionette",
+    name: `marionette`,
   },
   {
-    name: "martyr",
+    name: `martyr`,
   },
   {
-    name: "masochist",
+    name: `masochist`,
   },
   {
-    name: "mauler",
+    name: `mauler`,
   },
   {
-    name: "mercenary",
+    name: `mercenary`,
   },
   {
-    name: "mermaid",
+    name: `mermaid`,
   },
   {
-    name: "midget",
+    name: `midget`,
   },
   {
-    name: "millipede",
+    name: `millipede`,
   },
   {
-    name: "mime",
+    name: `mime`,
   },
   {
-    name: "mimic",
+    name: `mimic`,
   },
   {
-    name: "minion",
+    name: `minion`,
   },
   {
-    name: "minotaur",
+    name: `minotaur`,
   },
   {
-    name: "mirage",
+    name: `mirage`,
   },
   {
-    name: "mite",
+    name: `mite`,
   },
   {
-    name: "miscreant",
+    name: `miscreant`,
   },
   {
-    name: "mongrel",
+    name: `mongrel`,
   },
   {
-    name: "monk",
+    name: `monk`,
   },
   {
-    name: "monster",
+    name: `monster`,
   },
   {
-    name: "monstrosity",
+    name: `monstrosity`,
   },
   {
-    name: "muffin",
+    name: `muffin`,
   },
   {
-    name: "mummy",
+    name: `mummy`,
   },
   {
-    name: "muncher",
+    name: `muncher`,
   },
   {
-    name: "murderer",
+    name: `murderer`,
   },
   {
-    name: "mushroom",
+    name: `mushroom`,
   },
   {
-    name: "mutant",
+    name: `mutant`,
   },
   {
-    name: "mutilator",
+    name: `mutilator`,
   },
   {
-    name: "mycelium",
+    name: `mycelium`,
   },
   {
-    name: "myrmidon",
+    name: `myrmidon`,
   },
   {
-    name: "narwhal",
+    name: `narwhal`,
   },
   {
-    name: "necromancer",
+    name: `necromancer`,
   },
   {
-    name: "necrophage",
+    name: `necrophage`,
   },
   {
-    name: "nematode",
+    name: `nematode`,
   },
   {
-    name: "neophyte",
+    name: `neophyte`,
   },
   {
-    name: "nightmare",
+    name: `nightmare`,
   },
   {
-    name: "ninja",
+    name: `ninja`,
   },
   {
-    name: "nomad",
+    name: `nomad`,
   },
   {
-    name: "nymph",
+    name: `nymph`,
   },
   {
-    name: "observer",
+    name: `observer`,
   },
   {
-    name: "occultist",
+    name: `occultist`,
   },
   {
-    name: "oddity",
+    name: `oddity`,
   },
   {
-    name: "odor",
+    name: `odor`,
   },
   {
-    name: "ogre",
+    name: `ogre`,
   },
   {
-    name: "ooze",
+    name: `ooze`,
   },
   {
-    name: "orc",
+    name: `orc`,
   },
   {
-    name: "outrider",
+    name: `outrider`,
   },
   {
-    name: "outsider",
+    name: `outsider`,
   },
   {
-    name: "paladin",
+    name: `paladin`,
   },
   {
-    name: "parasite",
+    name: `parasite`,
   },
   {
-    name: "pariah",
+    name: `pariah`,
   },
   {
-    name: "pastor",
+    name: `pastor`,
   },
   {
-    name: "pauper",
+    name: `pauper`,
   },
   {
-    name: "peasant",
+    name: `peasant`,
   },
   {
-    name: "pervert",
+    name: `pervert`,
   },
   {
-    name: "pest",
+    name: `pest`,
   },
   {
-    name: "phantasm",
+    name: `phantasm`,
   },
   {
-    name: "phantom",
+    name: `phantom`,
   },
   {
-    name: "phoenix",
+    name: `phoenix`,
   },
   {
-    name: "pilgrim",
+    name: `pilgrim`,
   },
   {
-    name: "pirate",
+    name: `pirate`,
   },
   {
-    name: "pixie",
+    name: `pixie`,
   },
   {
-    name: "plant",
+    name: `plant`,
   },
   {
-    name: "plunderer",
+    name: `plunderer`,
   },
   {
-    name: "poltergeist",
+    name: `poltergeist`,
   },
   {
-    name: "potato",
+    name: `potato`,
   },
   {
-    name: "predator",
+    name: `predator`,
   },
   {
-    name: "priest",
+    name: `priest`,
   },
   {
-    name: "prince",
+    name: `prince`,
   },
   {
-    name: "princess",
+    name: `princess`,
   },
   {
-    name: "protoplasm",
+    name: `protoplasm`,
   },
   {
-    name: "psycho",
+    name: `psycho`,
   },
   {
-    name: "psychopath",
+    name: `psychopath`,
   },
   {
-    name: "pugilist",
+    name: `pugilist`,
   },
   {
-    name: "pundit",
+    name: `pundit`,
   },
   {
-    name: "puppet",
+    name: `puppet`,
   },
   {
-    name: "pyromaniac",
+    name: `pyromaniac`,
   },
   {
-    name: "queen",
+    name: `queen`,
   },
   {
-    name: "raider",
+    name: `raider`,
   },
   {
-    name: "ranger",
+    name: `ranger`,
   },
   {
-    name: "raptor",
+    name: `raptor`,
   },
   {
-    name: "raver",
+    name: `raver`,
   },
   {
-    name: "reaper",
+    name: `reaper`,
   },
   {
-    name: "reaver",
+    name: `reaver`,
   },
   {
-    name: "rebel",
+    name: `rebel`,
   },
   {
-    name: "redneck",
+    name: `redneck`,
   },
   {
-    name: "reflection",
+    name: `reflection`,
   },
   {
-    name: "reptile",
+    name: `reptile`,
   },
   {
-    name: "reptoid",
+    name: `reptoid`,
   },
   {
-    name: "renegade",
+    name: `renegade`,
   },
   {
-    name: "revenant",
+    name: `revenant`,
   },
   {
-    name: "ritualist",
+    name: `ritualist`,
   },
   {
-    name: "robot",
+    name: `robot`,
   },
   {
-    name: "rogue",
+    name: `rogue`,
   },
   {
-    name: "sadist",
+    name: `sadist`,
   },
   {
-    name: "sadomasochist",
+    name: `sadomasochist`,
   },
   {
-    name: "saint",
+    name: `saint`,
   },
   {
-    name: "samurai",
+    name: `samurai`,
   },
   {
-    name: "sasquatch",
+    name: `sasquatch`,
   },
   {
-    name: "satyr",
+    name: `satyr`,
   },
   {
-    name: "sausage",
+    name: `sausage`,
   },
   {
-    name: "savage",
+    name: `savage`,
   },
   {
-    name: "scarecrow",
+    name: `scarecrow`,
   },
   {
-    name: "scoundrel",
+    name: `scoundrel`,
   },
   {
-    name: "scratcher",
+    name: `scratcher`,
   },
   {
-    name: "scribe",
+    name: `scribe`,
   },
   {
-    name: "scum",
+    name: `scum`,
   },
   {
-    name: "sell-sword",
+    name: `sell-sword`,
   },
   {
-    name: "sentinel",
+    name: `sentinel`,
   },
   {
-    name: "seraph",
+    name: `seraph`,
   },
   {
-    name: "serpent",
+    name: `serpent`,
   },
   {
-    name: "shade",
+    name: `shade`,
   },
   {
-    name: "shadow",
+    name: `shadow`,
   },
   {
-    name: "shark",
+    name: `shark`,
   },
   {
-    name: "shaman",
+    name: `shaman`,
   },
   {
-    name: "shambler",
+    name: `shambler`,
   },
   {
-    name: "sire",
+    name: `sire`,
   },
   {
-    name: "siren",
+    name: `siren`,
   },
   {
-    name: "skeleton",
+    name: `skeleton`,
   },
   {
-    name: "skull",
+    name: `skull`,
   },
   {
-    name: "slaver",
+    name: `slaver`,
   },
   {
-    name: "slayer",
+    name: `slayer`,
   },
   {
-    name: "slime",
+    name: `slime`,
   },
   {
-    name: "slob",
+    name: `slob`,
   },
   {
-    name: "smoker",
+    name: `smoker`,
   },
   {
-    name: "snake",
+    name: `snake`,
   },
   {
-    name: "sniffer",
+    name: `sniffer`,
   },
   {
-    name: "snot",
+    name: `snot`,
   },
   {
-    name: "soldier",
+    name: `soldier`,
   },
   {
-    name: "somnambulist",
+    name: `somnambulist`,
   },
   {
-    name: "sorcerer",
+    name: `sorcerer`,
   },
   {
-    name: "sorceress",
+    name: `sorceress`,
   },
   {
-    name: "soul",
+    name: `soul`,
   },
   {
-    name: "soul eater",
+    name: `soul eater`,
   },
   {
-    name: "spawn",
+    name: `spawn`,
   },
   {
-    name: "specter",
+    name: `specter`,
   },
   {
-    name: "specter",
+    name: `specter`,
   },
   {
-    name: "spider",
+    name: `spider`,
   },
   {
-    name: "spirit",
+    name: `spirit`,
   },
   {
-    name: "sphinx",
+    name: `sphinx`,
   },
   {
-    name: "sponge",
+    name: `sponge`,
   },
   {
-    name: "sprite",
+    name: `sprite`,
   },
   {
-    name: "spy",
+    name: `spy`,
   },
   {
-    name: "squid",
+    name: `squid`,
   },
   {
-    name: "squire",
+    name: `squire`,
   },
   {
-    name: "stabber",
+    name: `stabber`,
   },
   {
-    name: "starfish",
+    name: `starfish`,
   },
   {
-    name: "stalker",
+    name: `stalker`,
   },
   {
-    name: "steak",
+    name: `steak`,
   },
   {
-    name: "stranger",
+    name: `stranger`,
   },
   {
-    name: "succubus",
+    name: `succubus`,
   },
   {
-    name: "survivor",
+    name: `survivor`,
   },
   {
-    name: "tyrannosaurus",
+    name: `tyrannosaurus`,
   },
   {
-    name: "tyrant",
+    name: `tyrant`,
   },
   {
-    name: "tardigrade",
+    name: `tardigrade`,
   },
   {
-    name: "tarantula",
+    name: `tarantula`,
   },
   {
-    name: "tentacle",
+    name: `tentacle`,
   },
   {
-    name: "terror",
+    name: `terror`,
   },
   {
-    name: "terrorist",
+    name: `terrorist`,
   },
   {
-    name: "thief",
+    name: `thief`,
   },
   {
-    name: "thing",
+    name: `thing`,
   },
   {
-    name: "toad",
+    name: `toad`,
   },
   {
-    name: "toadstool",
+    name: `toadstool`,
   },
   {
-    name: "torturer",
+    name: `torturer`,
   },
   {
-    name: "traveler",
+    name: `traveler`,
   },
   {
-    name: "tree",
+    name: `tree`,
   },
   {
-    name: "trickster",
+    name: `trickster`,
   },
   {
-    name: "trilobite",
+    name: `trilobite`,
   },
   {
-    name: "troglodyte",
+    name: `troglodyte`,
   },
   {
-    name: "troll",
+    name: `troll`,
   },
   {
-    name: "tumor",
+    name: `tumor`,
   },
   {
-    name: "unicorn",
+    name: `unicorn`,
   },
   {
-    name: "vampire",
+    name: `vampire`,
   },
   {
-    name: "vanguard",
+    name: `vanguard`,
   },
   {
-    name: "vegetable",
+    name: `vegetable`,
   },
   {
-    name: "ventriloquist",
+    name: `ventriloquist`,
   },
   {
-    name: "vermin",
+    name: `vermin`,
   },
   {
-    name: "vigilante",
+    name: `vigilante`,
   },
   {
-    name: "villain",
+    name: `villain`,
   },
   {
-    name: "vixen",
+    name: `vixen`,
   },
   {
-    name: "warden",
+    name: `warden`,
   },
   {
-    name: "warg",
+    name: `warg`,
   },
   {
-    name: "warlock",
+    name: `warlock`,
   },
   {
-    name: "warlord",
+    name: `warlord`,
   },
   {
-    name: "warmonger",
+    name: `warmonger`,
   },
   {
-    name: "warrior",
+    name: `warrior`,
   },
   {
-    name: "wasp",
+    name: `wasp`,
   },
   {
-    name: "watcher",
+    name: `watcher`,
   },
   {
-    name: "weirdo",
+    name: `weirdo`,
   },
   {
-    name: "wendigo",
+    name: `wendigo`,
   },
   {
-    name: "werebear",
+    name: `werebear`,
   },
   {
-    name: "werewolf",
+    name: `werewolf`,
   },
   {
-    name: "wight",
+    name: `wight`,
   },
   {
-    name: "wimp",
+    name: `wimp`,
   },
   {
-    name: "windbag",
+    name: `windbag`,
   },
   {
-    name: "wisp",
+    name: `wisp`,
   },
   {
-    name: "witch",
+    name: `witch`,
   },
   {
-    name: "wizard",
+    name: `wizard`,
   },
   {
-    name: "worg",
+    name: `worg`,
   },
   {
-    name: "worm",
+    name: `worm`,
   },
   {
-    name: "wraith",
+    name: `wraith`,
   },
   {
-    name: "wrestler",
+    name: `wrestler`,
   },
   {
-    name: "wretch",
+    name: `wretch`,
   },
   {
-    name: "wyrm",
+    name: `wyrm`,
   },
   {
-    name: "wyvern",
+    name: `wyvern`,
   },
   {
-    name: "xenomorph",
+    name: `xenomorph`,
   },
   {
-    name: "xenophobe",
+    name: `xenophobe`,
   },
   {
-    name: "yeti",
+    name: `yeti`,
   },
   {
-    name: "zealot",
+    name: `zealot`,
   },
   {
-    name: "zombie",
+    name: `zombie`,
   },
-];
+]

@@ -1,9 +1,9 @@
-import { plural } from "pluralize";
+import { plural } from "pluralize"
 
-import { PLURALIZE_CHANCE } from "@locran/configuration";
-import { ARTIFACTS } from "@locran/data/artifacts";
-import { generate } from "@locran/generate";
-import type { ArtifactQuery, GeneratorParameters } from "@locran/types";
+import { PLURALIZE_CHANCE } from "@locran/configuration"
+import { ARTIFACTS } from "@locran/data/artifacts"
+import { generate } from "@locran/generate"
+import type { ArtifactQuery, GeneratorParameters } from "@locran/types"
 
 export function generateArtifact({
   affixStructure,
@@ -16,32 +16,32 @@ export function generateArtifact({
   const filteredArtifacts = ARTIFACTS.filter(
     (artifact) =>
       artifact.type === query.type &&
-      ("subtype" in query
-        ? "subtype" in artifact
+      (`subtype` in query
+        ? `subtype` in artifact
           ? artifact.subtype === query.subtype
           : false
         : true) &&
-      ("artifactClass" in query
-        ? "artifactClass" in artifact
+      (`artifactClass` in query
+        ? `artifactClass` in artifact
           ? artifact.artifactClass === query.artifactClass
           : false
         : true),
-  );
-  const filteredArtifact = filteredArtifacts[Math.floor(Math.random() * filteredArtifacts.length)];
+  )
+  const filteredArtifact = filteredArtifacts[Math.floor(Math.random() * filteredArtifacts.length)]
 
   if (filteredArtifact === undefined) {
-    throw new Error("Invalid artifact.");
+    throw new Error(`Invalid artifact.`)
   }
 
-  const { canPluralize, name } = filteredArtifact;
+  const { canPluralize, name } = filteredArtifact
 
   const artifact = generate({
     affixStructure,
-    category: "artifact",
+    category: `artifact`,
     name: canPluralize && Math.random() <= PLURALIZE_CHANCE ? plural(name) : name,
     prefixTags,
     suffixTags,
-  });
+  })
 
-  return artifact;
+  return artifact
 }

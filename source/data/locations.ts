@@ -1,997 +1,997 @@
-import type { LocationData } from "@locran/types";
+import type { LocationData } from "@locran/types"
 
 export const LOCATIONS: LocationData[] = [
   {
-    name: "abode",
+    name: `abode`,
   },
   {
-    name: "abyss",
+    name: `abyss`,
   },
   {
-    name: "alcove",
+    name: `alcove`,
   },
   {
     canPluralize: true,
-    name: "antechamber",
+    name: `antechamber`,
   },
   {
     canPluralize: true,
-    name: "apartment",
+    name: `apartment`,
   },
   {
-    name: "archipelago",
+    name: `archipelago`,
   },
   {
     canPluralize: true,
-    name: "archive",
+    name: `archive`,
   },
   {
-    name: "area",
+    name: `area`,
   },
   {
-    name: "arena",
+    name: `arena`,
   },
   {
     canPluralize: true,
-    name: "asylum",
+    name: `asylum`,
   },
   {
-    name: "atoll",
+    name: `atoll`,
   },
   {
-    name: "attic",
+    name: `attic`,
   },
   {
-    name: "badlands",
+    name: `badlands`,
   },
   {
     canPluralize: true,
-    name: "backyard",
+    name: `backyard`,
   },
   {
-    name: "barn",
+    name: `barn`,
   },
   {
-    name: "barnyard",
+    name: `barnyard`,
   },
   {
-    name: "barrow",
+    name: `barrow`,
   },
   {
-    name: "base",
+    name: `base`,
   },
   {
-    name: "basement",
+    name: `basement`,
   },
   {
-    name: "bastion",
+    name: `bastion`,
   },
   {
-    name: "bathhouse",
+    name: `bathhouse`,
   },
   {
-    name: "bathroom",
+    name: `bathroom`,
   },
   {
     canPluralize: true,
-    name: "battlefield",
+    name: `battlefield`,
   },
   {
-    name: "bay",
+    name: `bay`,
   },
   {
-    name: "beach",
+    name: `beach`,
   },
   {
     canPluralize: true,
-    name: "bedroom",
+    name: `bedroom`,
   },
   {
-    name: "black hole",
+    name: `black hole`,
   },
   {
-    name: "bog",
+    name: `bog`,
   },
   {
-    name: "boulevard",
+    name: `boulevard`,
   },
   {
-    name: "breach",
+    name: `breach`,
   },
   {
     canPluralize: true,
-    name: "building",
+    name: `building`,
   },
   {
-    name: "bunker",
+    name: `bunker`,
   },
   {
-    name: "burrow",
+    name: `burrow`,
   },
   {
     canPluralize: true,
-    name: "cabin",
+    name: `cabin`,
   },
   {
-    name: "cage",
+    name: `cage`,
   },
   {
-    name: "caliphate",
+    name: `caliphate`,
   },
   {
     canPluralize: true,
-    name: "camp",
+    name: `camp`,
   },
   {
-    name: "campsite",
+    name: `campsite`,
   },
   {
-    name: "canyon",
+    name: `canyon`,
   },
   {
-    name: "caravan",
+    name: `caravan`,
   },
   {
-    name: "castle",
+    name: `castle`,
   },
   {
     canPluralize: true,
-    name: "catacomb",
+    name: `catacomb`,
   },
   {
-    name: "cathedral",
+    name: `cathedral`,
   },
   {
     canPluralize: true,
-    name: "cave",
+    name: `cave`,
   },
   {
     canPluralize: true,
-    name: "cavern",
+    name: `cavern`,
   },
   {
-    name: "cellar",
+    name: `cellar`,
   },
   {
-    name: "cemetery",
+    name: `cemetery`,
   },
   {
-    name: "cenote",
+    name: `cenote`,
   },
   {
     canPluralize: true,
-    name: "cesspit",
+    name: `cesspit`,
   },
   {
     canPluralize: true,
-    name: "cesspool",
+    name: `cesspool`,
   },
   {
     canPluralize: true,
-    name: "chamber",
+    name: `chamber`,
   },
   {
-    name: "chapel",
+    name: `chapel`,
   },
   {
-    name: "chasm",
+    name: `chasm`,
   },
   {
-    name: "church",
+    name: `church`,
   },
   {
-    name: "circus",
+    name: `circus`,
   },
   {
-    name: "citadel",
+    name: `citadel`,
   },
   {
-    name: "city",
+    name: `city`,
   },
   {
-    name: "clearing",
+    name: `clearing`,
   },
   {
     canPluralize: true,
-    name: "cliff",
+    name: `cliff`,
   },
   {
-    name: "cloister",
+    name: `cloister`,
   },
   {
-    name: "club",
+    name: `club`,
   },
   {
-    name: "clubhouse",
+    name: `clubhouse`,
   },
   {
-    name: "coast",
+    name: `coast`,
   },
   {
     canPluralize: true,
-    name: "colony",
+    name: `colony`,
   },
   {
-    name: "coliseum",
+    name: `coliseum`,
   },
   {
-    name: "comet",
+    name: `comet`,
   },
   {
-    name: "copse",
+    name: `copse`,
   },
   {
-    name: "corridor",
+    name: `corridor`,
   },
   {
-    name: "cottage",
+    name: `cottage`,
   },
   {
-    name: "country",
+    name: `country`,
   },
   {
-    name: "county",
+    name: `county`,
   },
   {
-    name: "court",
+    name: `court`,
   },
   {
-    name: "courtyard",
+    name: `courtyard`,
   },
   {
-    name: "coven",
+    name: `coven`,
   },
   {
-    name: "crawlspace",
+    name: `crawlspace`,
   },
   {
-    name: "crawlway",
+    name: `crawlway`,
   },
   {
-    name: "creek",
+    name: `creek`,
   },
   {
-    name: "crematorium",
+    name: `crematorium`,
   },
   {
     canPluralize: true,
-    name: "crypt",
+    name: `crypt`,
   },
   {
-    name: "cul-de-sac",
+    name: `cul-de-sac`,
   },
   {
-    name: "den",
+    name: `den`,
   },
   {
-    name: "depths",
+    name: `depths`,
   },
   {
-    name: "descent",
+    name: `descent`,
   },
   {
-    name: "desert",
+    name: `desert`,
   },
   {
     canPluralize: true,
-    name: "dimension",
+    name: `dimension`,
   },
   {
-    name: "disco",
+    name: `disco`,
   },
   {
-    name: "ditch",
+    name: `ditch`,
   },
   {
-    name: "domain",
+    name: `domain`,
   },
   {
-    name: "dominion",
+    name: `dominion`,
   },
   {
     canPluralize: true,
-    name: "dormitory",
+    name: `dormitory`,
   },
   {
-    name: "dreadlands",
+    name: `dreadlands`,
   },
   {
-    name: "dream",
+    name: `dream`,
   },
   {
-    name: "dreamscape",
+    name: `dreamscape`,
   },
   {
-    name: "dump",
+    name: `dump`,
   },
   {
     canPluralize: true,
-    name: "dune",
+    name: `dune`,
   },
   {
     canPluralize: true,
-    name: "dungeon",
+    name: `dungeon`,
   },
   {
-    name: "durance",
+    name: `durance`,
   },
   {
-    name: "embankment",
+    name: `embankment`,
   },
   {
-    name: "enclave",
+    name: `enclave`,
   },
   {
-    name: "enclosure",
+    name: `enclosure`,
   },
   {
     canPluralize: true,
-    name: "estate",
+    name: `estate`,
   },
   {
-    name: "expanse",
+    name: `expanse`,
   },
   {
-    name: "factory",
+    name: `factory`,
   },
   {
-    name: "fane",
+    name: `fane`,
   },
   {
-    name: "farm",
+    name: `farm`,
   },
   {
-    name: "farmstead",
+    name: `farmstead`,
   },
   {
-    name: "festival",
+    name: `festival`,
   },
   {
-    name: "fever-dream",
+    name: `fever-dream`,
   },
   {
-    name: "fiefdom",
+    name: `fiefdom`,
   },
   {
     canPluralize: true,
-    name: "field",
+    name: `field`,
   },
   {
     canPluralize: true,
-    name: "fissure",
+    name: `fissure`,
   },
   {
     canPluralize: true,
-    name: "fjord",
+    name: `fjord`,
   },
   {
-    name: "flats",
+    name: `flats`,
   },
   {
-    name: "forest",
+    name: `forest`,
   },
   {
-    name: "fort",
+    name: `fort`,
   },
   {
     canPluralize: true,
-    name: "fortification",
+    name: `fortification`,
   },
   {
-    name: "fortress",
+    name: `fortress`,
   },
   {
     canPluralize: true,
-    name: "garden",
+    name: `garden`,
   },
   {
-    name: "galaxy",
+    name: `galaxy`,
   },
   {
-    name: "gas giant",
+    name: `gas giant`,
   },
   {
-    name: "glacier",
+    name: `glacier`,
   },
   {
-    name: "glen",
+    name: `glen`,
   },
   {
-    name: "granary",
+    name: `granary`,
   },
   {
     canPluralize: true,
-    name: "grassland",
+    name: `grassland`,
   },
   {
-    name: "graveyard",
+    name: `graveyard`,
   },
   {
-    name: "grotto",
+    name: `grotto`,
   },
   {
-    name: "grounds",
+    name: `grounds`,
   },
   {
     canPluralize: true,
-    name: "grove",
+    name: `grove`,
   },
   {
     canPluralize: true,
-    name: "gulch",
+    name: `gulch`,
   },
   {
     canPluralize: true,
-    name: "hall",
+    name: `hall`,
   },
   {
     canPluralize: true,
-    name: "hallucination",
+    name: `hallucination`,
   },
   {
     canPluralize: true,
-    name: "hallway",
+    name: `hallway`,
   },
   {
-    name: "hamlet",
+    name: `hamlet`,
   },
   {
-    name: "haven",
+    name: `haven`,
   },
   {
-    name: "heap",
+    name: `heap`,
   },
   {
-    name: "heaven",
+    name: `heaven`,
   },
   {
-    name: "hedge",
+    name: `hedge`,
   },
   {
-    name: "hell",
+    name: `hell`,
   },
   {
-    name: "hellscape",
+    name: `hellscape`,
   },
   {
-    name: "hideout",
+    name: `hideout`,
   },
   {
     canPluralize: true,
-    name: "hill",
+    name: `hill`,
   },
   {
-    name: "hinterland",
+    name: `hinterland`,
   },
   {
     canPluralize: true,
-    name: "hive",
+    name: `hive`,
   },
   {
-    name: "hole",
+    name: `hole`,
   },
   {
-    name: "house",
+    name: `house`,
   },
   {
-    name: "hospital",
+    name: `hospital`,
   },
   {
-    name: "hovel",
+    name: `hovel`,
   },
   {
     canPluralize: true,
-    name: "hummock",
+    name: `hummock`,
   },
   {
-    name: "iceberg",
+    name: `iceberg`,
   },
   {
-    name: "immolation",
+    name: `immolation`,
   },
   {
-    name: "island",
+    name: `island`,
   },
   {
     canPluralize: true,
-    name: "isle",
+    name: `isle`,
   },
   {
-    name: "islet",
+    name: `islet`,
   },
   {
-    name: "jail",
+    name: `jail`,
   },
   {
-    name: "jungle",
+    name: `jungle`,
   },
   {
-    name: "keep",
+    name: `keep`,
   },
   {
-    name: "kennel",
+    name: `kennel`,
   },
   {
-    name: "kingdom",
+    name: `kingdom`,
   },
   {
-    name: "knoll",
+    name: `knoll`,
   },
   {
-    name: "laboratory",
+    name: `laboratory`,
   },
   {
-    name: "labyrinth",
+    name: `labyrinth`,
   },
   {
-    name: "lagoon",
+    name: `lagoon`,
   },
   {
-    name: "lair",
+    name: `lair`,
   },
   {
     canPluralize: true,
-    name: "lake",
+    name: `lake`,
   },
   {
     canPluralize: true,
-    name: "land",
+    name: `land`,
   },
   {
-    name: "landfill",
+    name: `landfill`,
   },
   {
-    name: "landscape",
+    name: `landscape`,
   },
   {
-    name: "lavatory",
+    name: `lavatory`,
   },
   {
     canPluralize: true,
-    name: "library",
+    name: `library`,
   },
   {
-    name: "maelstrom",
+    name: `maelstrom`,
   },
   {
-    name: "mangrove",
+    name: `mangrove`,
   },
   {
-    name: "mansion",
+    name: `mansion`,
   },
   {
     canPluralize: true,
-    name: "market",
+    name: `market`,
   },
   {
     canPluralize: true,
-    name: "marsh",
+    name: `marsh`,
   },
   {
-    name: "mausoleum",
+    name: `mausoleum`,
   },
   {
-    name: "maw",
+    name: `maw`,
   },
   {
-    name: "maze",
+    name: `maze`,
   },
   {
-    name: "megacity",
+    name: `megacity`,
   },
   {
-    name: "meteor",
+    name: `meteor`,
   },
   {
-    name: "midden",
+    name: `midden`,
   },
   {
     canPluralize: true,
-    name: "mine",
+    name: `mine`,
   },
   {
-    name: "minefield",
+    name: `minefield`,
   },
   {
-    name: "mineshaft",
+    name: `mineshaft`,
   },
   {
-    name: "mire",
+    name: `mire`,
   },
   {
-    name: "moon",
+    name: `moon`,
   },
   {
     canPluralize: true,
-    name: "moor",
+    name: `moor`,
   },
   {
-    name: "monastery",
+    name: `monastery`,
   },
   {
-    name: "morass",
+    name: `morass`,
   },
   {
-    name: "morgue",
+    name: `morgue`,
   },
   {
     canPluralize: true,
-    name: "mountain",
+    name: `mountain`,
   },
   {
-    name: "nebula",
+    name: `nebula`,
   },
   {
-    name: "necropolis",
+    name: `necropolis`,
   },
   {
-    name: "netherworld",
+    name: `netherworld`,
   },
   {
-    name: "nightclub",
+    name: `nightclub`,
   },
   {
-    name: "nightmare",
+    name: `nightmare`,
   },
   {
-    name: "oasis",
+    name: `oasis`,
   },
   {
-    name: "ocean",
+    name: `ocean`,
   },
   {
     canPluralize: true,
-    name: "office",
+    name: `office`,
   },
   {
     canPluralize: true,
-    name: "orchard",
+    name: `orchard`,
   },
   {
-    name: "oubliette",
+    name: `oubliette`,
   },
   {
-    name: "outcrop",
+    name: `outcrop`,
   },
   {
-    name: "outhouse",
+    name: `outhouse`,
   },
   {
-    name: "outlook",
+    name: `outlook`,
   },
   {
-    name: "outpost",
+    name: `outpost`,
   },
   {
-    name: "palace",
+    name: `palace`,
   },
   {
-    name: "pantry",
+    name: `pantry`,
   },
   {
-    name: "paradise",
+    name: `paradise`,
   },
   {
     canPluralize: true,
-    name: "parapet",
+    name: `parapet`,
   },
   {
-    name: "parish",
+    name: `parish`,
   },
   {
-    name: "park",
+    name: `park`,
   },
   {
-    name: "parking lot",
+    name: `parking lot`,
   },
   {
     canPluralize: true,
-    name: "passage",
+    name: `passage`,
   },
   {
-    name: "passageway",
+    name: `passageway`,
   },
   {
-    name: "path",
+    name: `path`,
   },
   {
     canPluralize: true,
-    name: "pathway",
+    name: `pathway`,
   },
   {
     canPluralize: true,
-    name: "peak",
+    name: `peak`,
   },
   {
-    name: "peat bog",
+    name: `peat bog`,
   },
   {
-    name: "peninsula",
+    name: `peninsula`,
   },
   {
     canPluralize: true,
-    name: "pit",
+    name: `pit`,
   },
   {
-    name: "plains",
+    name: `plains`,
   },
   {
-    name: "plane",
+    name: `plane`,
   },
   {
-    name: "planet",
+    name: `planet`,
   },
   {
-    name: "plateau",
+    name: `plateau`,
   },
   {
-    name: "platform",
+    name: `platform`,
   },
   {
-    name: "playground",
+    name: `playground`,
   },
   {
-    name: "pond",
+    name: `pond`,
   },
   {
     canPluralize: true,
-    name: "pool",
+    name: `pool`,
   },
   {
-    name: "prairie",
+    name: `prairie`,
   },
   {
-    name: "prison",
+    name: `prison`,
   },
   {
-    name: "purgatory",
+    name: `purgatory`,
   },
   {
-    name: "quagmire",
+    name: `quagmire`,
   },
   {
-    name: "rainforest",
+    name: `rainforest`,
   },
   {
-    name: "ranch",
+    name: `ranch`,
   },
   {
-    name: "realm",
+    name: `realm`,
   },
   {
-    name: "region",
+    name: `region`,
   },
   {
-    name: "reliquary",
+    name: `reliquary`,
   },
   {
-    name: "repository",
+    name: `repository`,
   },
   {
-    name: "reservoir",
+    name: `reservoir`,
   },
   {
-    name: "retreat",
+    name: `retreat`,
   },
   {
-    name: "reverie",
+    name: `reverie`,
   },
   {
-    name: "rift",
+    name: `rift`,
   },
   {
-    name: "river",
+    name: `river`,
   },
   {
     canPluralize: true,
-    name: "road",
+    name: `road`,
   },
   {
     canPluralize: true,
-    name: "rockpool",
+    name: `rockpool`,
   },
   {
     canPluralize: true,
-    name: "room",
+    name: `room`,
   },
   {
     canPluralize: true,
-    name: "ruin",
+    name: `ruin`,
   },
   {
-    name: "sacristy",
+    name: `sacristy`,
   },
   {
-    name: "sanctuary",
+    name: `sanctuary`,
   },
   {
-    name: "sanctum",
+    name: `sanctum`,
   },
   {
-    name: "sands",
+    name: `sands`,
   },
   {
-    name: "savannah",
+    name: `savannah`,
   },
   {
-    name: "sea",
+    name: `sea`,
   },
   {
-    name: "sector",
+    name: `sector`,
   },
   {
-    name: "settlement",
+    name: `settlement`,
   },
   {
     canPluralize: true,
-    name: "sewer",
+    name: `sewer`,
   },
   {
-    name: "shack",
+    name: `shack`,
   },
   {
-    name: "shed",
+    name: `shed`,
   },
   {
-    name: "shelter",
+    name: `shelter`,
   },
   {
-    name: "ship",
+    name: `ship`,
   },
   {
-    name: "shipyard",
+    name: `shipyard`,
   },
   {
-    name: "shrine",
+    name: `shrine`,
   },
   {
-    name: "sisterhood",
+    name: `sisterhood`,
   },
   {
-    name: "space station",
+    name: `space station`,
   },
   {
-    name: "spaceship",
+    name: `spaceship`,
   },
   {
     canPluralize: true,
-    name: "spire",
+    name: `spire`,
   },
   {
-    name: "star",
+    name: `star`,
   },
   {
     canPluralize: true,
-    name: "steppe",
+    name: `steppe`,
   },
   {
     canPluralize: true,
-    name: "strand",
+    name: `strand`,
   },
   {
-    name: "street",
+    name: `street`,
   },
   {
-    name: "stripmine",
+    name: `stripmine`,
   },
   {
-    name: "stronghold",
+    name: `stronghold`,
   },
   {
-    name: "sub-basement",
+    name: `sub-basement`,
   },
   {
-    name: "supermarket",
+    name: `supermarket`,
   },
   {
-    name: "swamp",
+    name: `swamp`,
   },
   {
-    name: "taiga",
+    name: `taiga`,
   },
   {
-    name: "tavern",
+    name: `tavern`,
   },
   {
-    name: "temple",
+    name: `temple`,
   },
   {
-    name: "tent",
+    name: `tent`,
   },
   {
-    name: "territory",
+    name: `territory`,
   },
   {
-    name: "themepark",
+    name: `themepark`,
   },
   {
     canPluralize: true,
-    name: "tomb",
+    name: `tomb`,
   },
   {
-    name: "tornado",
+    name: `tornado`,
   },
   {
-    name: "tower",
+    name: `tower`,
   },
   {
-    name: "town",
+    name: `town`,
   },
   {
     canPluralize: true,
-    name: "treehouse",
+    name: `treehouse`,
   },
   {
     canPluralize: true,
-    name: "trench",
+    name: `trench`,
   },
   {
-    name: "tundra",
+    name: `tundra`,
   },
   {
-    name: "tunnel",
+    name: `tunnel`,
   },
   {
-    name: "underpass",
+    name: `underpass`,
   },
   {
     canPluralize: true,
-    name: "valley",
+    name: `valley`,
   },
   {
-    name: "village",
+    name: `village`,
   },
   {
     canPluralize: true,
-    name: "vision",
+    name: `vision`,
   },
   {
-    name: "void",
+    name: `void`,
   },
   {
-    name: "volcano",
+    name: `volcano`,
   },
   {
-    name: "vortex",
+    name: `vortex`,
   },
   {
-    name: "wardrobe",
+    name: `wardrobe`,
   },
   {
     canPluralize: true,
-    name: "warren",
+    name: `warren`,
   },
   {
-    name: "wasteland",
+    name: `wasteland`,
   },
   {
     canPluralize: true,
-    name: "waste",
+    name: `waste`,
   },
   {
     canPluralize: true,
-    name: "waterfall",
+    name: `waterfall`,
   },
   {
-    name: "well",
+    name: `well`,
   },
   {
-    name: "wilderness",
+    name: `wilderness`,
   },
   {
-    name: "wilds",
+    name: `wilds`,
   },
   {
-    name: "woods",
+    name: `woods`,
   },
   {
     canPluralize: true,
-    name: "world",
+    name: `world`,
   },
   {
-    name: "ziggurat",
+    name: `ziggurat`,
   },
   {
-    name: "zone",
+    name: `zone`,
   },
-];
+]

@@ -1,6 +1,6 @@
 {
   "name": "@kitnato/locran",
-  "version": "0.12.1",
+  "version": "1.0.0",
   "description": "Location, creature, artifact & monster name string generation for an irreverent fantasy setting.",
   "author": "kitnato",
   "main": "build/index.js",
@@ -25,26 +25,21 @@
   ],
   "dependencies": {
     "pluralize": "8.0.0",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "devDependencies": {
-    "@kitnato/eslint-config-succinct": "2.2.0",
-    "@types/node": "20.11.18",
+    "@kitnato/eslint-config-succinct": "3.0.1",
+    "@types/node": "20.11.28",
     "@types/pluralize": "0.0.33",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "husky": "9.0.11",
     "lint-staged": "15.2.2",
-    "prettier": "3.2.5",
     "ts-patch": "3.1.2",
-    "typescript-transform-paths": "3.4.6"
+    "typescript-transform-paths": "3.4.7"
   },
   "lint-staged": {
-    "*.{json,md}": [
-      "npm run lint-format"
-    ],
     "*.{ts,tsx}": [
-      "npm run lint-code",
-      "npm run lint-format"
+      "npm run lint"
     ]
   },
   "files": [
@@ -52,10 +47,9 @@
     "build"
   ],
   "scripts": {
+    "prepare": "husky install",
     "prepublish": "tspc",
-    "lint-code": "eslint --fix --ext .ts,.tsx .",
-    "lint-format": "prettier --write .",
-    "prepare": "husky install"
+    "lint": "eslint --fix --ext .ts,.tsx ."
   },
   "browserslist": {
     "production": [

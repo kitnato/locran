@@ -42,7 +42,10 @@ export const CREATURES: { name: string }[] = [
     name: `annihilator`,
   },
   {
-    name: `antelope`,
+    name: `anomaly`,
+  },
+  {
+    name: `antagonist`,
   },
   {
     name: `ape`,
@@ -105,6 +108,9 @@ export const CREATURES: { name: string }[] = [
     name: `avatar`,
   },
   {
+    name: `avian`,
+  },
+  {
     name: `ballista`,
   },
   {
@@ -132,6 +138,9 @@ export const CREATURES: { name: string }[] = [
     name: `bastard`,
   },
   {
+    name: `battlemage`,
+  },
+  {
     name: `beast`,
   },
   {
@@ -154,6 +163,12 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `bigfoot`,
+  },
+  {
+    name: `biomass`,
+  },
+  {
+    name: `bishop`,
   },
   {
     name: `blasphemer`,
@@ -240,7 +255,7 @@ export const CREATURES: { name: string }[] = [
     name: `cephalopod`,
   },
   {
-    name: `chad`,
+    name: `charlatan`,
   },
   {
     name: `chameleon`,
@@ -256,6 +271,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `chomper`,
+  },
+  {
+    name: `chupacabra`,
   },
   {
     name: `cleric`,
@@ -318,6 +336,12 @@ export const CREATURES: { name: string }[] = [
     name: `crackpot`,
   },
   {
+    name: `creep`,
+  },
+  {
+    name: `crocodile`,
+  },
+  {
     name: `crone`,
   },
   {
@@ -331,6 +355,12 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `cutthroat`,
+  },
+  {
+    name: `cybermage`,
+  },
+  {
+    name: `cybermancer`,
   },
   {
     name: `cyborg`,
@@ -379,6 +409,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `doorknob`,
+  },
+  {
+    name: `doppelgänger`,
   },
   {
     name: `dragon`,
@@ -498,6 +531,9 @@ export const CREATURES: { name: string }[] = [
     name: `gamer`,
   },
   {
+    name: `gargantuan`,
+  },
+  {
     name: `gargoyle`,
   },
   {
@@ -541,6 +577,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `goblin`,
+  },
+  {
+    name: `god`,
   },
   {
     name: `golem`,
@@ -618,16 +657,19 @@ export const CREATURES: { name: string }[] = [
     name: `homunculus`,
   },
   {
+    name: `hound`,
+  },
+  {
     name: `horror`,
   },
   {
     name: `hothead`,
   },
   {
-    name: `homunculus`,
+    name: `hound`,
   },
   {
-    name: `hunk`,
+    name: `hulk`,
   },
   {
     name: `hunter`,
@@ -729,10 +771,16 @@ export const CREATURES: { name: string }[] = [
     name: `lord`,
   },
   {
+    name: `lunatic`,
+  },
+  {
     name: `lurker`,
   },
   {
     name: `machine`,
+  },
+  {
+    name: `madman`,
   },
   {
     name: `mage`,
@@ -780,6 +828,9 @@ export const CREATURES: { name: string }[] = [
     name: `mermaid`,
   },
   {
+    name: `metamorph`,
+  },
+  {
     name: `midget`,
   },
   {
@@ -817,6 +868,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `monstrosity`,
+  },
+  {
+    name: `moth`,
   },
   {
     name: `muffin`,
@@ -858,6 +912,9 @@ export const CREATURES: { name: string }[] = [
     name: `nematode`,
   },
   {
+    name: `nephalim`,
+  },
+  {
     name: `neophyte`,
   },
   {
@@ -894,6 +951,9 @@ export const CREATURES: { name: string }[] = [
     name: `orc`,
   },
   {
+    name: `outlaw`,
+  },
+  {
     name: `outrider`,
   },
   {
@@ -910,6 +970,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `pastor`,
+  },
+  {
+    name: `pawn`,
   },
   {
     name: `pauper`,
@@ -1035,6 +1098,9 @@ export const CREATURES: { name: string }[] = [
     name: `robot`,
   },
   {
+    name: `rook`,
+  },
+  {
     name: `rogue`,
   },
   {
@@ -1063,6 +1129,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `scarecrow`,
+  },
+  {
+    name: `scorpion`,
   },
   {
     name: `scoundrel`,
@@ -1102,6 +1171,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `shambler`,
+  },
+  {
+    name: `simulacrum`,
   },
   {
     name: `sire`,
@@ -1212,12 +1284,6 @@ export const CREATURES: { name: string }[] = [
     name: `survivor`,
   },
   {
-    name: `tyrannosaurus`,
-  },
-  {
-    name: `tyrant`,
-  },
-  {
     name: `tardigrade`,
   },
   {
@@ -1233,10 +1299,16 @@ export const CREATURES: { name: string }[] = [
     name: `terrorist`,
   },
   {
+    name: `thaumaturge`,
+  },
+  {
     name: `thief`,
   },
   {
     name: `thing`,
+  },
+  {
+    name: `titan`,
   },
   {
     name: `toad`,
@@ -1249,6 +1321,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `traveler`,
+  },
+  {
+    name: `treant`,
   },
   {
     name: `tree`,
@@ -1267,6 +1342,12 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `tumor`,
+  },
+  {
+    name: `tyrannosaurus`,
+  },
+  {
+    name: `tyrant`,
   },
   {
     name: `unicorn`,
@@ -1294,6 +1375,9 @@ export const CREATURES: { name: string }[] = [
   },
   {
     name: `vixen`,
+  },
+  {
+    name: `wanderer`,
   },
   {
     name: `warden`,

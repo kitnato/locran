@@ -92,6 +92,11 @@ export const ARTIFACTS: ArtifactData[] = [
     type: `shield`,
   },
   {
+    name: `barrier`,
+    subtype: `tower`,
+    type: `shield`,
+  },
+  {
     name: `basinet`,
     subtype: `head`,
     type: `armor`,
@@ -237,6 +242,12 @@ export const ARTIFACTS: ArtifactData[] = [
     type: `weapon`,
   },
   {
+    artifactClass: `piercing`,
+    name: `bow`,
+    subtype: `ranged`,
+    type: `weapon`,
+  },
+  {
     artifactClass: `blunt`,
     name: `bowling ball`,
     subtype: `ranged`,
@@ -358,6 +369,12 @@ export const ARTIFACTS: ArtifactData[] = [
     name: `cape`,
     subtype: `shoulders`,
     type: `armor`,
+  },
+  {
+    artifactClass: `piercing`,
+    name: `carbine`,
+    subtype: `ranged`,
+    type: `weapon`,
   },
   {
     name: `cardigan`,
@@ -557,12 +574,6 @@ export const ARTIFACTS: ArtifactData[] = [
   {
     artifactClass: `blunt`,
     name: `crusher`,
-    subtype: `melee`,
-    type: `weapon`,
-  },
-  {
-    artifactClass: `blunt`,
-    name: `cucumber`,
     subtype: `melee`,
     type: `weapon`,
   },
@@ -801,6 +812,11 @@ export const ARTIFACTS: ArtifactData[] = [
     name: `flowerpot`,
     subtype: `melee`,
     type: `weapon`,
+  },
+  {
+    name: `forcefield`,
+    subtype: `medium`,
+    type: `shield`,
   },
   {
     artifactClass: `piercing`,
@@ -1496,12 +1512,6 @@ export const ARTIFACTS: ArtifactData[] = [
   },
   {
     artifactClass: `blunt`,
-    name: `potato`,
-    subtype: `melee`,
-    type: `weapon`,
-  },
-  {
-    artifactClass: `blunt`,
     name: `pulverizer`,
     subtype: `melee`,
     type: `weapon`,
@@ -1746,6 +1756,12 @@ export const ARTIFACTS: ArtifactData[] = [
     name: `shield`,
     subtype: `medium`,
     type: `shield`,
+  },
+  {
+    canPluralize: true,
+    name: `shin guard`,
+    subtype: `feet`,
+    type: `armor`,
   },
   {
     name: `shirt`,

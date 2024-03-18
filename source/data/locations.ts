@@ -8,6 +8,7 @@ export const LOCATIONS: LocationData[] = [
     name: `abyss`,
   },
   {
+    canPluralize: true,
     name: `alcove`,
   },
   {
@@ -42,6 +43,9 @@ export const LOCATIONS: LocationData[] = [
     name: `attic`,
   },
   {
+    name: `auditorium`,
+  },
+  {
     name: `badlands`,
   },
   {
@@ -55,6 +59,7 @@ export const LOCATIONS: LocationData[] = [
     name: `barnyard`,
   },
   {
+    canPluralize: true,
     name: `barrow`,
   },
   {
@@ -93,10 +98,20 @@ export const LOCATIONS: LocationData[] = [
     name: `bog`,
   },
   {
+    name: `bonfire`,
+  },
+  {
     name: `boulevard`,
   },
   {
     name: `breach`,
+  },
+  {
+    canPluralize: true,
+    name: `bridge`,
+  },
+  {
+    name: `brook`,
   },
   {
     canPluralize: true,
@@ -183,6 +198,9 @@ export const LOCATIONS: LocationData[] = [
     name: `circus`,
   },
   {
+    name: `cistern`,
+  },
+  {
     name: `citadel`,
   },
   {
@@ -221,6 +239,7 @@ export const LOCATIONS: LocationData[] = [
     name: `copse`,
   },
   {
+    canPluralize: true,
     name: `corridor`,
   },
   {
@@ -284,6 +303,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: `domain`,
+  },
+  {
+    name: `dome`,
   },
   {
     name: `dominion`,
@@ -461,6 +483,10 @@ export const LOCATIONS: LocationData[] = [
     name: `hill`,
   },
   {
+    name: `hillock`,
+  },
+  {
+    canPluralize: true,
     name: `hinterland`,
   },
   {
@@ -583,6 +609,9 @@ export const LOCATIONS: LocationData[] = [
     name: `meteor`,
   },
   {
+    name: `microcosm`,
+  },
+  {
     name: `midden`,
   },
   {
@@ -648,6 +677,12 @@ export const LOCATIONS: LocationData[] = [
     name: `orchard`,
   },
   {
+    name: `ossuary`,
+  },
+  {
+    name: `overworld`,
+  },
+  {
     name: `oubliette`,
   },
   {
@@ -664,6 +699,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: `palace`,
+  },
+  {
+    name: `pandemonium`,
   },
   {
     name: `pantry`,
@@ -747,6 +785,9 @@ export const LOCATIONS: LocationData[] = [
     name: `purgatory`,
   },
   {
+    name: `pyramid`,
+  },
+  {
     name: `quagmire`,
   },
   {
@@ -757,6 +798,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: `realm`,
+  },
+  {
+    name: `refuge`,
   },
   {
     name: `region`,
@@ -839,6 +883,9 @@ export const LOCATIONS: LocationData[] = [
     name: `ship`,
   },
   {
+    name: `shipwreck`,
+  },
+  {
     name: `shipyard`,
   },
   {
@@ -858,7 +905,14 @@ export const LOCATIONS: LocationData[] = [
     name: `spire`,
   },
   {
+    canPluralize: true,
+    name: `stairwell`,
+  },
+  {
     name: `star`,
+  },
+  {
+    name: `starship`,
   },
   {
     canPluralize: true,
@@ -933,6 +987,9 @@ export const LOCATIONS: LocationData[] = [
   },
   {
     name: `underpass`,
+  },
+  {
+    name: `underworld`,
   },
   {
     canPluralize: true,

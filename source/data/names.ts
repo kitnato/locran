@@ -123,6 +123,14 @@ export const NAMES: NameData[] = [
   },
   {
     affix: [`prefix`, `suffix`],
+    name: `craze`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
+    name: `crazy`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
     name: `crud`,
   },
   {
@@ -132,6 +140,10 @@ export const NAMES: NameData[] = [
   {
     affix: [`prefix`, `suffix`],
     name: `crunch`,
+  },
+  {
+    affix: [`prefix`],
+    name: `crunchy`,
   },
   {
     affix: [`suffix`],
@@ -158,6 +170,10 @@ export const NAMES: NameData[] = [
     name: `dire`,
   },
   {
+    affix: [`suffix`],
+    name: `dirge`,
+  },
+  {
     affix: [`prefix`, `suffix`],
     name: `doodle`,
   },
@@ -172,6 +188,10 @@ export const NAMES: NameData[] = [
   {
     affix: [`prefix`, `suffix`],
     name: `drool`,
+  },
+  {
+    affix: [`suffix`],
+    name: `duke`,
   },
   {
     affix: [`suffix`],
@@ -243,6 +263,10 @@ export const NAMES: NameData[] = [
   },
   {
     affix: [`prefix`, `suffix`],
+    name: `gape`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
     name: `gargle`,
   },
   {
@@ -303,6 +327,10 @@ export const NAMES: NameData[] = [
   },
   {
     affix: [`prefix`, `suffix`],
+    name: `gurgle`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
     name: `gut`,
   },
   {
@@ -322,12 +350,20 @@ export const NAMES: NameData[] = [
     name: `hate`,
   },
   {
+    affix: [`suffix`],
+    name: `head`,
+  },
+  {
     affix: [`prefix`, `suffix`],
     name: `hide`,
   },
   {
     affix: [`prefix`, `suffix`],
     name: `hook`,
+  },
+  {
+    affix: [`prefix`],
+    name: `hollow`,
   },
   {
     affix: [`prefix`],
@@ -378,8 +414,16 @@ export const NAMES: NameData[] = [
     name: `little`,
   },
   {
+    affix: [`prefix`, `suffix`],
+    name: `lock`,
+  },
+  {
     affix: [`suffix`],
     name: `lord`,
+  },
+  {
+    affix: [`prefix`],
+    name: `mad`,
   },
   {
     affix: [`prefix`, `suffix`],
@@ -467,6 +511,10 @@ export const NAMES: NameData[] = [
   },
   {
     affix: [`prefix`, `suffix`],
+    name: `pest`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
     name: `phlegm`,
   },
   {
@@ -490,12 +538,20 @@ export const NAMES: NameData[] = [
     name: `pus`,
   },
   {
+    affix: [`prefix`],
+    name: `ram`,
+  },
+  {
     affix: [`prefix`, `suffix`],
     name: `rat`,
   },
   {
     affix: [`prefix`, `suffix`],
     name: `razor`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
+    name: `retch`,
   },
   {
     affix: [`prefix`, `suffix`],
@@ -551,6 +607,10 @@ export const NAMES: NameData[] = [
   },
   {
     affix: [`prefix`, `suffix`],
+    name: `scrape`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
     name: `scratch`,
   },
   {
@@ -575,6 +635,10 @@ export const NAMES: NameData[] = [
   },
   {
     affix: [`prefix`, `suffix`],
+    name: `slam`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
     name: `slap`,
   },
   {
@@ -592,6 +656,10 @@ export const NAMES: NameData[] = [
   {
     affix: [`prefix`, `suffix`],
     name: `slither`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
+    name: `slobber`,
   },
   {
     affix: [`prefix`, `suffix`],
@@ -647,6 +715,10 @@ export const NAMES: NameData[] = [
   },
   {
     affix: [`prefix`, `suffix`],
+    name: `splash`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
     name: `splat`,
   },
   {
@@ -660,6 +732,10 @@ export const NAMES: NameData[] = [
   {
     affix: [`prefix`, `suffix`],
     name: `squelch`,
+  },
+  {
+    affix: [`suffix`],
+    name: `squirm`,
   },
   {
     affix: [`prefix`, `suffix`],
@@ -712,6 +788,14 @@ export const NAMES: NameData[] = [
   {
     affix: [`prefix`, `suffix`],
     name: `terror`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
+    name: `tickle`,
+  },
+  {
+    affix: [`prefix`, `suffix`],
+    name: `twitch`,
   },
   {
     affix: [`prefix`],

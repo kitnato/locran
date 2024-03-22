@@ -111,6 +111,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "bridge",
 	},
 	{
+		name: "brig",
+	},
+	{
 		name: "brook",
 	},
 	{
@@ -577,6 +580,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "library",
 	},
 	{
+		name: "loft",
+	},
+	{
 		name: "maelstrom",
 	},
 	{
@@ -933,6 +939,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "sub-basement",
+	},
+	{
+		name: "submarine",
 	},
 	{
 		name: "supermarket",

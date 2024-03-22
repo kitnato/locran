@@ -894,6 +894,9 @@ export const CREATURES: { name: string }[] = [
 		name: "mutilator",
 	},
 	{
+		name: "mutineer",
+	},
+	{
 		name: "mycelium",
 	},
 	{

@@ -6,20 +6,20 @@ import { generate } from "@locran/generate"
 import type { GeneratorParameters } from "@locran/types"
 
 export function generateLocation({ affixStructure, prefixTags, suffixTags }: GeneratorParameters) {
-  const filteredLocation = LOCATIONS[Math.floor(Math.random() * LOCATIONS.length)]
+	const filteredLocation = LOCATIONS[Math.floor(Math.random() * LOCATIONS.length)]
 
-  if (filteredLocation === undefined) {
-    throw new Error(`Invalid location.`)
-  }
+	if (filteredLocation === undefined) {
+		throw new Error("Invalid location.")
+	}
 
-  const { canPluralize, name } = filteredLocation
-  const location = generate({
-    affixStructure,
-    category: `location`,
-    name: canPluralize && Math.random() <= PLURALIZE_CHANCE ? plural(name) : name,
-    prefixTags,
-    suffixTags,
-  })
+	const { canPluralize, name } = filteredLocation
+	const location = generate({
+		affixStructure,
+		category: "location",
+		name: canPluralize && Math.random() <= PLURALIZE_CHANCE ? plural(name) : name,
+		prefixTags,
+		suffixTags,
+	})
 
-  return location
+	return location
 }

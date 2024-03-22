@@ -5,40 +5,40 @@ import { NAMES } from "@locran/data/names"
 import { capitalizeAll } from "@locran/utilities"
 
 export function generateName({ hasTitle = false }: { hasTitle?: boolean }) {
-  const prefixes = NAMES.filter(({ affix }) => affix.includes(`prefix`))
-  const prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
-  const suffixes = NAMES.filter(({ affix }) => affix.includes(`suffix`))
-  const suffix = suffixes[Math.floor(Math.random() * suffixes.length)]
+	const prefixes = NAMES.filter(({ affix }) => affix.includes("prefix"))
+	const prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
+	const suffixes = NAMES.filter(({ affix }) => affix.includes("suffix"))
+	const suffix = suffixes[Math.floor(Math.random() * suffixes.length)]
 
-  if (prefix === undefined || suffix === undefined) {
-    throw new Error(`Invalid name.`)
-  }
+	if (prefix === undefined || suffix === undefined) {
+		throw new Error("Invalid name.")
+	}
 
-  const connector = prefix.name.at(-1) === suffix.name[0] ? `-` : ``
+	const connector = prefix.name.at(-1) === suffix.name[0] ? "-" : ""
 
-  let title
+	let title
 
-  if (hasTitle) {
-    const titles = [...CREATURES]
+	if (hasTitle) {
+		const titles = [...CREATURES]
 
-    if (Math.random() <= AFFIX_NAME_TITLE_CHANCE) {
-      const filteredAffixes = AFFIXES.filter(({ creature, name }) =>
-        name === prefix.name || name === suffix.name || name.endsWith(`ing`)
-          ? false
-          : creature?.includes(`prefix`) ?? creature?.includes(`suffix`),
-      )
+		if (Math.random() <= AFFIX_NAME_TITLE_CHANCE) {
+			const filteredAffixes = AFFIXES.filter(({ creature, name }) =>
+				name === prefix.name || name === suffix.name || name.endsWith("ing")
+					? false
+					: creature?.includes("prefix") ?? creature?.includes("suffix"),
+			)
 
-      titles.push(...filteredAffixes)
-    }
+			titles.push(...filteredAffixes)
+		}
 
-    title = titles[Math.floor(Math.random() * titles.length)]
+		title = titles[Math.floor(Math.random() * titles.length)]
 
-    if (title === undefined) {
-      throw new Error(`Invalid title.`)
-    }
-  }
+		if (title === undefined) {
+			throw new Error("Invalid title.")
+		}
+	}
 
-  return `${capitalizeAll(prefix.name)}${connector}${suffix.name}${
-    title === undefined ? `` : `, the ${capitalizeAll(title.name)}`
-  }`
+	return `${capitalizeAll(prefix.name)}${connector}${suffix.name}${
+		title === undefined ? "" : `, the ${capitalizeAll(title.name)}`
+	}`
 }

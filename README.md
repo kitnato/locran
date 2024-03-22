@@ -2,7 +2,7 @@
 
 The LOCRAN (LOcation, CReature, Artifact, monster Name) system pseudo-randomly generates a variety of names for different irreverent fantasy-themed wildernesses, items and monsters.
 
-At its core is a multi-part JSON library of (loosely) heroic-fantasy-world-themed words. This forms the basis for the generation and composition of (somewhat) coherent names for locations, creatures, artifacts and monster names.
+At its core is a multi-part library of (loosely) heroic-fantasy-world-themed words. This forms the basis for the generation and composition of (somewhat) coherent names for locations, creatures, artifacts and monster names.
 
 ## Affixes & filtering
 

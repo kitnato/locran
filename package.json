@@ -1,70 +1,70 @@
 {
-  "name": "@kitnato/locran",
-  "version": "1.0.0",
-  "description": "Location, creature, artifact & monster name string generation for an irreverent fantasy setting.",
-  "author": "kitnato",
-  "main": "build/index.js",
-  "module": "build/index.js",
-  "type": "module",
-  "license": "cc-by-sa-4.0",
-  "homepage": "https://kitnato.github.io/locran",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kitnato/locran.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kitnato/locran/issues"
-  },
-  "keywords": [
-    "absurd",
-    "game",
-    "fantasy",
-    "name",
-    "generator",
-    "satire"
-  ],
-  "dependencies": {
-    "pluralize": "8.0.0",
-    "typescript": "5.4.2"
-  },
-  "devDependencies": {
-    "@kitnato/eslint-config-succinct": "3.0.1",
-    "@types/node": "20.11.28",
-    "@types/pluralize": "0.0.33",
-    "eslint": "8.57.0",
-    "husky": "9.0.11",
-    "lint-staged": "15.2.2",
-    "ts-patch": "3.1.2",
-    "typescript-transform-paths": "3.4.7"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "npm run lint"
-    ]
-  },
-  "files": [
-    "assets",
-    "build"
-  ],
-  "scripts": {
-    "prepare": "husky install",
-    "prepublish": "tspc",
-    "lint": "eslint --fix --ext .ts,.tsx ."
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "engines": {
-    "node": ">=18",
-    "npm": ">=8"
-  }
+	"name": "@kitnato/locran",
+	"version": "1.0.0",
+	"description": "Location, creature, artifact & monster name string generation for an irreverent fantasy setting.",
+	"author": "kitnato",
+	"main": "build/index.js",
+	"module": "build/index.js",
+	"type": "module",
+	"license": "cc-by-sa-4.0",
+	"homepage": "https://kitnato.github.io/locran",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kitnato/locran.git"
+	},
+	"bugs": {
+		"url": "https://github.com/kitnato/locran/issues"
+	},
+	"keywords": [
+		"absurd",
+		"game",
+		"fantasy",
+		"name",
+		"generator",
+		"satire"
+	],
+	"dependencies": {
+		"pluralize": "8.0.0",
+		"typescript": "5.4.3"
+	},
+	"devDependencies": {
+		"@kitnato/eslint-config-succinct": "3.2.0",
+		"@types/node": "20.11.30",
+		"@types/pluralize": "0.0.33",
+		"eslint": "8.57.0",
+		"husky": "9.0.11",
+		"lint-staged": "15.2.2",
+		"ts-patch": "3.1.2",
+		"typescript-transform-paths": "3.4.7"
+	},
+	"lint-staged": {
+		"*.{ts,tsx}": [
+			"npm run lint"
+		]
+	},
+	"files": [
+		"assets",
+		"build"
+	],
+	"scripts": {
+		"prepare": "husky install",
+		"prepublish": "tspc",
+		"lint": "eslint --fix --ext .ts,.tsx ."
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"engines": {
+		"node": ">=18",
+		"npm": ">=8"
+	}
 }

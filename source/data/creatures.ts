@@ -3,6 +3,9 @@ export const CREATURES: { name: string }[] = [
 		name: "aberration",
 	},
 	{
+		name: "abolisher",
+	},
+	{
 		name: "abomination",
 	},
 	{
@@ -87,9 +90,6 @@ export const CREATURES: { name: string }[] = [
 		name: "arthropod",
 	},
 	{
-		name: "artichoke",
-	},
-	{
 		name: "artificer",
 	},
 	{
@@ -117,9 +117,6 @@ export const CREATURES: { name: string }[] = [
 		name: "bandit",
 	},
 	{
-		name: "banker",
-	},
-	{
 		name: "banshee",
 	},
 	{
@@ -139,6 +136,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "battlemage",
+	},
+	{
+		name: "bear",
 	},
 	{
 		name: "beast",
@@ -192,6 +192,9 @@ export const CREATURES: { name: string }[] = [
 		name: "brawler",
 	},
 	{
+		name: "brigand",
+	},
+	{
 		name: "buffoon",
 	},
 	{
@@ -229,6 +232,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "cadaver",
+	},
+	{
+		name: "cannibal",
 	},
 	{
 		name: "carcass",
@@ -654,7 +660,13 @@ export const CREATURES: { name: string }[] = [
 		name: "hoarder",
 	},
 	{
+		name: "hobgoblin",
+	},
+	{
 		name: "homunculus",
+	},
+	{
+		name: "hooligan",
 	},
 	{
 		name: "hound",
@@ -742,9 +754,6 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "leech",
-	},
-	{
-		name: "lemon",
 	},
 	{
 		name: "leper",
@@ -1065,6 +1074,9 @@ export const CREATURES: { name: string }[] = [
 		name: "raptor",
 	},
 	{
+		name: "rat",
+	},
+	{
 		name: "raver",
 	},
 	{
@@ -1083,6 +1095,9 @@ export const CREATURES: { name: string }[] = [
 		name: "reflection",
 	},
 	{
+		name: "remnant",
+	},
+	{
 		name: "reptile",
 	},
 	{
@@ -1096,6 +1111,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "ritualist",
+	},
+	{
+		name: "robber",
 	},
 	{
 		name: "robot",
@@ -1134,6 +1152,9 @@ export const CREATURES: { name: string }[] = [
 		name: "scarecrow",
 	},
 	{
+		name: "scorpid",
+	},
+	{
 		name: "scorpion",
 	},
 	{
@@ -1153,6 +1174,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "sentinel",
+	},
+	{
+		name: "sentry",
 	},
 	{
 		name: "seraph",
@@ -1245,6 +1269,9 @@ export const CREATURES: { name: string }[] = [
 		name: "spider",
 	},
 	{
+		name: "spiderant",
+	},
+	{
 		name: "spirit",
 	},
 	{
@@ -1278,10 +1305,16 @@ export const CREATURES: { name: string }[] = [
 		name: "steak",
 	},
 	{
+		name: "stingray",
+	},
+	{
 		name: "stranger",
 	},
 	{
 		name: "succubus",
+	},
+	{
+		name: "surgeon",
 	},
 	{
 		name: "survivor",
@@ -1309,6 +1342,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "thing",
+	},
+	{
+		name: "throatwolf",
 	},
 	{
 		name: "titan",
@@ -1420,6 +1456,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "wight",
+	},
+	{
+		name: "wildling",
 	},
 	{
 		name: "wimp",

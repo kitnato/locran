@@ -21,8 +21,7 @@ export function generate({
 	category: Category
 	name: string
 }) {
-	const canHaveCreatureAffix
-		= prefixTags.length === 0
+	const canHaveCreatureAffix = prefixTags.length === 0
 		&& suffixTags.length === 0
 		&& ["artifact", "location"].includes(category)
 		&& Math.random() <= CREATURE_AS_AFFIX_CHANCE

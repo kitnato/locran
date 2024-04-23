@@ -785,12 +785,6 @@ export const ARTIFACTS: ArtifactData[] = [
 	},
 	{
 		artifactClass: "blunt",
-		name: "fish",
-		subtype: "melee",
-		type: "weapon",
-	},
-	{
-		artifactClass: "blunt",
 		name: "flail",
 		subtype: "melee",
 		type: "weapon",
@@ -2163,14 +2157,13 @@ export const ARTIFACTS: ArtifactData[] = [
 		type: "armor",
 	},
 	{
-		artifactClass: "blunt",
-		name: "vegetable",
-		subtype: "melee",
-		type: "weapon",
-	},
-	{
 		name: "veil",
 		subtype: "head",
+		type: "armor",
+	},
+	{
+		name: "vest",
+		subtype: "chest",
 		type: "armor",
 	},
 	{

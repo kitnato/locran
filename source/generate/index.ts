@@ -8,8 +8,9 @@ import {
 } from "@locran/configuration"
 import { AFFIXES } from "@locran/data/affixes"
 import { CREATURES } from "@locran/data/creatures"
-import type { Category, GeneratorParameters } from "@locran/types"
 import { capitalizeAll } from "@locran/utilities"
+
+import type { Category, GeneratorParameters } from "@locran/types"
 
 export function generate({
 	affixStructure = "noAffix",

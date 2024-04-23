@@ -3,6 +3,7 @@ import { plural } from "pluralize"
 import { PLURALIZE_CHANCE } from "@locran/configuration"
 import { ARTIFACTS } from "@locran/data/artifacts"
 import { generate } from "@locran/generate"
+
 import type { ArtifactQuery, GeneratorParameters } from "@locran/types"
 
 export function generateArtifact({

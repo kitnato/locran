@@ -1,5 +1,6 @@
 import { CREATURES } from "@locran/data/creatures"
 import { generate } from "@locran/generate"
+
 import type { GeneratorParameters } from "@locran/types"
 
 export function generateCreature({ affixStructure, prefixTags, suffixTags }: GeneratorParameters) {

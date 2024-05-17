@@ -93,10 +93,10 @@ export const CREATURES: { name: string }[] = [
 		name: "artificer",
 	},
 	{
-		name: "assassin",
+		name: "ascendant",
 	},
 	{
-		name: "aubergine",
+		name: "assassin",
 	},
 	{
 		name: "automaton",
@@ -180,6 +180,12 @@ export const CREATURES: { name: string }[] = [
 		name: "blob",
 	},
 	{
+		name: "bloodletter",
+	},
+	{
+		name: "bloodseeker",
+	},
+	{
 		name: "bloodsucker",
 	},
 	{
@@ -207,10 +213,10 @@ export const CREATURES: { name: string }[] = [
 		name: "bureaucrat",
 	},
 	{
-		name: "bully",
+		name: "bull",
 	},
 	{
-		name: "bum",
+		name: "bully",
 	},
 	{
 		name: "burglar",
@@ -327,9 +333,6 @@ export const CREATURES: { name: string }[] = [
 		name: "corvid",
 	},
 	{
-		name: "cow",
-	},
-	{
 		name: "coward",
 	},
 	{
@@ -349,9 +352,6 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "crone",
-	},
-	{
-		name: "crumpet",
 	},
 	{
 		name: "crusader",
@@ -462,9 +462,6 @@ export const CREATURES: { name: string }[] = [
 		name: "elf",
 	},
 	{
-		name: "elitist",
-	},
-	{
 		name: "embryo",
 	},
 	{
@@ -496,9 +493,6 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "farmer",
-	},
-	{
-		name: "farter",
 	},
 	{
 		name: "fiend",
@@ -553,9 +547,6 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "ghast",
-	},
-	{
-		name: "gherkin",
 	},
 	{
 		name: "ghost",
@@ -771,9 +762,6 @@ export const CREATURES: { name: string }[] = [
 		name: "limpet",
 	},
 	{
-		name: "llama",
-	},
-	{
 		name: "lobster",
 	},
 	{
@@ -802,6 +790,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "mancubus",
+	},
+	{
+		name: "mangler",
 	},
 	{
 		name: "maniac",
@@ -963,6 +954,12 @@ export const CREATURES: { name: string }[] = [
 		name: "orc",
 	},
 	{
+		name: "ouroboros",
+	},
+	{
+		name: "outcast",
+	},
+	{
 		name: "outlaw",
 	},
 	{
@@ -1072,6 +1069,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "raptor",
+	},
+	{
+		name: "rascal",
 	},
 	{
 		name: "rat",
@@ -1210,6 +1210,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "skeleton",
+	},
+	{
+		name: "skin thief",
 	},
 	{
 		name: "skull",
@@ -1392,13 +1395,13 @@ export const CREATURES: { name: string }[] = [
 		name: "unicorn",
 	},
 	{
+		name: "vapor",
+	},
+	{
 		name: "vampire",
 	},
 	{
 		name: "vanguard",
-	},
-	{
-		name: "vegetable",
 	},
 	{
 		name: "ventriloquist",

@@ -1533,6 +1533,12 @@ export const ARTIFACTS: ArtifactData[] = [
 		type: "weapon",
 	},
 	{
+		artifactClass: "piercing",
+		name: "raygun",
+		subtype: "ranged",
+		type: "weapon",
+	},
+	{
 		name: "raiment",
 		subtype: "chest",
 		type: "armor",

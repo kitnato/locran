@@ -49,6 +49,13 @@ export const LOCATIONS: LocationData[] = [
 		name: "badlands",
 	},
 	{
+		name: "backwater",
+	},
+	{
+		canPluralize: true,
+		name: "backwood",
+	},
+	{
 		canPluralize: true,
 		name: "backyard",
 	},
@@ -239,7 +246,7 @@ export const LOCATIONS: LocationData[] = [
 		name: "colony",
 	},
 	{
-		name: "coliseum",
+		name: "colosseum",
 	},
 	{
 		name: "comet",
@@ -482,6 +489,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "haven",
 	},
 	{
+		name: "heath",
+	},
+	{
 		name: "heap",
 	},
 	{
@@ -621,6 +631,9 @@ export const LOCATIONS: LocationData[] = [
 	{
 		canPluralize: true,
 		name: "market",
+	},
+	{
+		name: "marketplace",
 	},
 	{
 		canPluralize: true,
@@ -937,6 +950,10 @@ export const LOCATIONS: LocationData[] = [
 		name: "slaughterhouse",
 	},
 	{
+		canPluralize: true,
+		name: "slum",
+	},
+	{
 		name: "space station",
 	},
 	{
@@ -1012,6 +1029,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "territory",
 	},
 	{
+		name: "theater",
+	},
+	{
 		name: "themepark",
 	},
 	{
@@ -1081,8 +1101,7 @@ export const LOCATIONS: LocationData[] = [
 		name: "wasteland",
 	},
 	{
-		canPluralize: true,
-		name: "waste",
+		name: "wastes",
 	},
 	{
 		canPluralize: true,

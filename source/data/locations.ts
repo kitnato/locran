@@ -8,6 +8,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "abyss",
 	},
 	{
+		name: "airship",
+	},
+	{
 		canPluralize: true,
 		name: "alcove",
 	},
@@ -426,6 +429,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "fortress",
+	},
+	{
+		name: "garage",
 	},
 	{
 		canPluralize: true,
@@ -939,6 +945,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "shipyard",
+	},
+	{
+		name: "shop",
 	},
 	{
 		name: "shrine",

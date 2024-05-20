@@ -655,7 +655,7 @@ export const AFFIXES: AffixData[] = [
 	{
 		artifact: ["suffix"],
 		creature: ["prefix"],
-		location: ["prefix"],
+		location: ["suffix"],
 		name: "bile",
 	},
 	{
@@ -997,16 +997,6 @@ export const AFFIXES: AffixData[] = [
 	},
 	{
 		creature: ["prefix"],
-		name: "buttered",
-	},
-	{
-		artifact: ["prefix"],
-		creature: ["prefix"],
-		location: ["prefix"],
-		name: "buttery",
-	},
-	{
-		creature: ["prefix"],
 		location: ["prefix"],
 		name: "buzzing",
 	},
@@ -1110,7 +1100,7 @@ export const AFFIXES: AffixData[] = [
 	},
 	{
 		artifact: ["prefix", "suffix"],
-		creature: ["articledSuffix", "prefix", "suffix"],
+		creature: ["prefix", "suffix"],
 		location: ["prefix", "suffix"],
 		name: "chaos",
 	},
@@ -3003,7 +2993,9 @@ export const AFFIXES: AffixData[] = [
 		name: "flesh",
 	},
 	{
-		creature: ["suffix"],
+		artifact: ["articledSuffix"],
+		creature: ["articledSuffix", "prefix"],
+		location: ["articledSuffix"],
 		name: "fleshless",
 	},
 	{
@@ -3467,6 +3459,7 @@ export const AFFIXES: AffixData[] = [
 	},
 	{
 		artifact: ["prefix"],
+		creature: ["prefix"],
 		location: ["prefix"],
 		name: "gory",
 	},
@@ -3860,6 +3853,10 @@ export const AFFIXES: AffixData[] = [
 		creature: ["prefix"],
 		location: ["prefix"],
 		name: "humongous",
+	},
+	{
+		creature: ["prefix"],
+		name: "hung",
 	},
 	{
 		artifact: ["prefix"],
@@ -4577,8 +4574,9 @@ export const AFFIXES: AffixData[] = [
 		name: "machine",
 	},
 	{
+		artifact: ["articledSuffix"],
 		creature: ["prefix"],
-		location: ["prefix"],
+		location: ["articledSuffix", "prefix"],
 		name: "mad",
 	},
 	{
@@ -7772,6 +7770,12 @@ export const AFFIXES: AffixData[] = [
 		artifact: ["suffix"],
 		location: ["suffix"],
 		name: "treachery",
+	},
+	{
+		artifact: ["prefix"],
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "tribal",
 	},
 	{
 		creature: ["prefix"],

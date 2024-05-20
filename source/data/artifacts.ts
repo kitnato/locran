@@ -342,12 +342,6 @@ export const ARTIFACTS: ArtifactData[] = [
 		type: "weapon",
 	},
 	{
-		artifactClass: "blunt",
-		name: "cake",
-		subtype: "melee",
-		type: "weapon",
-	},
-	{
 		artifactClass: "piercing",
 		canPluralize: true,
 		name: "caltrop",

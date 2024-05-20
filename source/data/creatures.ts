@@ -276,9 +276,6 @@ export const CREATURES: { name: string }[] = [
 		name: "champion",
 	},
 	{
-		name: "chicken",
-	},
-	{
 		name: "chimera",
 	},
 	{
@@ -1303,9 +1300,6 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "stalker",
-	},
-	{
-		name: "steak",
 	},
 	{
 		name: "stingray",

@@ -311,6 +311,14 @@ export const NAMES: NameData[] = [
 	},
 	{
 		affix: ["prefix", "suffix"],
+		name: "gouge",
+	},
+	{
+		affix: ["suffix"],
+		name: "gouger",
+	},
+	{
+		affix: ["prefix", "suffix"],
 		name: "gout",
 	},
 	{
@@ -740,6 +748,10 @@ export const NAMES: NameData[] = [
 	{
 		affix: ["prefix", "suffix"],
 		name: "sorrow",
+	},
+	{
+		affix: ["prefix", "suffix"],
+		name: "soul",
 	},
 	{
 		affix: ["prefix", "suffix"],

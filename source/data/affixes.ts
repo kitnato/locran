@@ -3965,6 +3965,10 @@ export const AFFIXES: AffixData[] = [
 		name: "impatient",
 	},
 	{
+		location: ["prefix"],
+		name: "impenetrable",
+	},
+	{
 		artifact: ["prefix"],
 		creature: ["prefix"],
 		location: ["prefix"],
@@ -5534,7 +5538,6 @@ export const AFFIXES: AffixData[] = [
 		name: "passionate",
 	},
 	{
-		artifact: ["prefix"],
 		creature: ["prefix"],
 		name: "pasty",
 		tags: ["lowQuality"],
@@ -8162,6 +8165,10 @@ export const AFFIXES: AffixData[] = [
 		name: "warring",
 	},
 	{
+		creature: ["prefix"],
+		name: "wary",
+	},
+	{
 		artifact: ["prefix"],
 		creature: ["prefix"],
 		location: ["prefix"],
@@ -8184,6 +8191,10 @@ export const AFFIXES: AffixData[] = [
 		creature: ["prefix"],
 		name: "weak",
 		tags: ["lowQuality"],
+	},
+	{
+		creature: ["prefix"],
+		name: "weary",
 	},
 	{
 		artifact: ["prefix"],
@@ -8368,6 +8379,13 @@ export const AFFIXES: AffixData[] = [
 		artifact: ["prefix"],
 		creature: ["prefix"],
 		name: "wonderful",
+	},
+	{
+		artifact: ["prefix"],
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "wonky",
+		tags: ["lowQuality"],
 	},
 	{
 		artifact: ["prefix"],

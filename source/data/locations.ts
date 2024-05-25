@@ -1084,6 +1084,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "valley",
 	},
 	{
+		name: "villa",
+	},
+	{
 		name: "village",
 	},
 	{

@@ -447,6 +447,9 @@ export const CREATURES: { name: string }[] = [
 		name: "ectomorph",
 	},
 	{
+		name: "ectoplasm",
+	},
+	{
 		name: "endomorph",
 	},
 	{
@@ -637,6 +640,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "heretic",
+	},
+	{
+		name: "hexmage",
 	},
 	{
 		name: "hierophant",

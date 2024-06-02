@@ -132,7 +132,7 @@ export const ARTIFACTS: ArtifactData[] = [
 	},
 	{
 		artifactClass: "slashing",
-		name: "battleaxe",
+		name: "battle-axe",
 		subtype: "melee",
 		type: "weapon",
 	},
@@ -206,7 +206,7 @@ export const ARTIFACTS: ArtifactData[] = [
 		type: "weapon",
 	},
 	{
-		artifactClass: "blunt",
+		artifactClass: "piercing",
 		name: "bomb",
 		subtype: "ranged",
 		type: "weapon",
@@ -1355,6 +1355,11 @@ export const ARTIFACTS: ArtifactData[] = [
 		type: "shield",
 	},
 	{
+		name: "palladium",
+		subtype: "tower",
+		type: "shield",
+	},
+	{
 		name: "pallium",
 		subtype: "shoulders",
 		type: "armor",
@@ -1379,6 +1384,12 @@ export const ARTIFACTS: ArtifactData[] = [
 		name: "pavise",
 		subtype: "medium",
 		type: "shield",
+	},
+	{
+		artifactClass: "slashing",
+		name: "rake",
+		subtype: "melee",
+		type: "weapon",
 	},
 	{
 		artifactClass: "piercing",
@@ -1461,6 +1472,12 @@ export const ARTIFACTS: ArtifactData[] = [
 		name: "platemail",
 		subtype: "chest",
 		type: "armor",
+	},
+	{
+		artifactClass: "blunt",
+		name: "plough",
+		subtype: "melee",
+		type: "weapon",
 	},
 	{
 		artifactClass: "piercing",
@@ -1974,12 +1991,6 @@ export const ARTIFACTS: ArtifactData[] = [
 	{
 		artifactClass: "piercing",
 		name: "stiletto",
-		subtype: "melee",
-		type: "weapon",
-	},
-	{
-		artifactClass: "blunt",
-		name: "stone",
 		subtype: "melee",
 		type: "weapon",
 	},

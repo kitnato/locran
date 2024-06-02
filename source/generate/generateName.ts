@@ -4,7 +4,7 @@ import { CREATURES } from "@locran/data/creatures"
 import { NAMES } from "@locran/data/names"
 import { capitalizeAll } from "@locran/utilities"
 
-export function generateName({ hasTitle = false }: { hasTitle?: boolean }) {
+export function generateName({ isTitled = false }: { isTitled?: boolean }) {
 	const prefixes = NAMES.filter(({ affix }) => affix.includes("prefix"))
 	const prefix = prefixes[Math.floor(Math.random() * prefixes.length)]
 	const suffixes = NAMES.filter(({ affix }) => affix.includes("suffix"))
@@ -18,7 +18,7 @@ export function generateName({ hasTitle = false }: { hasTitle?: boolean }) {
 
 	let title
 
-	if (hasTitle) {
+	if (isTitled) {
 		const titles = [...CREATURES]
 
 		if (Math.random() <= AFFIX_NAME_TITLE_CHANCE) {
@@ -38,7 +38,7 @@ export function generateName({ hasTitle = false }: { hasTitle?: boolean }) {
 		}
 	}
 
-	return `${capitalizeAll(prefix.name)}${connector}${suffix.name}${
-		title === undefined ? "" : `, the ${capitalizeAll(title.name)}`
-	}`
+	return `${capitalizeAll(prefix.name)}${connector}${suffix.name}${title === undefined
+		? ""
+		: `, the ${capitalizeAll(title.name)}`}`
 }

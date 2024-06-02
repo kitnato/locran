@@ -15,6 +15,10 @@ export const NAMES: NameData[] = [
 	},
 	{
 		affix: ["prefix", "suffix"],
+		name: "barf",
+	},
+	{
+		affix: ["prefix", "suffix"],
 		name: "bash",
 	},
 	{
@@ -123,6 +127,10 @@ export const NAMES: NameData[] = [
 	},
 	{
 		affix: ["suffix"],
+		name: "claw",
+	},
+	{
+		affix: ["suffix"],
 		name: "cleave",
 	},
 	{
@@ -168,6 +176,10 @@ export const NAMES: NameData[] = [
 	{
 		affix: ["suffix"],
 		name: "cut",
+	},
+	{
+		affix: ["prefix"],
+		name: "dark",
 	},
 	{
 		affix: ["prefix"],
@@ -222,10 +234,6 @@ export const NAMES: NameData[] = [
 		name: "face",
 	},
 	{
-		affix: ["prefix", "suffix"],
-		name: "fang",
-	},
-	{
 		affix: ["suffix"],
 		name: "fang",
 	},
@@ -256,6 +264,10 @@ export const NAMES: NameData[] = [
 	{
 		affix: ["prefix", "suffix"],
 		name: "fizz",
+	},
+	{
+		affix: ["prefix", "suffix"],
+		name: "flake",
 	},
 	{
 		affix: ["prefix", "suffix"],
@@ -408,6 +420,10 @@ export const NAMES: NameData[] = [
 	{
 		affix: ["suffix"],
 		name: "jaw",
+	},
+	{
+		affix: ["prefix", "suffix"],
+		name: "jiggle",
 	},
 	{
 		affix: ["suffix"],
@@ -564,6 +580,10 @@ export const NAMES: NameData[] = [
 	{
 		affix: ["prefix", "suffix"],
 		name: "phlegm",
+	},
+	{
+		affix: ["prefix", "suffix"],
+		name: "podge",
 	},
 	{
 		affix: ["prefix", "suffix"],
@@ -767,6 +787,10 @@ export const NAMES: NameData[] = [
 	},
 	{
 		affix: ["prefix", "suffix"],
+		name: "spike",
+	},
+	{
+		affix: ["prefix", "suffix"],
 		name: "spine",
 	},
 	{
@@ -882,6 +906,10 @@ export const NAMES: NameData[] = [
 		name: "tiny",
 	},
 	{
+		affix: ["prefix", "suffix"],
+		name: "toddle",
+	},
+	{
 		affix: ["suffix"],
 		name: "tooth",
 	},
@@ -918,6 +946,10 @@ export const NAMES: NameData[] = [
 		name: "wiggle",
 	},
 	{
+		affix: ["suffix"],
+		name: "wing",
+	},
+	{
 		affix: ["prefix", "suffix"],
 		name: "wither",
 	},
@@ -944,6 +976,10 @@ export const NAMES: NameData[] = [
 	{
 		affix: ["prefix", "suffix"],
 		name: "wrench",
+	},
+	{
+		affix: ["suffix"],
+		name: "wrencher",
 	},
 	{
 		affix: ["suffix"],

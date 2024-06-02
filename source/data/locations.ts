@@ -111,6 +111,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "bog",
 	},
 	{
+		name: "boneyard",
+	},
+	{
 		name: "bonfire",
 	},
 	{
@@ -445,6 +448,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "gas giant",
+	},
+	{
+		name: "gazebo",
 	},
 	{
 		name: "glacier",
@@ -1027,6 +1033,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "tavern",
+	},
+	{
+		name: "tempest",
 	},
 	{
 		name: "temple",

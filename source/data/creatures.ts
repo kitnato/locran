@@ -489,6 +489,9 @@ export const CREATURES: { name: string }[] = [
 		name: "experiment",
 	},
 	{
+		name: "exterminator",
+	},
+	{
 		name: "eye",
 	},
 	{
@@ -649,6 +652,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "hellion",
+	},
+	{
+		name: "hellspawn",
 	},
 	{
 		name: "hellraiser",
@@ -865,6 +871,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "mimic",
+	},
+	{
+		name: "mind breaker",
 	},
 	{
 		name: "minion",
@@ -1360,6 +1369,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "tentacle",
+	},
+	{
+		name: "terminator",
 	},
 	{
 		name: "terror",

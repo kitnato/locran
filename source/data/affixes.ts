@@ -4797,7 +4797,7 @@ export const AFFIXES: AffixData[] = [
 	{
 		artifact: ["suffix"],
 		creature: ["prefix"],
-		location: ["suffix"],
+		location: ["articledSuffix", "suffix"],
 		name: "massacre",
 	},
 	{
@@ -6219,6 +6219,11 @@ export const AFFIXES: AffixData[] = [
 		name: "reanimated",
 	},
 	{
+		artifact: ["suffix"],
+		location: ["suffix"],
+		name: "rebirth",
+	},
+	{
 		artifact: ["articledSuffix"],
 		creature: ["prefix"],
 		location: ["articledSuffix"],
@@ -7105,6 +7110,13 @@ export const AFFIXES: AffixData[] = [
 	{
 		creature: ["prefix"],
 		name: "slinking",
+	},
+	{
+		artifact: ["prefix"],
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "slippery",
+		tags: ["lowQuality"],
 	},
 	{
 		creature: ["prefix"],

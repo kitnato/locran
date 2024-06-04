@@ -803,7 +803,7 @@ export const AFFIXES: AffixData[] = [
 	},
 	{
 		creature: ["prefix"],
-		name: "bloodlusting",
+		name: "blood-lusting",
 	},
 	{
 		creature: ["prefix"],
@@ -1051,6 +1051,10 @@ export const AFFIXES: AffixData[] = [
 	{
 		creature: ["prefix"],
 		name: "carnivorous",
+	},
+	{
+		artifact: ["prefix"],
+		name: "cataclysmic",
 	},
 	{
 		creature: ["prefix"],
@@ -1308,6 +1312,11 @@ export const AFFIXES: AffixData[] = [
 		location: ["prefix"],
 		name: "comfortable",
 		tags: ["highQuality"],
+	},
+	{
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "condemned",
 	},
 	{
 		artifact: ["prefix"],
@@ -2518,6 +2527,11 @@ export const AFFIXES: AffixData[] = [
 		name: "enraged",
 	},
 	{
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "entombed",
+	},
+	{
 		artifact: ["suffix"],
 		creature: ["suffix"],
 		location: ["suffix"],
@@ -3693,6 +3707,11 @@ export const AFFIXES: AffixData[] = [
 		artifact: ["prefix"],
 		creature: ["prefix"],
 		name: "heavy",
+	},
+	{
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "hectic",
 	},
 	{
 		artifact: ["prefix"],
@@ -5523,6 +5542,10 @@ export const AFFIXES: AffixData[] = [
 		creature: ["prefix"],
 		location: ["prefix"],
 		name: "oversized",
+	},
+	{
+		creature: ["prefix"],
+		name: "overzealous",
 	},
 	{
 		artifact: ["prefix"],

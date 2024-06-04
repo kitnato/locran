@@ -1350,6 +1350,9 @@ export const CREATURES: { name: string }[] = [
 		name: "stingray",
 	},
 	{
+		name: "stowaway",
+	},
+	{
 		name: "stranger",
 	},
 	{

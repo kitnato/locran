@@ -172,6 +172,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "castle",
 	},
 	{
+		name: "cataclysm",
+	},
+	{
 		canPluralize: true,
 		name: "catacomb",
 	},
@@ -593,6 +596,10 @@ export const LOCATIONS: LocationData[] = [
 		name: "kingdom",
 	},
 	{
+		canPluralize: true,
+		name: "kitchen",
+	},
+	{
 		name: "knoll",
 	},
 	{
@@ -625,7 +632,6 @@ export const LOCATIONS: LocationData[] = [
 		name: "larder",
 	},
 	{
-		canPluralize: true,
 		name: "latrine",
 	},
 	{

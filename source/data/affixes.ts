@@ -7735,6 +7735,10 @@ export const AFFIXES: AffixData[] = [
 		name: "tears",
 	},
 	{
+		artifact: ["prefix"],
+		name: "tempered",
+	},
+	{
 		location: ["prefix"],
 		name: "tempestuous",
 	},

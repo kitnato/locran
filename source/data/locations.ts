@@ -172,6 +172,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "castle",
 	},
 	{
+		name: "cataclysm",
+	},
+	{
 		canPluralize: true,
 		name: "catacomb",
 	},
@@ -256,6 +259,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "comet",
+	},
+	{
+		name: "conclave",
 	},
 	{
 		name: "copse",
@@ -590,6 +596,10 @@ export const LOCATIONS: LocationData[] = [
 		name: "kingdom",
 	},
 	{
+		canPluralize: true,
+		name: "kitchen",
+	},
+	{
 		name: "knoll",
 	},
 	{
@@ -617,6 +627,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "landscape",
+	},
+	{
+		name: "larder",
 	},
 	{
 		name: "latrine",
@@ -1081,6 +1094,9 @@ export const LOCATIONS: LocationData[] = [
 	},
 	{
 		name: "tunnel",
+	},
+	{
+		name: "undercroft",
 	},
 	{
 		name: "underpass",

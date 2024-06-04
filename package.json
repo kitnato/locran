@@ -1,6 +1,6 @@
 {
 	"name": "@kitnato/locran",
-	"version": "1.5.0",
+	"version": "1.6.0",
 	"description": "Location, creature, artifact & monster name string generation for an irreverent fantasy setting.",
 	"author": "kitnato",
 	"main": "build/index.js",
@@ -47,7 +47,7 @@
 		"build"
 	],
 	"scripts": {
-		"prepare": "husky install",
+		"prepare": "husky",
 		"prepublish": "tspc",
 		"lint": "eslint --fix --ext .ts,.tsx ."
 	},

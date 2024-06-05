@@ -2120,6 +2120,12 @@ export const AFFIXES: AffixData[] = [
 		creature: ["prefix"],
 		location: ["articledSuffix", "prefix"],
 		name: "disfigured",
+		tags: ["lowQuality"],
+	},
+	{
+		artifact: ["prefix"],
+		creature: ["prefix"],
+		name: "disfiguring",
 	},
 	{
 		artifact: ["prefix"],
@@ -4788,6 +4794,10 @@ export const AFFIXES: AffixData[] = [
 		name: "mangy",
 	},
 	{
+		creature: ["prefix"],
+		name: "marauding",
+	},
+	{
 		artifact: ["prefix"],
 		creature: ["prefix"],
 		name: "marinated",
@@ -5549,9 +5559,15 @@ export const AFFIXES: AffixData[] = [
 	},
 	{
 		artifact: ["prefix"],
-		creature: ["prefix"],
 		location: ["prefix"],
 		name: "oxidized",
+		tags: ["lowQuality"],
+	},
+	{
+		artifact: ["prefix"],
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "oxidizing",
 		tags: ["lowQuality"],
 	},
 	{
@@ -5780,6 +5796,15 @@ export const AFFIXES: AffixData[] = [
 		location: ["prefix"],
 		name: "pillaged",
 		tags: ["lowQuality"],
+	},
+	{
+		creature: ["prefix"],
+		location: ["prefix"],
+		name: "pitiful",
+	},
+	{
+		creature: ["prefix"],
+		name: "pitiless",
 	},
 	{
 		artifact: ["prefix"],

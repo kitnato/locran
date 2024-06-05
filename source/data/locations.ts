@@ -286,6 +286,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "courtyard",
 	},
 	{
+		name: "cove",
+	},
+	{
 		name: "coven",
 	},
 	{
@@ -516,6 +519,7 @@ export const LOCATIONS: LocationData[] = [
 		name: "heaven",
 	},
 	{
+		canPluralize: true,
 		name: "hedge",
 	},
 	{

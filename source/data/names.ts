@@ -94,7 +94,7 @@ export const NAMES: NameData[] = [
 		name: "breath",
 	},
 	{
-		affix: ["prefix", "suffix"],
+		affix: ["suffix"],
 		name: "bucket",
 	},
 	{
@@ -664,6 +664,10 @@ export const NAMES: NameData[] = [
 	{
 		affix: ["prefix", "suffix"],
 		name: "rot",
+	},
+	{
+		affix: ["prefix"],
+		name: "rust",
 	},
 	{
 		affix: ["prefix", "suffix"],

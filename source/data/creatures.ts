@@ -297,7 +297,7 @@ export const CREATURES: { name: string }[] = [
 		name: "clown",
 	},
 	{
-		name: "clown parade",
+		name: "clown-parade",
 	},
 	{
 		name: "cockroach",
@@ -448,6 +448,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "dryad",
+	},
+	{
+		name: "duelist",
 	},
 	{
 		name: "dungpile",
@@ -873,7 +876,7 @@ export const CREATURES: { name: string }[] = [
 		name: "mimic",
 	},
 	{
-		name: "mind breaker",
+		name: "mindbreaker",
 	},
 	{
 		name: "minion",
@@ -1146,6 +1149,9 @@ export const CREATURES: { name: string }[] = [
 		name: "ritualist",
 	},
 	{
+		name: "roach",
+	},
+	{
 		name: "robber",
 	},
 	{
@@ -1171,6 +1177,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "samurai",
+	},
+	{
+		name: "sapper",
 	},
 	{
 		name: "sasquatch",
@@ -1254,7 +1263,7 @@ export const CREATURES: { name: string }[] = [
 		name: "skeleton",
 	},
 	{
-		name: "skin thief",
+		name: "skin-thief",
 	},
 	{
 		name: "skull",
@@ -1273,6 +1282,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "smoker",
+	},
+	{
+		name: "smuggler",
 	},
 	{
 		name: "snake",
@@ -1299,7 +1311,7 @@ export const CREATURES: { name: string }[] = [
 		name: "soul",
 	},
 	{
-		name: "soul eater",
+		name: "soul-eater",
 	},
 	{
 		name: "spawn",
@@ -1392,7 +1404,7 @@ export const CREATURES: { name: string }[] = [
 		name: "thing",
 	},
 	{
-		name: "throat wolf",
+		name: "throat-wolf",
 	},
 	{
 		name: "titan",

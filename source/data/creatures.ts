@@ -600,6 +600,9 @@ export const CREATURES: { name: string }[] = [
 		name: "god",
 	},
 	{
+		name: "goliath",
+	},
+	{
 		name: "golem",
 	},
 	{

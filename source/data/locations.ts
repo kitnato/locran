@@ -1061,6 +1061,9 @@ export const LOCATIONS: LocationData[] = [
 		name: "tent",
 	},
 	{
+		name: "terrain",
+	},
+	{
 		name: "territory",
 	},
 	{

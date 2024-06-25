@@ -2152,6 +2152,11 @@ export const ARTIFACTS: ArtifactData[] = [
 		type: "armor",
 	},
 	{
+		name: "tuxedo",
+		subtype: "chest",
+		type: "armor",
+	},
+	{
 		name: "underpants",
 		subtype: "legs",
 		type: "armor",

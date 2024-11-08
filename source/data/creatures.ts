@@ -291,6 +291,9 @@ export const CREATURES: { name: string }[] = [
 		name: "champion",
 	},
 	{
+		name: "cherubim",
+	},
+	{
 		name: "chimera",
 	},
 	{
@@ -357,6 +360,9 @@ export const CREATURES: { name: string }[] = [
 		name: "crackpot",
 	},
 	{
+		name: "crawler",
+	},
+	{
 		name: "creep",
 	},
 	{
@@ -390,7 +396,13 @@ export const CREATURES: { name: string }[] = [
 		name: "cyclops",
 	},
 	{
+		name: "deathmachine",
+	},
+	{
 		name: "decimator",
+	},
+	{
+		name: "defacer",
 	},
 	{
 		name: "defiler",
@@ -504,10 +516,16 @@ export const CREATURES: { name: string }[] = [
 		name: "entity",
 	},
 	{
+		name: "eviscerator",
+	},
+	{
 		name: "executioner",
 	},
 	{
 		name: "experiment",
+	},
+	{
+		name: "exsanguinator",
 	},
 	{
 		name: "exterminator",
@@ -765,6 +783,9 @@ export const CREATURES: { name: string }[] = [
 		name: "interceptor",
 	},
 	{
+		name: "interloper",
+	},
+	{
 		name: "jailer",
 	},
 	{
@@ -820,6 +841,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "limpet",
+	},
+	{
+		name: "lobotimizer",
 	},
 	{
 		name: "lobster",
@@ -1263,6 +1287,9 @@ export const CREATURES: { name: string }[] = [
 		name: "scum",
 	},
 	{
+		name: "scumbag",
+	},
+	{
 		name: "seeker",
 	},
 	{
@@ -1276,6 +1303,9 @@ export const CREATURES: { name: string }[] = [
 	},
 	{
 		name: "seraph",
+	},
+	{
+		name: "seraphim",
 	},
 	{
 		name: "serpent",
@@ -1419,7 +1449,13 @@ export const CREATURES: { name: string }[] = [
 		name: "strider",
 	},
 	{
+		name: "swarm",
+	},
+	{
 		name: "succubus",
+	},
+	{
+		name: "summoner",
 	},
 	{
 		name: "surgeon",
